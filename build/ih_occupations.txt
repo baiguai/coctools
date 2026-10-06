@@ -1,0 +1,2373 @@
+68
+investigator's handbook
+our investigator’s occupation deter-
+mines the skills they are most proficient
+with, their income level, and who they
+are likely to know. An occupation also,
+in part, helps define the investigator’s
+character, their motivations, and view
+of the world around them.
+Sample Occupations
+The occupations listed are just a sample of the possibilities.
+Most occupations can be applied to pretty much any histor-
+ical setting in which games might take place. However, some
+occupations, like Hacker for example, exist only in specific
+settings like the modern-day. You should choose only those
+skills appropriate to the historical setting in which your game
+is taking place.If you’re unsure about this,talk to your Keeper.
+Creating Occupations
+Use the listed occupations as a guide when creating ones not
+listed here.If creating a new occupation,confine the number
+of skills to eight, otherwise the notion of an occupation be-
+ing a concentration of knowledge and ability (skills) quickly
+becomes pointless. These skills should be an essential con-
+centration of the knowledge and abilities required for the
+occupation you are developing. In some cases you may not
+need all eight skills to adequately represent the occupation;
+if there are free skills then these may be taken as player
+choices, i.e. the player can choose any skill befitting their
+occupation, era or character concept. An appropriate Credit
+Rating range for the profession should also be assigned.
+List of Occupations
+Accountant
+Acrobat
+Actor
+Agency Detective
+Alienist [Classic]
+Animal Trainer
+Antiquarian [Lovecraftian]
+Antique Dealer
+Archaeologist [Lovecraftian]
+Architect
+Artist
+Asylum Attendant
+Assassin – see Criminal
+Athlete
+Author [Lovecraftian]
+Aviator [Classic] – see Pilot
+Bank Robber – see Criminal
+Bartender
+Big Game Hunter
+Book Dealer
+Bootlegger – see Criminal
+Bounty Hunter
+Boxer/Wrestler
+Burglar – see Criminal
+Butler/Valet/Maid
+Chauffeur – see Driver
+Clergy, Member of the
+Computer Programmer/Technician/Hacker [Modern]
+Conman – see Criminal
+Cowboy/girl
+Craftsperson
+Criminal – also Gangster
+Cult Leader
+Deprogrammer [Modern]
+Designer
+Dilettante [Lovecraftian]
+Diver
+Key:
+Occupations are listed alphabetically. Some entries group
+related occupations; for example, Bank Robber, Bootlegger,
+Burglar, Conman, Forger/Counterfeiter, and Assassin are all
+listed under the Criminal occupation.
+[Lovecraftian] Occupations important in Lovecraft’s stories.
+[Classic] Occupations only available in the Classic 1920s
+period.
+[Modern] Occupations only available for Modern-Day game
+settings.
+Occupation Skill Points: Determines which Characteris-
+tics are used to derive the investigator’s occupation skills.
+Credit Rating: Determines the number of occupation skill
+points that must be spent on Credit Rating. Each entry is
+a range, and any number within this range may be chosen
+and that amount of occupation skill points spent.
+Suggested Contacts: Suggestions of the type of people
+and/or society that a member of this occupation might
+know in their day-to-day pursuits. These may serve as ideas
+for the investigator’s backstory.
+Skills: The eight skills that define this occupation. Occupa-
+tion skill points are spent on these skills; Personal Interest
+skill points may also be used to further top-up these skills
+if wished. Add such points to the base skill value noted by
+each skill on the investigator sheet.
+69
+chapter 4: occupations
+Doctor of Medicine [Lovecraftian] – also see Psychiatrist
+Drifter
+Driver
+Editor
+Elected Official
+Engineer
+Entertainer
+Explorer [Classic]
+Farmer
+Federal Agent
+Fence – see Criminal
+Firefighter
+Foreign Correspondent
+Forensic Surgeon
+Forger/Counterfeiter – see Criminal
+Gambler
+Gangster
+Gun Moll [Classic] – see Criminal
+Gentleman/Lady
+Hacker – see Computer Programmer
+Hobo
+Hospital Orderly
+Journalist [Lovecraftian]
+Judge
+Laboratory Assistant
+Laborer
+Lawyer
+Librarian [Lovecraftian]
+Lumberjack – see Laborer
+Maid – see Butler
+Mechanic (and Skilled Trades)
+Military Officer
+Miner – see Laborer
+Missionary
+Mountain Climber
+Museum Curator
+Musician
+Nurse
+Occultist [Lovecraftian]
+Outdoorsman/Outdoorswoman
+Parapsychologist
+Pharmacist
+Photographer
+Photojournalist – see Photographer
+Pilot – also see Aviator
+Police Detective/Officer [Lovecraftian]
+Private Investigator
+Professor [Lovecraftian]
+Prospector
+Prostitute
+Psychiatrist
+Psychologist/Psychoanalyst
+Reporter – see Journalist
+Researcher
+Sailor
+Salesperson
+Scientist
+Secretary
+Shopkeeper
+Smuggler – see Criminal
+Soldier/Marine
+Spy
+Street Punk – see Criminal
+Student/Intern
+Stuntman
+Taxi Driver – see Driver
+Thug – see Criminal
+Tribe Member
+Undertaker
+Union Activist
+Valet – see Butler
+Waitress/Waiter
+White-collar Worker
+Zealot
+Zookeeper
+70
+investigator's handbook
+Accountant
+Either employed within a business or working as a free-
+lance consultant with a portfolio of self-employed clients
+or businesses. Diligence and an attention to detail
+means that most accountants can make good re-
+searchers, being able to support investigations
+through the careful analysis of personal and
+business transactions, financial statements,
+and other records.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–70
+Suggested Contacts: Business associates, legal
+professions, financial sector (bankers, other
+accountants).
+Skills: Accounting, Law, Library Use,
+Listen, Persuade, Spot Hidden, any two
+other skills as personal or era specialties
+(e.g. Computer Use).
+Acrobat
+Acrobats may be either
+amateur athletes
+competing in staged
+meets—possibly even
+the Olympics—or profes-
+sionals employed with the
+entertainment sector (e.g.
+circuses, carnivals, theatrical performances).
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 9–20
+Suggested Contacts: Amateur athletic circles, sports
+writers, circuses, carnivals.
+Skills: Climb, Dodge, Jump, Throw, Spot Hidden, Swim,
+any two other skills as personal or era specialties.
+Actor
+Usually a stage or film actor. Many stage actors have a back-
+ground in the classics and, considering themselves “legiti-
+mate,” have a tendency to look down upon the commercial
+efforts of the film industry, although by the late twentieth
+century this is diminished, with film actors able to command
+greater respect and higher fees.
+Movie stars and the film industry have long captured
+the interest of people across the world. Many stars are made
+overnight and most of them lead flashy, high profile lives,
+ever in the media spotlight.
+In the 1920s, the theatrical center of the U.S. is in New
+York City, although there are major stages in most cities
+across the country.A similar situation exists in England, with
+touring repertory companies traveling the counties, with
+London the heart of theatrical shows. Touring companies
+travel by train, presenting new plays, as well as classics by
+Shakespeare and others. Some companies spend consider-
+able amounts of time touring foreign parts, such as Canada,
+Hawaii, Australia, and Europe.
+With the introduction of "talkies" in the latter part of the
+1920s, many stars of the silent films era cannot cope with
+the transition to sound. The arm-waving histrionics of silent
+actors give way to more subtle characterizations. John Gar-
+field and Francis Bushman are forgotten for new stars, such
+as Gary Cooper and Joan Crawford.
+Stage Actor
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 9–40
+Suggested Contacts: Theatre industry, newspaper arts
+critics, actor’s guild or union.
+Skills: Art/Craft (Acting), Disguise, Fighting, History,
+two interpersonal skills (Charm, Fast Talk, Intimi-
+date, or Persuade), Psychology, any one other skill as
+a personal or era specialty.
+Film Star
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 20–90
+Suggested Contacts: Film industry, media critics, writers.
+Skills: Art/Craft (Acting), Disguise, Drive Auto, two
+interpersonal skills (Charm, Fast Talk, Intimidate,
+or Persuade), Psychology, any two other skills as
+personal or era specialties (e.g. Ride or Fighting).
+Agency Detective
+Numerous well-known detective agencies exist around the
+world, with probably the most famous being the Pinkerton
+and Burns agencies (merged into one in modern times).
+Large agencies employ two types of agents: security guards
+and operatives.
+Guards are uniformed patrolmen, hired by companies
+and individuals to protect property and people against bur-
+glars, assassins and kidnappers. Use the Uniformed Police
+Officer’s description for these characters. Company Opera-
+tives are plainclothes detectives, sent out on cases requiring
+them to solve mysteries, prevent murders, locate missing
+people, and so on.
+Occupation Skill Points: EDU × 2 + (STR × 2 or DEX × 2)
+Credit Rating: 20–45
+Suggested Contacts: Local law enforcement, clients.
+Skills: One interpersonal skill (Charm, Fast Talk, Intim-
+idate or Persuade), Fighting (Brawl), Firearms, Law,
+Library Use, Psychology, Stealth, Track.
+This acrobat can swing on just
+about anything!
+71
+chapter 4: occupations
+Alienist [Classic]
+In the 1920s, "alienist" is the term given for those who treat
+mental illness (early psychiatrists). Psychoanalysis is barely
+known in the U.S., and its basis in sexual life and toilet
+training is felt to be indecent. Psychiatry, a standard medical
+education augmented by behaviorism, is more common.
+Intellectual wars rage between alienists, psychiatrists, and
+neurologists.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–60
+Suggested Contacts: Others in the field of mental illness,
+medical doctors, and occasionally detectives in law
+enforcement.
+Skills: Law, Listen, Medicine, Other Language, Psycho-
+analysis, Psychology, Science (Biology), (Chemistry).
+Animal Trainer
+May be employed by film studios, a travelling circus, a horse
+stable, or possibly working freelance. Whether training guide
+dogs for the blind or teaching a lion to jump through a flam-
+ing hoop, the animal trainer usually works alone, spending
+long hours in close proximity with the animals in their care.
+An animal trainer can use the Psychology skill with animals
+as well as people.
+Occupation Skill Points: EDU × 2 + (APP × 2 or POW × 2)
+Credit Rating: 10–40
+Suggested Contacts: Zoos, circus folk, patrons, actors.
+Skills: Jump, Listen, Natural World, Psychology, Science
+(Zoology), Stealth, Track, any one other skill as a
+personal or era specialty.
+Antiquarian [Lovecraftian]
+A person who delights in the timeless excellence of design
+and execution, and in the power of ancient lore. Probably the
+most Lovecraft-like occupation available to an investigator.
+An independent income allows the antiquarian to explore
+things old and obscure, perhaps sharpening their focus down
+particular lines of enquiry based on personal preference and
+interest. Usually a person with an appreciative eye and a
+swift mind, who frequently finds mordant or contemptuous
+humor in the foolishness of the ignorant, the pompous, and
+the greedy.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–70
+Suggested Contacts: Booksellers, antique collectors,
+historical societies.
+Skills: Appraise, Art/Craft (any), History, Library Use,
+Other Language, one interpersonal skill (Charm,
+Fast Talk, Intimidate, or Persuade), Spot Hidden, any
+one other skill as a personal or era specialty.
+Antique Dealer
+Antique dealers usually own their own shop, retail items out
+of their homes, or go on extended buying trips, making a
+profit on reselling to urban stores.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–50
+Suggested Contacts: Local historians, other antique deal-
+ers, possibly criminal fences.
+Skills: Accounting, Appraise, Drive Auto, two interper-
+sonal skills (Charm, Fast Talk, Intimidate, or Per-
+suade), History, Library Use, Navigate.
+Archaeologist [Lovecraftian]
+The study and exploration of the past. Primarily the iden-
+tification, examination, and analysis of recovered materials
+relating to human history. The work involves painstaking
+research and meticulous study, not to mention a willing
+attitude to getting one’s hands dirty.
+In the 1920s, successful archaeologists became celeb-
+rities, seen as explorers and adventurers. While some used
+scientific methods, many were happy to apply brute force
+when unveiling the secrets of the past— the use of dynamite
+was sometimes common. Such bullish behavior would be
+frowned upon in modern times.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–40
+Suggested Contacts: Patrons, museums, universities.
+Skills: Appraise, Archaeology, History, Other Language
+(any), Library Use, Spot Hidden, Mechanical Re-
+pair, Navigate or Science (e.g. chemistry, physics,
+geology, etc.)
+Architect
+Architects are trained to design
+and plan buildings, whether
+a small conversion to a pri-
+vate house or a multi-mil-
+lion dollar construction
+project. The architect
+will work closely with
+the project manager
+and oversee the con-
+struction. Architects
+must be aware of local
+planning laws, health
+and safety regulation,
+and general public safety.
+Some may work for
+large firms or work free-
+lance.A lot will depend on
+reputation. In the 1920s,
+Archaeologists may discover
+ancient occult artifacts!
+72
+investigator's handbook
+many try and go it alone, working out of their house or a
+small office. Few manage to sell the grandiose designs they
+all nurse.
+Architecture may also encompass specialist areas like
+naval architecture and landscape architecture.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–70
+Suggested Contacts: Local building and city engineer-
+ing departments, construction firms.
+Skills: Accounting, Art/Craft (Technical Drawing), Law,
+Own Language, Computer Use or Library Use,
+Persuade, Psychology, Science (Mathematics).
+Artist
+May be a painter, sculptor, etc. Sometimes self-absorbed
+and driven with a particular vision, sometimes blessed
+with a great talent that is able to inspire passion and under-
+standing. Talented or not, the artist’s ego must be hardy and
+strong to surmount initial obstacles and critical appraisal,
+and to keep them working if success arrives. Some artists
+care not for material enrichment, while others have a keen
+entrepreneurial streak.
+Occupation Skill Points: EDU×2+(DEX×2orPOW×2)
+Credit Rating: 9–50
+Suggested Contacts: Art galleries, critics, wealthy pa-
+trons, the advertising industry.
+Skills: Art/Craft (any), History or Natural World, one
+interpersonal skill (Charm, Fast Talk, Intimidate,
+or Persuade), Other Language, Psychology, Spot
+Hidden, any two other skills as personal or era
+specialties.
+Asylum Attendant
+Although there are private sanitariums for those few who
+can afford them, the vast bulk of the mentally ill are housed
+in state and county facilities. Aside from a few doctors and
+nurses, they employ a large number of attendants, often
+chosen more for their strength and size rather than medical
+learning.
+OccupationSkillPoints: EDU×2+(STR×2orDEX×2)
+Credit Rating: 8–20
+Suggested Contacts: Medical staff, patients, and relatives
+of patients. Access to medical records, as well as
+drugs and other medical supplies.
+Skills: Dodge, Fighting (Brawl), First Aid, two inter-
+personal skills (Charm, Fast Talk, Intimidate, or
+Persuade), Listen, Psychology, Stealth.
+Athlete
+Probably plays in a professional baseball, football, cricket,
+or basketball team. This may be a major league team with a
+regular salary and national attention or—particularly in the
+case of 1920s baseball—one of many minor league teams,
+some of them owned and operated by major league owners.
+The latter pay barely enough to keep players fed and on the
+team.
+Successful professional athletes will enjoy a certain
+amount of celebrity within the arena of their expertise—
+more so in the present day where sporting heroes stand side
+by side with film stars on red carpets around the world.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–70
+Suggested Contacts: Sports personalities, sports writers,
+other media stars.
+Skills: Climb, Jump, Fighting (Brawl), Ride, one inter-
+personal skill (Charm, Fast Talk, Intimidate, or
+Persuade), Swim, Throw, any one other skill as a
+personal or era specialty.
+Author [Lovecraftian]
+As distinct from the journalist, the author uses words to
+define and explore the human condition, especially the
+range of human emotions. Their labors are solitary and
+the rewards solipsistic: only a relative handful make much
+money in the present day, though in previous eras the trade
+once provided a regular living wage.
+The work habits of authors vary widely. Typically an
+author might spend months or years researching in prepa-
+ration for a book, then withdrawing for periods of intense
+creation.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: publishers, critics, historians, etc.
+Skills: Art (Literature), History, Library Use, Natural
+World or Occult, Other Language, Own Language,
+Psychology, any one other skill as a personal or era
+specialty.
+Bartender
+Normally not the owner of the bar, the bartender is every-
+one’s friend. For some it’s a career or their business, for
+many it's a means to an end.
+In the 1920s the profession is made illegal by the Prohi-
+bition Act; however, there’s no shortage of work for a bar-
+tender, as someone has to serve the drinks in the speakeasies
+and secret gin joints.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 8–25
+73
+chapter 4: occupations
+Suggested Contacts: Regular customers, possibly orga-
+nized crime.
+Skills: Accounting, two interpersonal skills (Charm, Fast
+Talk, Intimidate, or Persuade), Fighting (Brawl),
+Listen, Psychology, Spot Hidden, any one other skill
+as a personal or era specialty.
+Big Game Hunter
+Big game hunters are skilled trackers and hunters who
+usually earn their living leading safaris for wealthy clients.
+Most are specialized in one part of the world, such as the
+Canadian woods, African plains, and other locales. Some
+hunters may work for the black market, capturing live
+exotic species for private collectors, or trading in illegal or
+morally objectionable animal products like skins, ivory, and
+the like—although in the 1920s such activities were more
+common and were permissible under most countries’ laws.
+Although the "great white hunter" is the quintessential
+type, others may be simply local indigenous people who es-
+cort hunters through the backwoods of the Yukon in search
+of moose or bear.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 20–50
+Suggested Contacts: Foreign government officials, game
+wardens, past (usually wealthy) clients, black-mar-
+ket gangs and traders, zoo owners.
+Skills: Firearms, Listen or Spot Hidden, Natural World,
+Navigate, Other Language or Survival (any), Science
+(Biology or Botany), Stealth, Track.
+Book Dealer
+A book dealer may be the owner of a retail outlet or niche
+mail order service, or specialize in buying trips across the
+country and even overseas. Many will have wealthy or regu-
+lar clients, who provide lists of sought-after and rare works.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–40.
+Suggested Contacts: Bibliographers, book dealers, li-
+braries and universities, clients.
+Skills: Accounting, Appraise, Drive Auto, History,
+Library Use, Own Language, Other Language, one
+interpersonal skill (Charm, Fast Talk, Intimidate, or
+Persuade),
+Bounty Hunter
+Bounty hunters track down and return fugitives to justice.
+Most often, freelancers are employed by Bail Bondsmen to
+track down bail jumpers. Bounty hunters may freely cross
+state lines in pursuit of their quarry and may show little
+regard for civil rights and other technicalities when captur-
+ing their prey. Breaking and entering, threats, and physical
+abuse are all part of the successful bounty hunter’s bag of
+tricks. In modern times this may stem to illegal phone taps,
+computer hacking, and other covert surveillance.
+OccupationSkillPoints: EDU×2+(DEX× 2or STR×2)
+Credit Rating: 9–30
+Suggested Contacts: Bail bondsmen, local police, crim-
+inal informants.
+Skills: Drive Auto, Electronic or Electrical Repair, Fight-
+ing or Firearms, one interpersonal skill (Fast Talk,
+Charm, Intimidate, or Persuade), Law, Psychology,
+Track, Stealth.
+Boxer/Wrestler
+Professional boxers and wrestlers are managed by indi-
+viduals (promoters) possibly backed by outside interests,
+and usually locked into contracts. Professional boxers and
+wrestlers work and train full-time.
+Amateur boxing competitions abound, a training
+ground for those aspiring to professional status. In addi-
+tion, amateur and post-professional boxers and wrestlers
+can sometimes be found making a living from illegal
+bare-knuckle fights, usually arranged by organized crime
+gangs or entrepreneurial locals.
+Occupation Skill Points: EDU × 2 + STR × 2
+Credit Rating: 9–60
+Suggested Contacts: Sports promoters, journalists, or-
+ganized crime, professional trainers.
+Skills: Dodge, Fighting (Brawl), Intimidate, Jump,
+Psychology, Spot Hidden, any two other skills as
+personal or era specialties.
+Butler/Valet/Maid
+This occupation covers those who
+are employed in a servant capac-
+ity and includes butler, valet,
+and lady’s maid.
+A butler is usually employed
+as a domestic servant for a large
+household. Traditionally the butler
+is charge of the dining room, wine
+cellar and pantry, and ranks as the
+highest male servant.Usually male—a
+housekeeper would be the female
+equivalent—the butler is responsible
+for male servants within the household.
+The duties of the butler will vary to
+according to the requirements of his
+employer.
+A valet or lady’s maid pro-
+vides personal services, such
+as maintaining her employer's
+clothes, running baths, and
+effectively acting as a personal
+Butlers do more than
+fetch tea and hang up
+coats...
+74
+investigator's handbook
+assistant. The work might include making travel arrange-
+ments, managing their employer’s diary, and organizing
+household finances.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–40 (dependent on their employer’s
+status and credit rating).
+Suggested Contacts: Waiting staff of other households,
+local businesses and household suppliers.
+Skills: Accounting or Appraise,Art/Craft (any, e.g. Cook,
+Tailor, Barber), First Aid, Listen, Other Language,
+Psychology, Spot Hidden, any two other skills as
+personal or era specialties.
+Clergy, Member of the
+The hierarchy of the Church usually assigns clergy to their
+respective parishes or sends them on evangelical missions,
+most often to a foreign country (see Missionary). Differ-
+ent churches have different priorities and hierarchies: for
+example, in the Catholic Church a priest may rise through
+the ranks of bishop, archbishop, and cardinal, while a Meth-
+odist pastor may in turn rise to district superintendent and
+bishop.
+Many clergy (not just Catholic priests) bear witness to
+confessions and, though they are not at liberty to divulge
+such secrets, they are free to act upon them.
+Some who work in the church are trained in professional
+skills, acting as doctors, lawyers, and scholars—as appropri-
+ate, use the occupation template which best describes the
+nature of the investigator’s work.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–60
+Suggested Contacts: Church hierarchy, local congrega-
+tions, community leaders.
+Skills: Accounting, History, Library Use, Listen, Other
+Language, one interpersonal skill (Charm,
+Fast Talk, Intimidate, or Persuade),
+Psychology, any one other skill.
+Computer Programmer/
+Technician/Hacker
+[Modern]
+Usually designing, writing, testing,
+debugging, and/or maintaining the
+source code of computer programs,
+the computer programmer is an expert
+in many different subjects, including
+formal logic and application platforms.
+May work freelance or within the con-
+fines of a software development house.
+The computer technician is tasked
+with the development and main-
+tenance of computer systems and
+networks, often working alongside other office staff (such
+as project managers) to ensure systems maintain integrity
+and provide desired functionality. Similar occupations
+may include: Database Administrator, IT Systems Manager,
+Multimedia Developer, Network Administrator, Software
+Engineer, Webmaster, etc.
+The computer hacker uses computers and computer
+networks as a means of protest to promote political ends
+(sometimes referred to as "hacktivists") or for criminal gain.
+Illegally breaking into computers and other user accounts
+is required, the outcome of which could be anything from
+defacing web pages, doxing, and swatting to email bombing
+designed to enact denials of service.
+Computer Programmer/Technician
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–70
+Suggested Contacts: Other IT workers, corporate
+workers and managers, specialized Internet web
+communities.
+Skills: Computer Use, Electrical Repair, Electronics, Li-
+brary Use, Science (Mathematics), Spot Hidden, any
+two other skills as personal or era specialties.
+Hacker
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–70
+Suggested Contacts: IT workers, specialized Internet
+web communities, political groups, criminal enter-
+prises.
+Skills: Computer Use, Electrical Repair, Electronics,
+Library Use, Spot Hidden, one interpersonal skill
+(Charm, Fast Talk, Intimidate, or Persuade), any two
+other skills.
+Cowboy/girl
+Cowboys work the ranges and ranches of the West.
+Some own their own ranches, however many are
+simply hired where and when work is available.
+Good money can also be made by those
+willing to risk life and limb on the rodeo
+circuit, travelling between events for fame
+and glory.
+During the 1920s, a few found em-
+ployment in Hollywood as stuntmen
+and extras in westerns; for example, Wy-
+att Earp worked as a technical advisor
+to the film industry. In modern times
+some ranches have opened their gates
+to holidaymakers wishing to experi-
+ence life as a cowboy.
+Occupation Skill Points: EDU × 2 +
+(DEX × 2 or STR × 2)
+A hacker fights the occult through
+use of technology
+75
+chapter 4: occupations
+Credit Rating: 9–20
+Suggested Contacts: Local businesspeople, state agricul-
+tural departments, rodeo promoters, and entertainers.
+Skills: Dodge, Fighting or Firearms, First Aid or Natural
+World, Jump, Ride, Survival (any), Throw, Track.
+Craftsperson
+May be equally termed an artisan or master craftsperson.
+The craftsperson is essentially skilled in the manual produc-
+tion of items or materials. Normally quite talented individ-
+uals, some gaining a high reputation for works of art, while
+others provide a needed community service.
+Possible trades include: furniture, jewelry, watchmaker,
+potter, blacksmith, textiles, calligraphy, sewing, carpentry,
+book binding glassblowing, toy maker, stained glass, and
+so on.
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 10–40
+Suggested Contacts: Local business people, other crafts-
+persons and artists.
+Skills: Accounting, Art/Craft (any two), Mechanical
+Repair, Natural World, Spot Hidden, any two other
+skills as personal specialties.
+Criminal
+Criminals come in all shapes, sizes, and shades of grey.
+Some are merely opportunistic jacks of all trades, such as
+pickpockets and thugs, while others are highly specialized,
+spending time researching and planning focused criminal
+enterprises. This latter group could include bank robbers,
+cat burglars, forgers, and confidence tricksters.
+The criminal either works for someone, usually an
+organized "mob" or crime family, or works solo, perhaps oc-
+casionally teaming up with others when the reward is worth
+the effort and risk. Freelance thugs might work as muggers,
+stickup men, and armed robbers.
+Whether bootleggers,corner-boys,or thugs,these are the
+soldiers of organized crime. They are supported by criminal
+organizations and they are the ones usually expected to
+take the fall for the gangsters above them. Their silence and
+loyalty is expected and rewarded.
+Confidence tricksters are usually smooth talkers. Work-
+ing alone or in a team, they descend on wealthy individuals
+or communities, fleecing their targets of their hard-earned
+savings. Some schemes are elaborate, involving teams of
+scam men and rented buildings; others are simple affairs,
+transactions requiring only one con man and no more than
+a few minutes.
+A fence is someone who trades in stolen property, usu-
+ally taking in stolen goods and then selling them onto other
+criminals or (unwitting) legitimate customers. Principally
+a middleman between thieves and buyers, the fence either
+takes a cut of the profit or, more usually, buys the stolen
+goods at a very low price.
+Forgers are the artists of the criminal world, specializ-
+ing in forging official documents, deeds and transfers, and
+providing phony signatures. Beginners work manufacturing
+fake ID's for petty criminals, while the best engrave plates
+for counterfeiting currency.
+Hit men are the cold-blooded killers of the underworld.
+Usually hired from somewhere out of town, they arrive,
+do their work, then quickly disappear. It’s strictly business.
+Often sociopaths, who seem to lack the ability to empathize
+with other human beings. Many follow strict codes of be-
+havior. In spite of this, many marry, raise children, and in all
+other ways behave like model citizens.
+Smuggling is always a lucrative and high-risk business.
+The smuggler usually has a public profession, such as boat
+captain, pilot, or businessman, allowing them to transport
+illicit products to a needy market.
+Street punks are typically young street hoods, possibly
+looking for a chance to hook-up with real gangsters. Ex-
+perience is probably limited to stealing cars, shoplifting,
+mugging, and burglary.
+Assassin
+Occupation Skill Points: EDU×2+(DEX×2orSTR ×2)
+Credit Rating: 30–60
+Suggested Contacts: Few, mostly underworld; people
+prefer not to know them too well. The best will have
+earned a formidable reputation on the street.
+Skills: Disguise, Electrical Repair, Fighting, Firearms,
+Locksmith, Mechanical Repair, Stealth, Psychology.
+Bank Robber
+OccupationSkillPoints: EDU×2+(STR×2or DEX×2)
+Credit Rating: 5–75
+Suggested Contacts: Other gang members (current and
+retired), criminal freelancers, organized crime.
+Skills: Drive Auto, Electrical or Mechanical Repair,
+Fighting, Firearms, Intimidate, Locksmith, Operate
+Heavy Machinery, any one other skill as personal or
+era specialty.
+Bootlegger/Thug
+Occupation Skill Points: EDU × 2 + STR × 2
+Credit Rating: 5–30
+Suggested Contacts: Organized crime, street-level law
+enforcement, local traders.
+Skills: Drive Auto, Fighting, Firearms, two interpersonal
+skills (Charm, Fast Talk, Intimidate, or Persuade),
+Psychology, Stealth, Spot Hidden.
+76
+investigator's handbook
+Burglar
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 5–40
+Suggested Contacts: Fences, other burglars.
+Skills: Appraise, Climb, Electrical or Mechanical Repair,
+Listen, Locksmith, Sleight of Hand, Stealth, Spot
+Hidden.
+Conman
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 10–65
+Suggested Contacts: Other confidence artists, freelance
+criminals.
+Skills: Appraise, Art/Craft (Acting), Law or Other
+Language, Listen, two interpersonal skills (Charm,
+Fast Talk, Intimidate, or Persuade), Psychology,
+Sleight of Hand.
+Criminal (freelance/solo)
+Occupation Skill Points: EDU×2+(DEX×2orAPP×2)
+Credit Rating: 5–65
+Suggested Contacts: Other petty criminals, street-level
+law enforcement.
+Skills: Art/Craft (Acting) or Disguise, Appraise, one in-
+terpersonal skill (Charm, Fast Talk, or Intimidate),
+Fighting or Firearms, Locksmith or Mechanical
+Repair, Stealth, Psychology, Spot Hidden.
+Gun Moll [Classic]
+A female professional criminal. While many are fiercely
+independent, some are at the beck and call
+of mobster boyfriends—however, in
+reality this could easily be the other
+way around, with the moll working
+her boyfriend for all she can before
+skedaddling with all the cash and
+furs she can carry.
+Occupation Skill Points: EDU ×
+2 + APP × 2
+Credit Rating: 10–80 (income is usually
+dependent on boyfriend’s income)
+Suggested Contacts: Gangsters, law en-
+forcement, local businesses.
+Skills: Art/Craft (any), two interpersonal
+skills (Charm, Fast Talk, Intimidate, or
+Persuade), Fighting (Brawl) or Fire-
+arms (Handgun), Drive Auto,
+Listen, Stealth, any one other
+skill as personal or era specialty.
+Fence
+Occupation Skill Points: EDU × 2 + APP× 2
+Credit Rating: 20–40
+Suggested Contacts: Organized crime, trade contacts,
+black market and legitimate buyers.
+Skills: Accounting, Appraise, Art/Craft (Forgery),
+History, one interpersonal skill (Charm, Fast Talk,
+Intimidate, or Persuade), Library Use, Spot Hidden,
+any one other skill.
+Forger/Counterfeiter
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–60
+Suggested Contacts: Organized crime, businesspeople.
+Skills: Accounting, Appraise, Art/Craft (Forgery), His-
+tory, Library Use, Spot Hidden, Sleight of Hand,
+any one other skill as personal or era specialty (e.g.
+Computer Use).
+Smuggler
+Occupation Skill Points: EDU×2+(APP×2orDEX×2)
+Credit Rating: 20–60
+Suggested Contacts: Organized crime, Coast Guard,
+U.S. Customs officials.
+Skills: Firearms, Listen, Navigate, one interpersonal skill
+(Charm, Fast Talk, Intimidate, or Persuade), Drive
+Auto or Pilot (Aircraft or Boat), Psychology, Sleight
+of Hand, Spot Hidden.
+Street Punk
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 3–10
+Suggested Contacts: Petty criminals,
+other punks, the local fence, maybe
+the local gangster, certainly the local
+police.
+Skills: Climb, one interpersonal skill
+(Charm, Fast Talk, Intimidate, or
+Persuade), Fighting, Firearms, Jump,
+Sleight of Hand, Stealth, Throw.
+Also, see Gangster.
+Cult Leader
+America has always generated new
+religions, from the New England
+Transcendentalists to the Children of
+God, as well as many others, right up
+to modern times. The leader is either a
+firm believer in the dogma they impart
+Bootleggers have to
+protect their
+livelihoods
+77
+chapter 4: occupations
+to the cult’s members or simply in it for the money
+and power.
+During the 1920s, any number of char-
+ismatic cult leaders emerge. Some espouse
+forms of Christianity while others incor-
+porate Eastern mysticism and occult
+practices. These groups are particu-
+larly familiar to America’s West Coast
+but are found all around the country
+in different forms. The southern Bible
+Belt supports many traveling tent shows
+featuring song, dance, and gospel reviv-
+al. Other countries also see such fringe
+religions springing up wherever there are
+those in need of something to believe in.
+Occupation Skill Points: EDU x 2 + APP x 2
+Credit Rating: 30–60
+Suggested Contacts: While the majority of followers will
+be regular people, the more charismatic the leader,
+the greater the possibility of celebrity followers,
+such as movie stars and rich widows.
+Skills: Accounting, two interpersonal skills (Charm, Fast
+Talk, Intimidate, or Persuade), Occult, Psychology,
+Spot Hidden, any two other skills as specialties.
+Deprogrammer [Modern]
+Deprogramming is the act of persuading (or forcing) a
+person to abandon their belief or allegiance to a religious
+or social community. Normally, the deprogrammer is hired
+by relatives of an individual, who has joined some form of
+cult, in order to break them free (usually by kidnapping)
+and then subject them to psychological techniques to free
+them of their association ("conditioning") with the cult.
+Less extreme deprogrammers exist, who work with
+those who have voluntarily left a cult. In such cases the
+deprogrammer effectively acts as an exit counselor.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–50
+Suggested Contacts: Local and federal law enforcement,
+criminals, religious community.
+Skills: Two interpersonal skills (Charm, Fast Talk,
+Intimidate, or Persuade), Drive Auto, Fighting
+(Brawl) or Firearms, History, Occult, Psychology,
+Stealth.
+Note: With the Keeper’s agreement, the Hypnosis skill
+may be substituted for one of the listed skills.
+Designer
+Designers work in many fields,from fashion to furniture and
+most points in-between. The designer may work freelance,
+for a design house or for a business designing consumer
+products, processes, laws, games, graphics, and so on.
+The investigator’s particular design specialty
+might influence the choice of skills—adjust the skills
+as appropriate.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–60
+Suggested Contacts: Advertising, media,
+furnishings, architectural, other.
+Skills: Accounting, Art (Photography),
+Art/Craft (any), Computer Use or Library
+Use, Mechanical Repair, Psychology, Spot
+Hidden, any one other skill as personal
+specialty.
+Dilettante [Lovecraftian]
+Dilettantes are self-supporting, living off an inheri-
+tance, trust fund, or some other source of income that
+does not require them to work. Usually the dilettante
+has enough money that specialist financial advisers are
+needed to take care of it.
+Probably well educated, though not necessarily accom-
+plished in anything. Money frees the dilettante to be eccen-
+tric and outspoken.
+In the 1920s, some diettantes might be "flappers" or
+"sheiks"—as per the parlance of the time—of course, one
+didn't need to be rich to be a "party" person. In modern
+times, "hipster" might also be an appropriate term.
+The dilettante has had plenty of time to learn how to be
+charming and sophisticated; what else has been done with
+that free time is likely to betray the dilettante’s true charac-
+ter and interests.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 50–99
+Suggested Contacts: Variable, but usually people of a
+similar background and tastes, fraternal organiza-
+tions, bohemian circles, high society at large.
+Skills: Art/Craft (Any), Firearms, Other Language, Ride,
+one interpersonal skill (Charm, Fast Talk, Intimi-
+date, or Persuade), any three other skills as personal
+or era specialties.
+Diver
+Divers could work in the military, law enforcement, or in
+civilian occupations like sponge gathering, salvage, conser-
+vation, or even treasure hunting.
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 9–30
+Suggested Contacts: Coast guard, ship captains, mili-
+tary, law enforcement, smugglers.
+Skills: Diving, First Aid, Mechanical Repair, Pilot (Boat),
+Science (Biology), Spot Hidden, Swim, any one
+other skill as personal or era specialty.
+78
+investigator's handbook
+Doctor of Medicine [Lovecraftian]
+Most likely a general practitioner,
+surgeon or other specialist, such as
+a psychiatrist or an independent
+medical researcher. Apart from per-
+sonal goals, three aims—helping
+patients, gaining money and
+prestige, and promoting a
+more rational and wiser
+society—are common to the
+profession.
+If a general practitioner,
+the doctor will be based in a rural
+or neighborhood practice in or
+near a small town or city. Many
+physicians are employed by
+large urban hospitals, allowing
+them to specialize in areas like
+pathology, toxicology, ortho-
+pedics, and brain surgery.
+Doctors may also serve as
+part- or full-time medical ex-
+aminers, conducting autopsies
+and signing death certificates
+for the city, county, or state.
+In the U.S., physicians are
+licensed by individual states,
+most requiring a minimum
+of two years’ attendance
+at an accredited medical
+school. These require-
+ments, however, are but a relatively recent development.
+During the 1920s, many older physicians first obtained their
+licenses long before such strict regulations were in effect,
+despite failing to have ever attended medical school.
+Occupation Skill Points: EDU x 4
+Credit Rating: 30–80
+Suggested Contacts: Other physicians, medical workers,
+patients and ex-patients.
+Skills: First Aid, Medicine, Other Language (Latin),
+Psychology, Science (Biology and Pharmacy), any
+two other skills as academic or personal specialties.
+Drifter
+As opposed to someone who is poverty-stricken,the drifter’s
+wandering life is chosen, perhaps compensating for a social,
+philosophical, or economic lack, or perhaps taken due to a
+desire to break free of societal constraints.
+The drifter takes jobs, sometimes for days or months,
+however he or she is disposed to solve problems with the
+answer of mobility and isolation, not comfort and intimacy.
+The life of the road might seem especially American, but
+the same sort of life is chosen wherever travel itself is not
+systematically dangerous.
+Occupation Skill Points: EDU × 2 + (APP× 2 or DEX
+× 2 or STR × 2)
+Credit Rating: 0–5
+Suggested Contacts: Other hobos, a few Friendly rail-
+road guards, soft touches in numerous towns.
+Skills: Climb,Jump,Listen,Navigate,oneinterpersonalskill
+(Charm, Fast Talk, Intimidate, or Persuade), Stealth,
+any two other skills as personal or era specialties.
+Driver
+Professional drivers may work for a company, private indi-
+vidual, or possibly have their own cab or rig.
+Taxi drivers may work for large or small companies, or
+possibly have their own cab and license (medallion in the
+U.S.). Cab companies are usually set up so that drivers rent
+cabs and a dispatcher service from the company, technically
+making the drivers freelance operators. Taxis are required
+to be fitted with approved meters, periodically checked by
+the city’s taxi board. Drivers are usually required to obtain
+a special license that includes a background check by the
+police detective bureau.
+A chauffeur is either directly employed by an individ-
+ual or firm, or works for an agency that hires both car and
+chauffeur out for single engagements or on a retainer basis.
+Chauffeur
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 10–40
+Suggested Contacts: Successful business people (crimi-
+nals included), political representatives.
+Skills: Drive Auto, two interpersonal skills (Charm, Fast
+Talk, Intimidate, or Persuade), Listen, Mechanical
+Repair, Navigate, Spot Hidden, any one other skill as
+a personal or era specialty.
+Driver
+OccupationSkillPoints: EDU×2+(DEX×2orSTR × 2)
+Credit Rating: 9–20
+Suggested Contacts: Customers, businesses, law en-
+forcement and general street level life.
+Skills: Accounting, Drive Auto, Listen, one interpersonal
+skill (Charm, Fast Talk, Intimidate, or Persuade),
+Mechanical Repair, Navigate, Psychology, any one
+other skill as personal or era specialty.
+Taxi Driver
+Occupation Skill Points: EDU x 2 + DEX x 2
+Credit Rating: 9–30
+Suggested Contacts: Street scene, possibly a notable
+customer now and then.
+The cause of death
+is...unusual!
+79
+chapter 4: occupations
+Skills: Accounting, Drive Auto, Electrical Repair, Fast
+Talk, Mechanical Repair, Navigate, Spot Hidden, any
+one other skill as a personal or era specialty.
+Editor
+Editors work assigning stories to reporters, writing newspa-
+per and magazine editorials, dealing with crises, and meet-
+ing deadlines. Occasionally they edit. Large newspapers have
+many editors, including managing editors who are more
+involved with business operations than news. Other editors
+specialize in fashion, sports, or some other area. Small news-
+papers may have only a single editor who, in fact, may also
+be the owner as well as the only full-time employee.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–30
+Suggested Contacts: News industry, local government,
+specialists (e.g. fashion designers, sports, business),
+publishers.
+Skills: Accounting, History, Own Language, two inter-
+personal skills (Charm, Fast Talk, Intimidate, or
+Persuade), Psychology, Spot Hidden, any one other
+skill as personal or era specialty.
+Elected Official
+Popularly elected officials enjoy prestige commensurate
+with their position. Small-town mayors and township
+supervisors find their influence extends little beyond their
+municipality’s borders. Often these jobs are part-time,
+paying but small compensation. The mayors of big cities
+are well paid, however, often ruling their cities like little
+kingdoms and wielding more influence and power than the
+governor of their respective state.
+Local Representatives and Senators elected to state
+houses enjoy a fair amount of respect, particularly with the
+business community and often at a statewide level.
+Governors are responsible for entire states and have
+connections across the country.
+Federal positions carry the most clout. States send a
+number of Representatives to Congress based upon popu-
+lation count, and the House seats over 400 members, each
+elected to a two-year term. Each state, regardless of size, also
+sends two Senators to Washington. Elected to six-year terms
+and numbering less than a hundred, Senators hold consid-
+erably more influence than Representatives, and some elder
+Senators receive nearly as much respect as the President.
+In the United Kingdom, Members of Parliament are
+popularly elected every four to five years. Representatives in
+the House of Lords are unelected, receiving their member-
+ships through either birth or appointment.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 50–90
+Suggested Contacts: Political operatives, government,
+news media, business, foreign governments, possi-
+bly organized crime.
+Skills: Charm, History, Intimidate, Fast Talk, Listen,
+Own Language, Persuade, Psychology.
+Engineer
+A specialist in mechanical or electrical devices, employed in
+a civilian business or in the military, but also including in-
+ventors. The engineer applies scientific knowledge, mathe-
+matics and a liberal amount of ingenuity to design solutions
+for technical problems.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–60
+Suggested Contacts: Business or military workers, local
+government, architects.
+Skills: Art/Craft (Technical Drawing), Electrical Repair,
+Library Use, Mechanical Repair, Operate Heavy Ma-
+chine, Science (Engineering and Physics), any one
+other skill as personal or era specialty.
+Entertainer
+This occupation might include clown, singer, dancer, come-
+dian, juggler, musician, or anyone else who earns a living in
+front of an audience. These people love to be seen, love to
+show what they do best, and love the consequent applause.
+Previously to the 1920s, this profession lacked respect;
+however, the money that Hollywood stars can make in the
+1920s changes most minds, and by the present day such a
+background is generally felt to be an advantage.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 9–70
+Suggested Contacts: Vaudeville, theatre, film industry,
+entertainment critics, organized crime, and televi-
+sion (for modern-day).
+Skills: Art/Craft (e.g. Acting, Singer, Comedian, etc.),
+Disguise, two interpersonal skills (Charm, Fast Talk,
+Intimidate, or Persuade), Listen, Psychology, any
+two other skills as personal or era specialties.
+Explorer [Classic]
+In the early twentieth century there are still unknown
+areas of the world that some people can make a career of
+exploring. Scientific grants, private donations, and museum
+contracts, combined with newspaper, magazine, book, and
+film rights often generate enough money to support the
+adventurer and this exciting lifestyle.
+Much of darkest Africa is still unexplored, as are great
+portions of the Matto Grosso in South America, the great
+Australian desert, the Sahara and Arabian deserts, and much
+of the Asian interior. Although expeditions have reached
+80
+investigator's handbook
+both the North and South Poles, much of the surrounding
+territory is still unknown.
+Occupation Skill Points: EDU × 2 + (APP × 2 or DEX
+× 2 or STR × 2)
+Credit Rating: 55–80
+Suggested Contacts: Major libraries, universities, mu-
+seums, wealthy patrons, other explorers, publishers,
+foreign government officials, local tribes people.
+Skills: Climb or Swim, Firearms, History, Jump, Natural
+World, Navigate, Other Language, Survival.
+Farmer
+An agricultural worker who might own the land on which
+they raise crops or livestock, or who is employed to do the
+same. Rigorous and demanding, the life of the farmer is suit-
+ed to those who enjoy manual labor and outdoor activities.
+The 1920s are the first decade where the urban pop-
+ulation of the U.S. outnumbers the rural population.
+Independent farmers find themselves squeezed between
+competition from corporate-controlled farms and fluc-
+tuating commodity markets—a situation still common in
+contemporary times.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Local bank, local politicians, state
+agricultural department.
+Skills: Art/Craft (Farming), Drive Auto (or Wagon), one
+interpersonal skill (Charm, Fast Talk, Intimidate, or
+Persuade), Mechanical Repair, Natural World, Op-
+erate Heavy Machinery, Track, any one other skill as
+a personal or era specialty.
+Federal Agent
+There are a vast variety of federal law enforcement agencies
+and agents. Some are uniformed, such as the U.S. Marshals,
+while others, like the Federal Bureau of Investigation, are
+plainclothes and operate similar to detectives.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–40
+Suggested Contacts: Federal agencies, law enforcement,
+organized crime.
+Skills: Drive Auto, Fighting (Brawl), Firearms, Law, Per-
+suade, Stealth, Spot Hidden, any one other skill as a
+personal or era specialty.
+Firefighter
+Firefighters are civil servants, employed by the communities
+they serve. They work around the clock, on shifts lasting
+several days, eating, sleeping, and entertaining themselves
+within the confines of the fire station. Organized along
+military lines, promotion through lieutenant, captain, and
+chief is possible.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR ×2)
+Credit Rating: 9–30
+Suggested Contacts: Civic workers, medical workers,
+law enforcement.
+Skills: Climb, Dodge, Drive Auto, First Aid, Jump, Me-
+chanical Repair, Operate Heavy Machinery, Throw.
+Foreign Correspondent
+Foreign correspondents are the elite of news reporters.
+They work on salary, enjoy expense accounts, and travel the
+globe. In the 1920s, the correspondent may work for a large
+newspaper, a radio network, or a national newsgroup. Mod-
+ern-day reporters might also work freelance or be employed
+to file reports for a television network, an Internet news
+provider, or international news agency.
+The work can be very varied, often exciting, and some-
+times hazardous as natural disasters, political upheaval, and
+war are the primary focus of the foreign correspondent.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–40
+Suggested Contacts: National or worldwide news indus-
+try, foreign governments, military.
+Skills: History, Other Language, Own Language, Listen,
+two interpersonal skills (Charm, Fast Talk, Intimi-
+date, or Persuade), Psychology, any one other skill as
+a personal or era specialty.
+Forensic Surgeon
+A highly specialized occupation, most forensic surgeons are
+employed by a city, county or state to conduct autopsies,
+determine causes of death, and make recommendations to
+the prosecutor’s office. Forensic surgeons are often called to
+give testimony at criminal proceedings.
+Occupation Skill Points: EDU × 4
+Credit Rating: 40–60.
+Suggested Contacts: Laboratories, law enforcement,
+medical profession.
+Skills: Other Language (Latin), Library Use, Medicine,
+Persuade, Science (Biology), (Forensics), (Pharmacy),
+Spot Hidden.
+Gambler
+Gamblers are the dandies of the criminal world. Sharp
+dressers, they usually possess bags of charm, either earthy or
+sophisticated.Whether frequenting the racetrack, card table,
+or casino, such individuals often base their life upon chance.
+More sophisticated gamblers probably frequent the ille-
+gal casinos operated by organized crime.A few are known as
+81
+chapter 4: occupations
+poker players and are often involved in lengthy, high-stakes
+games where they may even be backed by outside investors.
+The lowest frequent alleys and dives, playing craps with
+loaded dice, or hustling in pool halls.
+Occupation Skill Points: EDU×2+(APP×2orDEX×2)
+Credit Rating: 8–50
+Suggested Contacts: Bookies, organized crime, street
+scene.
+Skills: Accounting,Art/Craft (Acting), two interpersonal
+skills (Charm, Fast Talk, Intimidate, or Persuade),
+Listen, Psychology, Sleight of Hand, Spot Hidden.
+Gangster
+A gangster could be the boss of a whole city, part of a city,
+or merely an underling who works for the boss. Underlings
+usually have specific areas of responsibility, such as oversee-
+ing illicit shipments, collecting protection money, and so on.
+The boss oversees the business, makes deals, and determines
+how to solve problems. For the most part, the gangster boss
+is untouchable, able to field a small army of underlings to do
+his or her bidding, and so is unlikely to get their hands dirty.
+Gangsterism rose to prominence in the 1920s. Neigh-
+borhood ethnic gangs, who had heretofore limited their
+activities to local protection schemes and small gambling
+rackets, discovered the immense profits to be made in the
+illegal beer and liquor industry. Before long they controlled
+whole sections of cities and warred with one another in
+the streets. Though most gangs are of ethnic origin—Irish,
+Italian, African-American, and Jewish—gangsters of nearly
+all nationalities are found within the ranks.
+In modern times, the drug trade has overtaken other
+forms of organized crime to be the most lucrative route for
+many. Operating on very similar lines to their 1920s coun-
+terparts, the contemporary gangster boss also needs a range
+of underlings to promote, secure, and trade their business
+on the streets.
+Aside from illegal liquor and narcotics, organized crime
+deals in prostitution, protection, gambling, and many other
+forms of corruption.
+Gangster Boss
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 60–95
+SuggestedContacts: Organized crime,street-level crime,
+police, city government, politicians, judges, unions,
+lawyers, businesses, and residents of the same ethnic
+community.
+Skills: Fighting, Firearms, Law, Listen, two interpersonal
+skills (Charm, Fast Talk, Intimidate, or Persuade),
+Psychology, Spot Hidden.
+Gangster Underling
+OccupationSkillPoints: EDU×2+(DEX×2or STR×2)
+Credit Rating: 9–20
+Suggested Contacts: Street-level crime, police, business-
+es and residents of the same ethnic community.
+Skills: Drive Auto, Fighting, Firearms, two interpersonal
+skills (Charm, Fast Talk, Intimidate, or Persuade),
+Psychology, any two other skills as personal or era
+specialties.
+Also see Criminal: Bootlegger/Thug.
+Gentleman/Lady
+A man or woman of good breeding, courteous behavior,
+and good conduct. Usually the term is applied to a member
+of the upper class who is independently wealthy (either by
+inheritance or regular allowance).
+In the 1920s, such a person would certainly have had at
+least one servant (butler, valet, maid, chauffer) and probably
+a country and city residence. One does not necessarily have
+to be rich, as often family status is more important than
+family wealth in terms of the highest society.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 40–90
+Suggested Contacts: Upper classes and landed gentry,
+politics, servants and agricultural workers.
+Skills: Art/Craft (any), two interpersonal skills (Charm,
+Fast Talk, Intimidate, or Persuade), Firearms (Rifle/
+Shotgun), History, Other Language (any), Navigate,
+Ride.
+Hobo
+Although there are people out of work and, as always,
+alcoholics lying in the gutters, the true hobo forms a
+separate breed. While drifters tend to only work when
+forced to, hobos are essentially workers who wander.
+Riding the rails continually, on the move
+from one town to another, they are penniless
+poets and vagabonds—explorers of the
+road, adventurers, and thieves. However,
+life on the road or rails is dangerous.
+Aside of the problems of being poor
+and having no home, the hobo fac-
+es hostility from the police, close-
+knit communities, and railroad
+staff. Jumping trains in the dark is
+no easy feat and many a hobo has
+lost a foot or hand from getting
+caught between train cars.
+OccupationSkillPoints:
+EDU × 2 + (APP × 2
+or DEX × 2)
+Hobos are workers who
+wander.
+82
+investigator's handbook
+Credit Rating: 0–5
+SuggestedContacts: Other hobos,a few friendly railroad
+guards, soft touches in numerous towns.
+Skills: Art/Craft (any), Climb, Jump, Listen, Locksmith
+or Sleight of Hand, Navigate, Stealth, any one other
+skill as a personal or era specialty.
+Hospital Orderly
+The typical hospital orderly is in charge of emptying waste,
+cleaning rooms, taxiing patients, and any other odd job
+requiring slightly more skill than that of a janitor.
+Occupation Skill Points: EDU × 2 + STR × 2
+Credit Rating: 6–15
+Suggested Contacts: Hospital and medical workers,
+patients. Access to drugs, medical records, etc.
+Skills: Electrical Repair, one interpersonal skill (Charm,
+Fast Talk,Intimidate,or Persuade),Fighting (Brawl),
+First Aid, Listen, Mechanical Repair, Psychology,
+Stealth.
+Journalist [Lovecraftian]
+Uses words to report and comment upon topics and inci-
+dents of the day, writing as many words in a day as an author
+may in a week. Journalists work for newspapers, magazines,
+radio, television, and Internet news services.
+The best investigative journalists report, but keep them-
+selves independent of the corruption and self-serving they
+witness. That reality overwhelms the worst, who eventually
+forfeit any sensibility except the power of their words.
+Reporters work in the news and media industries,
+either freelance or for a newspaper, magazine, website, or
+news agency. Most work outside of the office, interviewing
+witnesses, checking records, and gathering stories. Some are
+assigned to specific beats like the police station, the sports
+scene, or business. Others cover social events and garden
+club meetings.
+Reporters carry press passes, but these are of little value
+other than to identify an individual as employed by their
+respective employer (usually a newspaper). The real work
+is similar to that of a private detective, and some reporters
+may resort to subterfuge to gain the information they want.
+Investigative Journalist
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: News industry, politicians,
+street-level crime or law enforcement.
+Skills: Art/Craft (Art or Photography), one interperson-
+al skill (Charm, Fast Talk, Intimidate, or Persuade),
+History, Library Use, Own Language, Psychology,
+any two other skills as personal or era specialties.
+Reporter
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: News and media industries, polit-
+ical organizations and government, business, law
+enforcement, street criminals, high society.
+Skills: Art/Craft (Acting), History, Listen, Own Lan-
+guage, one interpersonal skill (Charm, Fast Talk,
+Intimidate, or Persuade), Psychology, Stealth, Spot
+Hidden.
+Judge
+An official who presides over court legal proceedings, either
+alone or within a group of peers. Judges are either appointed
+or elected, sometimes for a term of specified length, other
+times for life.While some are appointed without ever having
+practiced law, most judges are licensed attorneys whether
+they sit on the smallest bench in a far-off Western town, or
+on the bench of the Federal Supreme Court.
+Occupation Skill Points: EDU × 4
+Credit Rating: 50–80
+Suggested Contacts: Legal connections, possibly
+organized crime.
+Skills: History, Intimidate, Law, Library Use, Listen,
+Own Language, Persuade, Psychology.
+Laboratory Assistant
+Working in a scientific environment, the assistant (or tech-
+nician) performs laboratory and administrative tasks under
+the supervision of a lead scientist.
+Tasks are varied and dependent on the scientific disci-
+pline of the lead scientist or laboratory, but could include:
+sampling, testing, recording and analyzing results, setting
+up or performing experiments, preparing specimens and
+samples, administering the day-to-day work of the labora-
+tory, and ensuring health and safety polices are adhered to.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–30
+Suggested Contacts: Universities, scientists, librarians.
+Skills: Computer Use or Library Use, Electrical Repair,
+Other Language, Science (Chemistry and two oth-
+ers), Spot Hidden, any one other skill as a personal
+specialty.
+Laborer
+Laborers include factory workers,mill hands,stevedores,road
+crews, miners, construction, and so on. Laborers fall into two
+camps: skilled and unskilled. While technically unskilled, the
+average laborer is often an expert in the use of power tools,
+lifting gear, and other equipment to be found on site.
+83
+chapter 4: occupations
+Laborer, Unskilled
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Other workers and supervisors
+within their industry.
+Skills: Drive Auto, Electrical Repair, Fighting, First Aid,
+Mechanical Repair, Operate Heavy Machinery, Throw,
+any one other skill as a personal or era specialty.
+Lumberjack
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Forestry workers, wilderness guides
+and conservationists.
+Skills: Climb, Dodge, Fighting (Chainsaw), First Aid,
+Jump, Mechanical Repair, Natural World or Science
+(Biology or Botany), Throw.
+Miner
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Union officials, political organiza-
+tions.
+Skills: Climb, Geology, Jump, Mechanical Repair, Oper-
+ate Heavy Machinery, Stealth, Spot Hidden, any one
+other skill as a personal or era specialty.
+Lawyer
+Learned in the law of the state in which they serve, the law-
+yer acts as an attorney, counsel, or solicitor, able to relate
+abstract legal theories and knowledge to present solutions
+for their clients. May be hired or appointed by a court on an
+individual basis or may be privately retained by a wealthy
+client or business firm.
+In the U.S., a lawyer tends to mean an attorney, while in
+England the term loosely refers to a variety of professions
+including barristers, solicitors, and legal executives.
+With the right client, a lawyer could become a celebrity
+in his or her own right, and a small number do enjoy the
+media attention for political or financial gain.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–80
+Suggested Contacts: Organized crime, financiers, dis-
+trict attorneys and judges.
+Skills: Accounting, Law, Library use, two interpersonal
+skills (Charm, Fast Talk, Intimidate, or Persuade),
+Psychology, any two other skills.
+Librarian [Lovecraftian]
+Librarians are most often employed by public institutions
+or universities, responsible for cataloguing and maintaining
+stock, as well as dealing with lender enquiries. In modern
+times, the librarian is also a keeper of electronic media and
+databases.
+Some large businesses might employ a librarian to man-
+age a large collection, and occasionally opportunities appear
+to take over custodial care of a private library for a wealthy
+collector.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–35
+Suggested Contacts: Booksellers, community groups,
+specialist researchers.
+Skills: Accounting, Library use, Other Language, Own
+Language, any four other skills as personal special-
+ties or specialist reading topics.
+Mechanic (and Skilled Trades)
+This occupation includes all types of trades requiring spe-
+cialized training, time on the job as an apprentice or trainee,
+etc. Carpenters, stonemasons, plumbers, electricians, mill-
+wrights, mechanics, and others all qualify as skilled trades.
+Usually they have their own unions—almost guilds—that
+bargain with contractors and corporate employers.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–40
+Suggested Contacts: Union members, trade-relevant
+specialists.
+Skills: Art/Craft (Carpentry, Welding, Plumbing, etc.),
+Climb, Drive Auto, Electrical Repair, Mechanical
+Repair, Operate Heavy Machinery, any two other
+skills as personal, era or trade specialties.
+Military Officer
+Officers are command rank and most commissions demand
+some form of higher education. All armed services have es-
+tablished officer training programs that may include univer-
+sity education—in the U.S., most major universities provide
+cadet training programs, allowing simultaneous training for
+the military while attending school. Upon graduation the
+cadet is promoted to the rank of Army or Marine Second
+Lieutenant or Naval Ensign, and assigned to a station.
+Usually such recruits owe the Government four years’
+active service, after which time they may return to civilian
+life. Many of the officers trained this way hold professional
+commissions and serve as doctors, lawyers, or engineers.
+Those looking for a career in the military may try to get
+themselves appointed to one of the military academies: the
+U.S. Army’s West Point or the Navy’s Annapolis, for exam-
+ple. Graduating from one of these schools earns the officer
+84
+investigator's handbook
+respect. Once out of school, some officers opt for special
+training, such as air pilot.
+Occasionally, an experienced and exceptionally worthy
+enlisted person is promoted to Warrant Officer. Although
+technically at the bottom of the officers’ list of ranks, the
+time and experience required to achieve this promotion car-
+ries a respect and reverence far exceeding that of any junior
+or middle-grade officer. Most commissions are for life. Even
+a long-retired officer has the right to call himself Captain or
+General.
+Occupation Skill Points: EDU × 2 + (DEX × 2 or STR × 2)
+Credit Rating: 20–70
+Suggested Contacts: Military, federal government.
+Skills: Accounting, Firearms, Navigate, First Aid, two
+interpersonal skill (Charm, Fast Talk, Intimidate,
+or Persuade), Psychology, any one other skills as
+personal or era specialties.
+Missionary
+Missionaries visit remote corners of the globe dispensing the
+word of God to “unfortunate primitives” or "lost souls" in
+more civilized locales. May be Catholic, Protestant, Islamic,
+or from another branch of faith, such as the Church of the
+Latter-Day Saints, who specialize in two-year proselytizing
+missions to urban areas, including parts of the U.S. and
+Europe.
+Sometimes a missionary may be independent of all
+except his or her own vision, or may be backed by some
+organization other than a church.
+Christian and Islamic proselytizers, as well as Buddhist,
+and Hindu teachers can be encountered worldwide in all eras.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 0–30
+Suggested Contacts: Church hierarchy, foreign officials.
+Skills: Art/Craft (any), First Aid, Mechanical Repair,
+Medicine, Natural World, one interpersonal skill
+(Charm, Fast Talk, Intimidate, or Persuade), any two
+other skills as personal or era specialties.
+Mountain Climber
+Mountain climbing as a sport became popular in the 19th
+century. Most climbers are weekend and vacation sportsmen
+and women; only a few have the reputations needed to attract
+the financing and sponsorship required for major climbs.
+By the 1920s, all the major American and Alpine peaks
+have been conquered. After lengthy negotiations with the
+Tibetans, climbers were finally granted access to the highest
+peaks of the Himalayas. Regular assaults on Mt. Everest, the
+last unconquered peak in the world, were routinely covered
+by radio and newspapers. Expeditions in 1921, 1922, and
+1924 all failed to reach the summit and resulted in the
+deaths of thirteen people.
+In the modern-day, mountaineering (or Alpinism, as
+often termed by Europeans), may be sport, recreation, or
+a profession. If a profession, this could include climbing
+instructors, guides, athletes, or rescue services.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 30–60
+Suggested Contacts: Other climbers, environmentalists,
+patrons, sponsors, local rescue or law enforcement,
+park rangers, sports clubs.
+Skills: Climb, First Aid, Jump, Listen, Navigate, Other
+Language, Survival (Alpine or as appropriate),
+Track.
+Museum Curator
+A museum curator can be responsible for a large facility like
+a university or other publicly funded institution, or any sort
+of smaller museum, often specializing in local geology or
+other such topics.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–30
+Suggested Contacts: Local universities and scholars,
+publishers, museum patrons.
+Skills: Accounting, Appraise, Archaeology, History,
+Library Use, Occult, Other Language, Spot Hidden.
+Musician
+May perform in an orchestra, group, or solo,
+with any instrument you care to think
+of. Getting noticed is hard and then
+getting a recording contract is difficult.
+Most musicians are poor and do not get
+noticed, eking a living by playing small
+venues as often as they can. A fortunate
+few might get regular work, such as play-
+ing a piano in a bar or hotel or within
+a city orchestra. For the minori- t y,
+great success and wealth can
+be found by being in the right
+place at the right time, plus
+having a modicum of talent.
+The 1920s is, of course,
+the Jazz Age, and musicians
+work in small combos and
+dance orchestras in large and
+medium-sized cities and towns
+across America. A few musicians living i n
+large cities, like Chicago or New York, find steady work in
+their hometown, but most spend significant amounts of
+time on the road, touring either by bus, automobile, or by
+train.
+Occupation Skill Points: EDU×2+(APP×2orDEX×2)
+Credit Rating: 9–30
+85
+chapter 4: occupations
+Suggested Contacts: Club owners, musicians’ union,
+organized crime, street-level criminals.
+Skills: Art/Craft (Instrument), one interpersonal skill
+(Charm, Fast Talk, Intimidate, or Persuade), Listen,
+Psychology, any four other skills.
+Nurse
+Nurses are trained healthcare assistants, usually working
+in hospitals, nursing homes, or with General Practitioners.
+Generally, a nurse will assist an individual, sick or well, with
+activities contributing to health or recovery (or to a peaceful
+death) that a person might perform unaided if they had the
+necessary strength, will, or knowledge.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: Hospital workers, physicians, com-
+munity workers.
+Skills: First Aid, Listen, Medicine, one interpersonal
+skill (Charm, Fast Talk, Intimidate, or Persuade),
+Psychology, Science (Biology) and (Chemistry),
+Spot Hidden.
+Occultist
+Occultists are students of esoteric secrets and arcane magic.
+They fully believe in paranormal abilities and actively attempt
+to learn about and discover these powers within themselves.
+Most are familiar with a broad range of different philosophies
+and magical theories, some believing that they can actually
+perform feats of magic—the veracity of such abilities is left to
+the Keeper to determine.
+It should be noted that, in the main, occultists are fa-
+miliar with "earthly magic"—the secrets of Mythos magic
+are unknown to them, save in tantalizing hints referenced
+in ancient books.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–65
+Suggested Contacts: Libraries, occult societies or frater-
+nities, other occultists.
+Skills: Anthropology, History, Library Use, one inter-
+personal skill (Charm, Fast Talk, Intimidate, or
+Persuade), Occult, Other Language, Science (As-
+tronomy), any one* other skill as a personal or era
+specialty.
+*With the Keeper’s agreement, may include Cthulhu
+Mythos (with an advised starting maximum of 10%).
+Outdoorsman/woman
+The outdoor enthusiast spends much of his or her time living
+in the wilderness, often alone for long periods. Commonly
+skilled in hunting and fishing, and able to be self-sufficient
+in all but the harshest of environments. May be specialized
+in hiking, fishing, cross-country skiing, canoeing, climbing,
+and camping.
+The outsdoorsman might work as a wilderness guide or
+ranger for a national park or outward bound center, or they
+may be financially independent, allowing them enjoy such a
+lifestyle without regard for paid employment, perhaps living
+as a hermit and only returning to civilization when the need
+arises.
+OccupationSkillPoints: EDU×2+(DEX× 2or STR×2)
+Credit Rating: 5–20
+Suggested Contacts: Local people and native folk,traders.
+Skills: Firearms, First Aid, Listen, Natural World, Navi-
+gate, Spot Hidden, Survival (any), Track.
+Parapsychologist
+Parapsychologists do not pretend to enjoy extraordinary
+powers, but instead spend their efforts attempting to
+observe, record, and study such instances. Sometimes nick-
+named “ghost hunters,” they make use of technology to try
+to capture hard evidence of paranormal activity that may
+be centered on a person or a location. A major portion of
+their time is spent debunking fake mediums and mistaken
+phenomena rather than recording actual evidence.
+Some parapsychologists will specialize in the study of
+particular phenomenon, such as extra sensory perception,
+telekinesis, hauntings, and others.
+Prestigious universities grant no degrees for parapsy-
+chology. Standards in the field are based entirely upon per-
+sonal reputation, and so the most acceptable representatives
+tend to hold degrees in related areas—physics, psychology,
+or medicine.
+Those who choose this path are unusually sympathetic
+to the notion of invisible mystical powers and in validating
+that belief to the satisfaction of physical scientists. This
+would represent an unusual cohabitation of faith and
+doubt—the parapsychologist may have difficulty separating
+the conflicting desires. A person uninterested in observa-
+tion, experimentation, and proof is not a scientist, though
+he or she may be an occultist.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: Universities, parapsychological
+Publications.
+Skills: Anthropology, Art/Craft (Photography), History,
+Library Use, Occult, Other Language, Psychology,
+any one other skill as a personal or era specialty.
+86
+investigator's handbook
+Pharmacist
+Pharmacists have long been more closely regulated than
+physicians. They are licensed by individual states, most of
+them requiring a high school education and three years
+of pharmacy school. A pharmacist may be employed in a
+hospital or a drug store, or perhaps they own a dispensary.
+Occupation Skill Points: EDU × 4
+Credit Rating: 35–75
+Suggested Contacts: Local community, local physicians,
+hospitals and patients. Access to all manner of
+chemicals and drugs.
+Skills: Accounting, First Aid, Other Language (Latin),
+Library Use, one interpersonal skill (Charm, Fast
+Talk, Intimidate, or Persuade), Psychology, Science
+(Pharmacy), (Chemistry).
+Photographer
+Photography as an art form has been around a long time,
+with most photographers working freelance, for an adver-
+tising firm, or in a portrait studio taking pictures of families.
+Others are employed in the newspaper, media, and film
+industries.
+The elite of photographers are drawn from the worlds of
+art, journalism, and wildlife conservation. In each of these
+arenas a photographer may find fame, recognition, and
+financial reward.
+Photojournalists are essentially reporters who use cam-
+eras, but who are also expected to write prose to accompany
+an image. In the 1920s, newsreels came into being; heavy,
+bulky 35mm film equipment was hauled around the globe in
+search of exciting news stories, sporting events, and bathing
+beauty pageants. A newsreel team usually numbers three:
+one of them an actual reporter who writes the copy, while
+the other two handle the camera, lights, etc. Voiceovers are
+done at a home studio, based on the written copy.
+Photographer
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: Advertising industry, local clients
+(including political organizations and newspapers).
+Skills: Art/Craft (Photography), one interpersonal skill
+(Charm, Fast Talk, Intimidate, or Persuade), Psy-
+chology, Science (Chemistry), Stealth, Spot Hidden,
+any two other skills as personal or era specialties.
+Photojournalist
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–30
+Suggested Contacts: News industry, film industry
+(1920s), foreign governments and authorities.
+Skills: Art/Craft (Photography), Climb, one interperson-
+al skill (Charm, Fast Talk, Intimidate, or Persuade),
+Other Language, Psychology, Science (Chemistry),
+any two other skills as personal or era specialties.
+Pilot
+Professional aviators may be employed by business, for
+example the U.S. Mail, or work as pilots for a large or small
+commercial passenger line.
+In the U.S. there was no national regulation of pilots
+until the passing of the Air Commerce Act of 1926, after
+which time pilots’ licenses were required. Thus, many in this
+period work at carnivals, stunting, selling rides, or offering
+local air-taxi services in and out of small airports.
+Some pilots actively serve in the military. Many aviators
+learned to fly during their service and, as a result, still hold
+commissions as officers in the Armed Forces.
+Aviator [Classic]
+An aviator is a stunt pilot, working at carnivals or offering
+daring leisure rides for those willing to pay. Often fame
+could be won by competing in organized air races, either
+cross-country or on fixed courses. During the twenties, Hol-
+lywood makes fair use of stunt pilots. A few aviators even
+find work as test pilots for aircraft manufacturers. Many avi-
+ators learned to fly during the Great War and, as a result, still
+hold commissions as officers in the Army, Navy, Marines,
+or Coast Guard. Younger pilots have either received military
+training during peacetime or learned on their own.
+American flying aces of the World War still in the public
+limelight include: Eddie Rickenbacker, presently employed
+by Chrysler Corporation; Tommy Hitchcock, Jr., now a star
+on the polo fields; Reed Landis, son of Baseball Commis-
+sioner, Kenesaw Mountain Landis.
+Pilot
+Occupation Skill Points: EDU × 2 + DEX × 2
+Credit Rating: 20–70
+Suggested Contacts: Old military contacts, cabin crew,
+mechanics, airfield staff, carnival entertainers.
+Skills: Electrical Repair, Mechanical Repair, Navigate, Op-
+erate Heavy Machine,Pilot (Aircraft),Science (Astron-
+omy),any two other skills as personal or era specialties.
+Aviator
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–60
+Suggested Contacts: Old military contacts, other pilots,
+airfield mechanics, businessmen.
+Skills: Accounting, Electrical Repair, Listen, Mechanical
+Repair, Navigate, Pilot (Aircraft), Spot Hidden, any
+one other skill as a personal or era specialty.
+87
+chapter 4: occupations
+Police Detective/Officer [Lovecraftian]
+The plainclothes branch of police agencies, detectives exam-
+ine crime scenes, gather evidence, conduct interviews, and
+try to solve homicides, major burglaries, and other felonies.
+They work the streets, often in close cooperation with a
+uniformed patrol.
+The police detective may be a manager who coordinates
+staff in some important investigation, but rarely has the lux-
+ury of concentrating on a single case. In the U.S., his or her
+responsibilities at any one time may number in the dozens or
+hundreds of open cases. The detective’s crucial function is to
+marshal enough evidence to allow an arrest,in turn leading to
+a successful criminal prosecution. Detectives everywhere sort
+truth from lies by evidence and reconstruction. The offices
+of detective and prosecutor are separate, so that the evidence
+may be weighed independently before trial.
+Though present day detectives may attend police science
+classes, take a degree, and undergo special training and civil
+service exams, police detectives of every era are grounded in
+their experiences as junior officers and ordinary patrolmen.
+The uniformed police officer is employed by cities and
+towns, by County sheriffs’ departments, and state or region-
+al police forces. The job may be on foot, behind the wheel of
+a patrol car, or sitting at a desk.
+Police Detective
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 20–50
+Suggested Contacts: Law enforcement, street level
+crime, coroner’s office, judiciary, organized crime.
+Skills: Art/Craft (Acting) or Disguise, Firearms, Law,
+Listen, one interpersonal skill (Charm, Fast Talk,
+Intimidate, or Persuade), Psychology, Spot Hidden,
+any one other skill.
+Uniformed Police Officer
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Law enforcement, local businesses
+and residents, street level crime, organized crime.
+Skills: Fighting (Brawl), Firearms, First Aid, one in-
+terpersonal skill (Charm, Fast Talk, Intimidate, or
+Persuade), Law, Psychology, Spot Hidden and one
+of the following as a personal specialty: Drive Auto-
+mobile or Ride.
+Private Investigator
+The private eye usually acts in non-police situations, gather-
+ing information and evidence for private clients in impend-
+ing civil cases, tracking down fleeing spouses or business
+partners, or acting as an agent for private defense attorneys
+in criminal cases. Like any professional, the private eye sep-
+arates his or her personal feelings from the job at hand, and
+cheerfully works for the guilty and innocent alike, as long as
+the fee is paid.
+The private investigator may have been a member of a
+police force in the past, using those connections to his or her
+advantage in the present; however, this is not always the case.
+In most locales, the private investigator must be licensed
+and, if later proven to be guilty of illegal activity, the license
+may be revoked—effectively ending the detective’s career.
+OccupationSkillPoints: EDU×2+(DEX× 2or STR×2)
+Credit Rating: 9–30
+Suggested Contacts: Law enforcement, clients.
+Skills: Art/Craft (photography), Disguise, Law, Library
+Use, one interpersonal skill (Charm, Fast Talk,
+Intimidate, or Persuade), Psychology, Spot Hidden
+and any one other skill as personal or era specialty
+(e.g. Computer Use, Locksmith, Fighting, Firearms).
+Professor [Lovecraftian]
+Professors are academics employed by colleges and univer-
+sities. Larger corporations may also employ such academ-
+ics for research and product development. Independent
+scholars sometimes help support themselves by teaching
+part-time courses.
+For the most part, the occupation indicates a Ph.D.—a
+rank that can earn tenure at universities around the world.
+The professor is qualified to teach and to perform competent
+research, and may have a discernible academic reputation in
+his or her area of expertise.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–70
+Suggested Contacts: Scholars, universities, libraries.
+Skills: Library Use, Other Language, Own Language,
+Psychology, any four other skills as academic, era, or
+personal specialties.
+Prospector
+Though the days of the California Gold Rush and the Ne-
+vada Comstock Lode are long gone, the independent pros-
+pector is still a feature of the American West. Roaming the
+mountains, they endlessly search for the big strike that will
+make them rich. In these days, oil may be as good as gold.
+OccupationSkillPoints: EDU×2+(DEX×2or STR×2)
+Credit Rating: 0–10
+Suggested Contacts: Local businesses and residents.
+Skills: Climb, First Aid, History, Mechanical Repair,
+Navigate, Science (Geology), Spot Hidden, any one
+other skill as a personal or era specialty.
+88
+investigator's handbook
+Prostitute
+Depending on circumstance, breeding, and background,
+a prostitute may be a high-rolling expensive call girl, male
+gigolo, or streetwalker. Often driven by circumstance, many
+dream of a way out. A few work completely independently;
+however, for most, they are lured and kept in the business by
+ruthless pimps whose only concern is cash.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 5–50
+Suggested Contacts: Street scene, police, possibly orga-
+nized crime, personal clientele.
+Skills: Art/Craft (any), two interpersonal skills (Charm,
+Fast Talk, Intimidate, or Persuade), Dodge, Psychol-
+ogy, Sleight of hand, Stealth, any one other skill as a
+personal or era specialty.
+Psychiatrist
+In the modern era a psychiatrist is a physician specialized in
+the diagnosis and treatment of mental disorders. Psychia-
+trists are trained in psychopharmacological treatments and
+are authorized to prescribe psychiatric medication, as well
+as order electroencephalograms, and computed brain-im-
+aging studies.
+At the turn of the twentieth century, psychoanalytic
+theories were still relatively new and aimed at attempting to
+explain phenomena that until recently had been considered
+to be biological in nature. As such, psychiatrists sought
+to establish their medical credentials, and differing
+perspectives of diagnosing and treating mental dis-
+orders began to be introduced. Until the 1930s, any
+physician could request being listed in the Di-
+rectory of the American Medical Association
+as a specialist in psychiatry.
+Occupation Skill Points: EDU × 4
+Credit Rating: 30–80
+Suggested Contacts: Others in the field of
+mental illness, physicians and possibly legal
+professions.
+Skills: Other Language, Listen, Medicine,
+Persuade, Psychoanalysis, Psychology, Sci-
+ence (Biology) and (Chemistry).
+See Alienist.
+Psychologist/Psychoanalyst
+While commonly known for the fields of
+psychotherapy and counseling, this is just one
+branch of psychology. Other specialists include
+organizational psychologists who work with
+businesses and governments, as well as academics conduct-
+ing research or teaching psychology.
+Clinical psychologists may work with patients, using a
+range of therapeutic tools. Note the distinction between a
+psychologist and a psychiatrist who is a physician specialist.
+In the 1920s, the study of human behavior was a rather
+new field and primarily focused on Freudian analysis.
+Occupation Skill Points: EDU × 4
+Credit Rating: 10–40
+Suggested Contacts: Psychological community, patients.
+Skills: Accounting, Library Use, Listen, Persuade,
+Psychoanalysis, Psychology, any two other skills as
+academic, era or personal specialties.
+Researcher
+The academic world sponsors a good deal of research,
+particularly in the fields of astronomy, physics, and other
+theoretical sciences. The private sector employs thousands of
+researchers, especially chemists, pharmacists, and engineers.
+Oil companies hire many trained geologists. Researchers
+spend most of their time indoors, working and writing, but
+some go onto become field researchers.
+Field researchers are usually highly experienced, inde-
+pendent, and resourceful, possibly employed by private in-
+terests or undertaking academic research for a university. Oil
+companies send geologists into the field to explore potential
+petroleum fields, anthropologists study primitive tribes in
+forgotten corners of the globe, and archaeologists spend
+years of their lives unearthing treasures in deserts and jun-
+gles, bargaining with native workers and local governments.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–30
+Suggested Contacts: Scholars and academics, large busi-
+nesses and corporations, foreign governments and
+individuals.
+Skills: History, Library Use, one interpersonal skill
+(Charm, Fast Talk Intimidate, or Persuade), Other
+Language, Spot Hidden, any three fields of study.
+Sailor
+Sailors may be military or commercial.
+Naval sailors, like their counterparts in the Army, go
+through an initial period of basic training. Upon gradua-
+tion they are assigned rates and stations. Although many
+sailors serve in the traditional roles of Boatswain’s Mate
+or Fireman rating (ship’s engine man), the Navy also has
+a need for technically trained mechanics, radio operators,
+air controllers, etc. The highest enlisted rank is Chief Petty
+Officer, which carries with it a prestige respected by even
+high-ranking officers. Enlistments are for a fixed number of
+years—in the U.S. Navy this is usually four years of active
+duty followed by two years of inactive reserve commitment,
+Parapsychologists study the supernatural
+89
+chapter 4: occupations
+during which time the sailor can be called to serve in times
+of national emergency.
+Commercial sailors may work aboard a fishing vessel,
+charter boat, or haulage tankers, carrying oil or commodi-
+ties. In the U.S., charter boats work both coasts, as well as on
+the Great Lakes,catering to sport fisherman and vacationers.
+By far the greatest number of charter boats are found in
+Florida, on both the Gulf and ocean coasts.
+During Prohibition, many a charter boat captain found
+a lucrative trade in ferrying thirsty customers to the 3-mile
+limit, where foreign ships could sell alcohol. Likewise,
+smuggling for the bootleggers could pay well; however, the
+risks were high.
+Sailor, Naval
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Military, veterans’ associations.
+Skills: Electrical or Mechanical Repair, Fighting, Fire-
+arms, First Aid, Navigate, Pilot (Boat), Survival
+(Sea), Swim.
+Sailor, Commercial
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 20–40
+Suggested Contacts: Coast Guard, smugglers, organized
+crime.
+Skills: First Aid, Mechanical Repair, Natural World,
+Navigate, one interpersonal skill (Charm, Fast Talk,
+Intimidate, or Persuade), Pilot (Boat), Spot Hidden,
+Swim.
+Salesperson
+An integral part of many businesses, salespeople work to
+promote and sell their employer’s goods or services. Most
+spend much of their time travelling, meeting, and entertain-
+ing clients (as much as their expenses account will allow).
+Some are mainly office-based,working telephones to contact
+potential clients, while others travel between communities
+to sell their wares door-to-door.
+The 1920s is the decade of the entrepreneur and the
+traveling salesperson is a part of everyday life. Some work
+directly for companies and others on consignment, but
+most live and die by commission, using hard sales tactics
+to gain the confidence of a potential buyer and not caring
+whether their sale is affordable or not. Some are restricted to
+certain territories, while others are free to roam and seek out
+prospects wherever they might be found. Brushes, vacuum
+cleaners, and encyclopedias are only a few of the many items
+that be offered door-to-door.
+Occupation Skill Points: EDU × 2 + APP × 2
+Credit Rating: 9–40
+Suggested Contacts: Businesses within the same sector,
+favored customers.
+Skills: Accounting, two interpersonal skills (Charm, Fast
+Talk, Intimidate, or Persuade), Drive Auto, Listen,
+Psychology, Stealth or Sleight of Hand, any one
+other skill.
+Scientist
+Natural philosophers who delve reality in the pursuit of
+knowledge.Where science is applied to creating useful items,
+one might employ an engineer, but if one wishes to expand
+the bounds of what is possible, one will require scientists.
+Scientists are employed by businesses and universities to
+carry out research.
+Although specializing in one field of science, any sci-
+entist worth his or her salt will be well-versed in several
+branches of science. A scientist will also have a good com-
+mand of their own language, having done higher degrees
+and probably a Ph.D.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–50
+Suggested Contacts: Other scientists and academics,
+universities, their employers and former employers.
+Skills: Any three science specialisms, Computer Use or
+Library Use, Other Language, Own Language, one
+interpersonal skill (Charm, Fast Talk, Intimidate, or
+Persuade), Spot Hidden.
+Secretary
+A position that ranges from highly-paid private executive
+assistants to those in the typing pool. The work concerns
+supporting executives and managers with a range of com-
+munication and organizational skills.
+Being at the hub of the business, most secretaries know
+more about the inner workings and operations of the busi-
+ness than their bosses do.
+During the 1920s, secretarial work was mainly con-
+cerned with correspondence, such as typing dictated
+letters, organizing document filing systems, and arranging
+meetings for their bosses. In some cases, the secretary pretty
+much ran their manager’s lives, organizing their vacations,
+buying presents for their children and wives, and generally
+covering their bosses’ back.
+Occupation Skill Points: EDU×2+(DEX×2orAPP×2)
+Credit Rating: 9–30
+Suggested Contacts: Other office workers, senior execu-
+tives in client firms.
+Skills: Accounting, Art/Craft (Typing or Short Hand),
+two interpersonal skills (Charm, Fast Talk, Intimi-
+date, or Persuade), Own Language, Library Use or
+Computer Use, Psychology, any one other skill as a
+personal or era specialty.
+90
+investigator's handbook
+Shopkeeper
+The owner of a small shop, market stall, or perhaps restau-
+rant. Usually self-employed, but may be the manager run-
+ning the shop on behalf of the owner. Possibly family-run,
+with relations also working on the premises, with normally
+few, if any, employees.
+The 1920s saw many women opening their own hair-
+dressing and millinery shops.
+Occupation Skill Points: EDU×2+(APP×2orDEX×2)
+Credit Rating: 20–40
+Suggested Contacts: Local residents and businesses,
+local police, local government, customers.
+Skills: Accounting, two interpersonal skills (Charm, Fast
+Talk, Intimidate, or Persuade), Electrical Repair, Lis-
+ten, Mechanical Repair, Psychology, Spot Hidden.
+Soldier/Marine
+This refers to the enlisted ranks of the Army and Marines
+and includes the lowest ranks of Private up through Gun-
+nery Sergeant (in U.S. terms). Although technically out-
+ranked by even the freshest of Second Lieutenants, Veteran
+Sergeants are respected by even the highest-ranking officers.
+In the U.S., standard enlistment is for six years, including
+four years’ active duty and two in standby (inactive) reserve.
+Allenlistedpersonsreceivebasictraining—“bootcamp”—
+where raw recruits are taught how to march, shoot, and salute.
+Upon graduation from basic training,most are assigned to the
+infantry, although the Army also needs soldiers for artillery
+and the tank corps. A few are trained for non-combat roles,
+such as air controller, mechanic, clerk, or even officer’s stew-
+ard. Marines, while technically part of the Navy, are similar to
+soldiers in background, training, and skills.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 9–30
+Suggested Contacts: Military, veterans associations.
+Skills: Climb or Swim, Dodge, Fighting, Firearms,
+Stealth, Survival and two of the following: First Aid,
+Mechanical Repair or Other Language.
+Spy
+Spies work for the intelligence community of a political
+state or organization. They may appear in any form of oc-
+cupation, from ambassador to kitchen cleaner, in order to
+obtain the information they require. Some work deep cover
+for many years, while others change their identity at the
+drop of a hat. While spies may be posted within their own
+country, they can more usually be found working aboard.
+While information gathering and counter intelligence
+comprise the key work of a spy, other tasks may be per-
+formed, such as recruiting moles or carrying out state-sanc-
+tioned assassinations.
+Occupation Skill Points: EDU×2+(APP×2orDEX×2)
+Credit Rating: 20–60
+Suggested Contacts: Generally only the person the spy
+reports to, possibly other connections developed
+while under cover.
+Skills: Art/Craft (Acting) or Disguise, Firearms, Listen,
+Other Language, one interpersonal skill (Charm,
+Fast Talk, Intimidate, or Persuade), Psychology,
+Sleight of Hand, Stealth.
+Student/Intern
+May be a student enrolled at a college or university, or the
+employee of a company receiving minimal compensation
+for valuable on-the-job training.
+Occupation Skill Points: EDU × 4
+Credit Rating: 5–10
+Suggested Contacts: Academics and other students,
+while interns may also know business people.
+Skills: Language (Own or Other), Library Use, Listen,
+three fields of study and any two other skills as a
+personal or era specialties.
+Stuntman
+The film and television industry employs stuntmen and
+women to simulate falls from buildings, car crashes, and
+other catastrophes. Stunt performers will usually be trained
+in fighting techniques and stage combat. There is always risk
+in the performance of all stunt work, and health and safety
+is a key element.
+In modern times, stunt performers will largely be mem-
+bers of a union where they have had to prove their creden-
+tials (such as advanced driver’s license, diver’s license, and
+so on). All television and film work will be supervised by a
+stunt director. However in the 1920s, there are no equivalent
+organizations nor any regulation of the industry. Accidents
+and fatalities are frequent.
+OccupationSkillPoints: EDU×2+(DEX×2orSTR×2)
+Credit Rating: 10–50
+Suggested Contacts: The film and television industries,
+various explosive and pyrotechnic firms, actors and
+directors.
+Skills: Climb, Dodge, Electrical Repair or Mechanical Re-
+pair, Fighting, First Aid, Jump, Swim, plus one from
+either Diving, Drive Automobile, Pilot (any), Ride.
+Tribe Member
+In the sense of family allegiance, at least, tribalism is ev-
+erywhere. In a tribe, the primacy of kinship and custom
+is self-evident. A tribal group is nominally relatively small.
+In place of a blanket of law and general individual rights,
+the tribal personality defers to personal honor. Praise, ven-
+91
+chapter 4: occupations
+geance, gifts, and glory—all must be personal to the tribe
+member, and if leaders or enemies are to be treated as men
+of honor, they too must be personally known in some way.
+The notion of exile has real power in such a setting.
+OccupationSkillPoints: EDU × 2 + (DEX × 2 + STR × 2)
+Credit Rating: 0–15
+Suggested Contacts: Fellow tribe members.
+Skills: Climb, Fighting or Throw, Listen, Natural World,
+Occult, Spot Hidden, Swim, Survival (any).
+Undertaker
+Undertakers, also known as morticians or funeral directors,
+manage the business of funeral rites. This work includes the
+burial or cremation of the dead. With burials, the undertak-
+er will perform embalming, as well as dressing, casketing,
+and cosmetising the appearance of the deceased.
+Undertakers are licensed by the state. They either own
+their own funeral parlors or work for someone who does.
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–40
+Suggested Contacts: Few.
+Skills: Accounting, Drive Auto, one interpersonal skill
+(Charm, Fast Talk, Intimidate, or Persuade), History,
+Occult,Psychology,Science (Biology) and (Chemistry).
+Union Activist
+Union activists are organizers, leaders, and sometimes either
+visionaries or malcontents with an axe to grind. Normally a
+friend to the workers and an enemy of the bosses. Unions
+exist in all walk of life, be it stevedores, construction work-
+ers, miners, or actors.
+During the early twentieth century, union officials find
+themselves caught between big business wishing to destroy
+them, politicians alternately befriending and condemning
+them, communists and socialists trying to infiltrate their
+ranks, and criminal mobs trying to take them over.
+Occupation Skill Points: EDU × 4
+Credit Rating: 5–30
+Suggested Contacts: Other labor leaders and activists, po-
+litical friends, possibly organized crime. In the 1920s,
+also socialists, communists and subversive anarchists.
+Skills: Accounting, two interpersonal skills (Charm, Fast
+Talk, Intimidate, or Persuade), Fighting (Brawl),
+Law, Listen, Operate Heavy Machinery, Psychology.
+Waitress/Waiter
+Serves customers and clients within a hotel, bar, or other
+drinking or eating establishment. Traditionally low-paid,
+the waitress earns tips from clients by providing good ser-
+vice and trying to establish a rapport.
+A technically illegal profession during Prohibition (in
+the case of serving liquor), many job opportunities exist
+working in the illegal speakeasies owned by the mob.
+Occupation Skill Points: EDU×2+(APP×2orDEX×2)
+Credit Rating: 9–20
+Suggested Contacts: Customers, organized crime.
+Skills: Accounting, Art/Craft (any), Dodge, Listen, two
+interpersonal skills (Charm, Fast Talk, Intimidate,
+or Persuade), Psychology, any one skill as a personal
+or era specialty.
+Students tend to be younger characters
+92
+investigator's handbook
+93
+chapter 4: occupations
+White-Collar Worker
+This could range from the lowest-level white-collar position
+of a clerk to a middle or senior manager. The employer could
+be a small- to medium-sized locally owned business, up to a
+large national, or multinational corporation.
+Clerks are habitually underpaid and the work is drudg-
+ery, with those recognized as having talent being earmarked
+for promotion someday. Middle and senior managers
+attract higher salaries, with greater responsibilities and
+say in how the business is managed day-to-day. Although
+unmarried white-collar workers are not infrequent, most
+executive types are family-oriented, with a spouse at home
+and children—it is often expected of them.
+Clerk/Executive
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–20
+Suggested Contacts: Other office workers.
+Skills: Accounting, Language, Law, Library Use or Com-
+puter Use, Listen, one interpersonal skill (Charm,
+Fast Talk, Intimidate, or Persuade), any two other
+skills as personal or era specialties.
+Middle/Senior Manager
+Occupation Skill Points: EDU × 4
+Credit Rating: 20–80
+Suggested Contacts: Old college connections, Masons
+or other fraternal groups, local and federal govern-
+ment, media and marketing.
+Skills: Accounting, Other Language, Law, two interper-
+sonal skills (Charm, Fast Talk, Intimidate, or Per-
+suade), Psychology, any two other skills as personal
+or era specialties.
+Zealot
+Intense and vision-driven, scorning an easy life, the zealot
+agitates for a better life for humanity, or for some advantage
+for the group imagined to be the most worthwhile part of
+humanity. Some fanatics promote their beliefs through
+violence; however, the peaceable majority may be just as
+implacable. All dream of the vindication of their beliefs.
+Occupation Skill Points: EDU×2+(APP×2orPOW×2)
+Credit Rating: 0–30
+Suggested Contacts: Religious or fraternal groups, news
+media.
+Skills: History, two interpersonal skills (Charm, Fast Talk,
+Intimidate,or Persuade),Psychology,Stealth,and any
+three other skills as personal or era specialties.
+Zookeeper
+Zookeepers are responsible for the feeding and care of the
+animals in their charge; groundskeepers and attendants take
+care of other chores. Often the zookeeper is specialized in a
+particular breed of animal. The Zookeeper is able to use the
+Medicine skill on animals.
+Occupation Skill Points: EDU × 4
+Credit Rating: 9–40
+Suggested Contacts: Scientists, environmentalists.
+Skills: Art/Craft (Animal Handling), Accounting,
+Dodge, First Aid, Natural World, Medicine, Science
+(Pharmacy), (Zoology).
+

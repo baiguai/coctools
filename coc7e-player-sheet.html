@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Call of Cthulhu 7e — Investigator Sheet</title>
+<style>
+  :root{
+    --bg:#0a0f0c; --panel:#131a15; --panel2:#0f1611; --line:#24352b;
+    --line2:#2f4636; --ink:#d7e6db; --muted:#7f9a89; --accent:#6ee7a0;
+    --accent2:#3fa06a; --danger:#e5484d; --warn:#e0b64d; --gold:#c9a24a;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(1200px 600px at 50% -10%, #10201a 0%, rgba(16,32,26,0) 60%),
+      var(--bg);
+    color:var(--ink); font-family:var(--sans); font-size:14px; line-height:1.4;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{font-family:var(--serif); margin:0; font-weight:600; letter-spacing:.02em}
+  a{color:var(--accent); text-decoration:none}
+  .wrap{max-width:1180px; margin:0 auto; padding:22px 18px 80px}
+  header.top{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:18px}
+  header.top h1{font-size:26px; color:var(--accent); text-shadow:0 0 18px rgba(110,231,160,.15)}
+  header.top .sub{color:var(--muted); font-size:12px; font-style:italic}
+  .spacer{flex:1}
+  .toolbar{display:flex; gap:8px; flex-wrap:wrap}
+  button{
+    font-family:var(--sans); font-size:13px; color:var(--ink);
+    background:linear-gradient(#1b271f,#141d17); border:1px solid var(--line2);
+    padding:7px 12px; border-radius:7px; cursor:pointer; transition:.15s;
+  }
+  button:hover{border-color:var(--accent2); color:#eafff2}
+  button.primary{background:linear-gradient(#1f4d37,#153325); border-color:var(--accent2); color:#dfffe9}
+  button.danger{border-color:#5a2a2d; color:#ffd7d8}
+  button.ghost{background:transparent}
+  .grid{display:grid; gap:16px}
+  .cols-2{grid-template-columns:1fr 1fr}
+  @media(max-width:900px){.cols-2{grid-template-columns:1fr}}
+  .panel{
+    background:linear-gradient(180deg,var(--panel),var(--panel2));
+    border:1px solid var(--line); border-radius:12px; padding:14px 16px 16px;
+    box-shadow:0 1px 0 rgba(255,255,255,.02) inset, 0 12px 30px rgba(0,0,0,.35);
+  }
+  .panel > h2{font-size:15px; color:var(--accent); margin-bottom:12px;
+    border-bottom:1px solid var(--line); padding-bottom:8px; display:flex; align-items:center; gap:8px}
+  .panel h2 .tag{font-family:var(--sans); font-size:10px; color:var(--muted); border:1px solid var(--line2); padding:1px 6px; border-radius:20px; font-style:normal}
+  .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+  @media (max-width:900px){.grid-2{grid-template-columns:1fr}}
+  .field{display:flex; flex-direction:column; gap:3px}
+  label{font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted)}
+  input[type=text],input[type=number],select,textarea{
+    font-family:var(--sans); font-size:14px; color:#eaf7ee; background:var(--panel2);
+    border:1px solid var(--line); border-radius:6px; padding:6px 8px; width:100%;
+  }
+  input:focus,select:focus,textarea:focus{outline:none; border-color:var(--accent2); box-shadow:0 0 0 3px rgba(110,231,160,.12)}
+  input[type=number]{-moz-appearance:textfield}
+  .charbox{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:8px; text-align:center}
+  .charbox .cname{font-family:var(--serif); font-size:12px; color:var(--muted); letter-spacing:.06em}
+  .charbox input{text-align:center; font-size:22px; font-family:var(--serif); color:var(--accent); padding:2px; margin-top:2px}
+  .charbox .half{font-size:11px; color:var(--muted); margin-top:2px}
+  .derived input{color:var(--gold); font-family:var(--serif)}
+  table{width:100%; border-collapse:collapse}
+  th,td{text-align:left; padding:5px 6px; border-bottom:1px solid var(--line); font-size:13px}
+  th{color:var(--muted); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.06em}
+  td.num,th.num{text-align:center; width:52px}
+  .skilllist tr:hover{background:rgba(110,231,160,.04)}
+  .tag-occ{font-size:10px; color:var(--gold); border:1px solid #4a3f1e; background:#241f0d; padding:0 4px; border-radius:3px}
+  .skillname .base{color:var(--muted); font-size:11px; margin-left:6px}
+  .pointsrow{display:flex; gap:12px; flex-wrap:wrap; align-items:flex-end}
+  .pool{background:var(--panel2); border:1px solid var(--line); border-radius:8px; padding:8px 12px}
+  .pool .v{font-family:var(--serif); font-size:22px; color:var(--accent)}
+  .pool .l{font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em}
+  .chips{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px}
+  .chip{font-size:12px; border:1px solid var(--line2); border-radius:20px; padding:4px 10px; cursor:pointer; background:#101914; user-select:none}
+  .chip:hover{border-color:var(--accent2)}
+  .chip.on{background:#173a29; border-color:var(--accent2); color:#dfffe9}
+  .chip.pick{font-style:italic; color:var(--muted)}
+  .chip.pick.on{color:#dfffe9}
+  .muted{color:var(--muted)}
+  .danger{color:var(--danger)}
+  .warn{color:var(--warn)}
+  .val{font-family:var(--serif); color:var(--gold)}
+  .weapons input{font-size:13px}
+  .rowflex{display:flex; gap:8px; align-items:center}
+  .divider{height:1px;background:var(--line);margin:10px 0}
+  .note{font-size:11px; color:var(--muted); font-style:italic}
+  .tabs{display:flex; gap:6px; margin-bottom:10px}
+  .tab{padding:5px 10px; border:1px solid var(--line); border-radius:6px; cursor:pointer; font-size:12px; color:var(--muted)}
+  .tab.on{color:var(--accent); border-color:var(--accent2); background:#111c15}
+  footer.credits{margin-top:26px; color:#4d6357; font-size:11px; text-align:center}
+  @media print{ body{background:#fff;color:#000} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Call of Cthulhu 7e</h1>
+    <span class="sub">Investigator Sheet — unofficial, auto-calculating</span>
+    <span class="spacer"></span>
+    <div class="toolbar">
+      <button id="btn-save-html" class="primary">Save HTML</button>
+      <button id="btn-save-svg">Save SVG</button>
+      <button id="btn-save-json">Save .json</button>
+      <button id="btn-load-json">Load .json</button>
+      <button id="btn-reset" class="danger ghost">Reset</button>
+      <input type="file" id="file-json" accept="application/json" hidden>
+    </div>
+  </header>
+
+  <div class="grid cols-2" style="align-items:start">
+    <section class="panel">
+      <h2>Investigator</h2>
+      <div class="grid" style="grid-template-columns:1fr 1fr; gap:10px">
+        <div class="field" style="grid-column:1/3"><label>Name</label><input id="f-name" type="text" placeholder="e.g. Cyrus Bell"></div>
+        <div class="field"><label>Occupation</label><select id="f-occupation"></select></div>
+        <div class="field"><label>Age</label><input id="f-age" type="number" min="1" value="30"></div>
+        <div class="field"><label>Sex</label><input id="f-sex" type="text"></div>
+        <div class="field"><label>Residence</label><input id="f-residence" type="text"></div>
+        <div class="field"><label>Birthplace</label><input id="f-birthplace" type="text"></div>
+        <div class="field"><label>Player</label><input id="f-player" type="text"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Characteristics <span class="tag">½ &nbsp;/&nbsp; ⅕ auto</span></h2>
+      <div id="char-grid" class="grid" style="grid-template-columns:repeat(4,1fr); gap:8px"></div>
+    </section>
+  </div>
+
+  <div class="grid cols-2" style="margin-top:16px; align-items:start">
+    <section class="panel">
+      <h2>Derived</h2>
+      <div id="derived-grid" class="grid" style="grid-template-columns:repeat(4,1fr); gap:8px"></div>
+      <p class="note" id="mov-note" style="margin:8px 0 0"></p>
+    </section>
+
+    <section class="panel">
+      <h2>Occupation <span class="tag" id="occ-era"></span></h2>
+      <div id="occ-body">
+        <div class="rowflex" style="justify-content:space-between">
+          <div class="field" style="flex:1">
+            <label>Points formula</label>
+            <div class="val" id="occ-formula">—</div>
+          </div>
+          <div class="field" style="flex:1">
+            <label>Credit Rating range</label>
+            <div class="val" id="occ-cr">—</div>
+          </div>
+        </div>
+        <div id="occ-choose" style="margin-top:8px"></div>
+        <div class="chips" id="occ-chips"></div>
+        <p class="note" id="occ-note" style="margin:8px 0 0"></p>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel" style="margin-top:16px">
+    <h2>Skill Points</h2>
+    <div class="pointsrow">
+      <div class="pool"><div class="v" id="pool-occ-total">0</div><div class="l">Occupation points</div></div>
+      <div class="pool"><div class="v" id="pool-occ-spent">0</div><div class="l">Spent (O)</div></div>
+      <div class="pool"><div class="v" id="pool-int-total">0</div><div class="l">Interest points</div></div>
+      <div class="pool"><div class="v" id="pool-int-spent">0</div><div class="l">Spent (I)</div></div>
+      <div class="pool" style="border-color:#5a2a2d"><div class="v danger" id="pool-over">0</div><div class="l">Over budget</div></div>
+    </div>
+    <p class="note" style="margin-top:8px">Occupation pool = EDU × 4 (or the listed formula). Interest pool = INT × 2. Click a skill's <span class="tag-occ">O</span> / <span class="tag-occ">I</span> to route points from that pool. No pool points may go to Cthulhu Mythos.</p>
+  </section>
+
+  <section class="panel" style="margin-top:16px">
+    <h2>Skills <span class="tag" id="skill-count"></span></h2>
+    <div class="rowflex" style="margin-bottom:10px">
+      <select id="add-skill" style="max-width:280px"><option value="">Add skill…</option></select>
+      <button id="btn-add-skill" class="ghost">Add</button>
+      <span class="spacer"></span>
+      <button id="btn-clear-skills" class="ghost danger">Clear allocated points</button>
+    </div>
+    <table class="skilllist">
+      <thead>
+        <tr>
+          <th style="width:26px"></th>
+          <th>Skill</th>
+          <th class="num">Base</th>
+          <th class="num">O</th>
+          <th class="num">I</th>
+          <th class="num">Value</th>
+          <th class="num">½</th>
+          <th class="num">⅕</th>
+          <th style="width:30px"></th>
+        </tr>
+      </thead>
+      <tbody id="skill-body"></tbody>
+    </table>
+  </section>
+
+  <section class="panel" style="margin-top:16px">
+    <h2>Combat &amp; Weapons</h2>
+    <div class="grid" style="grid-template-columns:1fr 1fr; gap:16px">
+      <div>
+        <div class="grid" style="grid-template-columns:repeat(3,1fr); gap:8px">
+          <div class="field"><label>Dodge</label><input id="cb-dodge" type="text" readonly></div>
+          <div class="field"><label>Brawl</label><input id="cb-brawl" type="text" readonly></div>
+          <div class="field"><label>DB</label><input id="cb-db" type="text" readonly></div>
+        </div>
+        <div class="divider"></div>
+        <div class="grid" style="grid-template-columns:repeat(3,1fr); gap:8px">
+          <div class="field"><label>HP</label><input id="cb-hp" type="text" readonly></div>
+          <div class="field"><label>MP</label><input id="cb-mp" type="text" readonly></div>
+          <div class="field"><label>SAN</label><input id="cb-san" type="text" readonly></div>
+        </div>
+        <p class="note" style="margin:8px 0 0">Dodge, Brawl, DB, HP, MP and SAN mirror the values above and update automatically.</p>
+      </div>
+      <div class="weapons">
+        <table>
+          <thead><tr><th>Weapon</th><th class="num">%</th><th>Damage</th></tr></thead>
+          <tbody id="weapon-body"></tbody>
+        </table>
+        <button id="btn-add-weapon" class="ghost" style="margin-top:8px">Add weapon</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" style="margin-top:16px">
+    <h2>Backstory &amp; Notes</h2>
+    <div class="grid" style="grid-template-columns:1fr 1fr; gap:10px">
+      <div class="field"><label>Personal description</label><textarea id="f-desc" rows="3"></textarea></div>
+      <div class="field"><label>Ideology / beliefs</label><textarea id="f-ideology" rows="3"></textarea></div>
+      <div class="field"><label>Significant people</label><textarea id="f-people" rows="3"></textarea></div>
+      <div class="field"><label>Meaningful locations</label><textarea id="f-places" rows="3"></textarea></div>
+      <div class="field"><label>Treasured possessions</label><textarea id="f-treasure" rows="3"></textarea></div>
+      <div class="field"><label>Traits</label><textarea id="f-traits" rows="3"></textarea></div>
+      <div class="field" style="grid-column:1/3"><label>Notes</label><textarea id="f-notes" rows="4"></textarea></div>
+    </div>
+  </section>
+
+  <footer class="credits">Unofficial fan tool. Call of Cthulhu is a trademark of Chaosium Inc. Autosaves to this browser.</footer>
+</div>
+<script>
+window.COC_DATA = {"skills":[{"id":"accounting","label":"Accounting","base":5},{"id":"anthropology","label":"Anthropology","base":1},{"id":"appraise","label":"Appraise","base":5},{"id":"archaeology","label":"Archaeology","base":1},{"id":"art","label":"Art/Craft","base":5},{"id":"charm","label":"Charm","base":15},{"id":"climb","label":"Climb","base":20},{"id":"computer","label":"Computer Use","base":5},{"id":"credit","label":"Credit Rating","base":0},{"id":"cthulhu","label":"Cthulhu Mythos","base":0},{"id":"demolitions","label":"Demolitions","base":1},{"id":"disguise","label":"Disguise","base":5},{"id":"diving","label":"Diving","base":1},{"id":"dodge","label":"Dodge","base":null},{"id":"drive","label":"Drive Auto","base":20},{"id":"elecrepair","label":"Electrical Repair","base":10},{"id":"fasttalk","label":"Fast Talk","base":5},{"id":"fighting","label":"Fighting","base":25},{"id":"firearms","label":"Firearms","base":20},{"id":"firstaid","label":"First Aid","base":30},{"id":"history","label":"History","base":5},{"id":"intimidate","label":"Intimidate","base":15},{"id":"jump","label":"Jump","base":20},{"id":"language","label":"Language (Other)","base":1},{"id":"ownlang","label":"Language (Own)","base":null},{"id":"law","label":"Law","base":5},{"id":"library","label":"Library Use","base":20},{"id":"listen","label":"Listen","base":20},{"id":"locksmith","label":"Locksmith","base":1},{"id":"mechanical","label":"Mechanical Repair","base":10},{"id":"medicine","label":"Medicine","base":1},{"id":"naturalworld","label":"Natural World","base":10},{"id":"navigate","label":"Navigate","base":10},{"id":"occult","label":"Occult","base":5},{"id":"operateheavy","label":"Operate Heavy Machinery","base":1},{"id":"persuade","label":"Persuade","base":10},{"id":"pilot","label":"Pilot","base":1},{"id":"psychoanalysis","label":"Psychoanalysis","base":1},{"id":"psychology","label":"Psychology","base":10},{"id":"ride","label":"Ride","base":5},{"id":"science","label":"Science","base":1},{"id":"sleight","label":"Sleight of Hand","base":10},{"id":"spot","label":"Spot Hidden","base":25},{"id":"stealth","label":"Stealth","base":20},{"id":"survival","label":"Survival","base":10},{"id":"swim","label":"Swim","base":20},{"id":"throw","label":"Throw","base":20},{"id":"track","label":"Track","base":10},{"id":"hypnosis","label":"Hypnosis","base":1},{"id":"artillery","label":"Artillery","base":1},{"id":"electronics","label":"Electronics","base":1}],"occupations":[{"name":"Accountant","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,70],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"law"},{"t":"skill","id":"library"},{"t":"skill","id":"listen"},{"t":"skill","id":"persuade"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Acrobat","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[9,20],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"dodge"},{"t":"skill","id":"jump"},{"t":"skill","id":"throw"},{"t":"skill","id":"spot"},{"t":"skill","id":"swim"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Stage Actor","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[9,40],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"disguise"},{"t":"skill","id":"fighting"},{"t":"skill","id":"history"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Film Star","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[20,90],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"disguise"},{"t":"skill","id":"drive"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Agency Detective","era":"","formula":{"edu":2,"add":[],"choose":["STR","DEX"]},"credit":[20,45],"credit_note":"","skills":[{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"One interpersonal skill (Charm, Fast Talk, Intimidate or Persuade)"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"law"},{"t":"skill","id":"library"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"},{"t":"skill","id":"track"}]},{"name":"Alienist","era":"classic","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,60],"credit_note":"","skills":[{"t":"skill","id":"law"},{"t":"skill","id":"listen"},{"t":"skill","id":"medicine"},{"t":"skill","id":"language"},{"t":"skill","id":"psychoanalysis"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"skill","id":"science"}]},{"name":"Animal Trainer","era":"","formula":{"edu":2,"add":[],"choose":["APP","POW"]},"credit":[10,40],"credit_note":"","skills":[{"t":"skill","id":"jump"},{"t":"skill","id":"listen"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"skill","id":"stealth"},{"t":"skill","id":"track"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Antiquarian","era":"lovecraftian","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,70],"credit_note":"","skills":[{"t":"skill","id":"appraise"},{"t":"skill","id":"art"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"language"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Antique Dealer","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,50],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"appraise"},{"t":"skill","id":"drive"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"navigate"}]},{"name":"Archaeologist","era":"lovecraftian","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,40],"credit_note":"","skills":[{"t":"skill","id":"appraise"},{"t":"skill","id":"archaeology"},{"t":"skill","id":"history"},{"t":"skill","id":"language"},{"t":"skill","id":"library"},{"t":"skill","id":"spot"},{"t":"skill","id":"mechanical"},{"t":"pick","n":1,"from":["navigate","science"],"label":"Navigate or Science (e.g. chemistry, physics, geology, etc.)"}]},{"name":"Architect","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,70],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"art"},{"t":"skill","id":"law"},{"t":"skill","id":"ownlang"},{"t":"pick","n":1,"from":["computer","library"],"label":"Computer Use or Library Use"},{"t":"skill","id":"persuade"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"}]},{"name":"Artist","era":"","formula":{"edu":2,"add":[],"choose":["DEX","POW"]},"credit":[9,50],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"pick","n":1,"from":["history","naturalworld"],"label":"History or Natural World"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"language"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Asylum Attendant","era":"","formula":{"edu":2,"add":[],"choose":["STR","DEX"]},"credit":[8,20],"credit_note":"","skills":[{"t":"skill","id":"dodge"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firstaid"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"listen"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"}]},{"name":"Athlete","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,70],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"jump"},{"t":"skill","id":"fighting"},{"t":"skill","id":"ride"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"swim"},{"t":"skill","id":"throw"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Author","era":"lovecraftian","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"pick","n":1,"from":["naturalworld","occult"],"label":"Natural World or Occult"},{"t":"skill","id":"language"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Bartender","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[8,25],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"fighting"},{"t":"skill","id":"listen"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Big Game Hunter","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[20,50],"credit_note":"","skills":[{"t":"skill","id":"firearms"},{"t":"pick","n":1,"from":["listen","spot"],"label":"Listen or Spot Hidden"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"navigate"},{"t":"pick","n":1,"from":["language","survival"],"label":"Other Language or Survival (any)"},{"t":"skill","id":"science"},{"t":"skill","id":"stealth"},{"t":"skill","id":"track"}]},{"name":"Book Dealer","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"appraise"},{"t":"skill","id":"drive"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"language"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"}]},{"name":"Bounty Hunter","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"skill","id":"elecrepair"},{"t":"pick","n":1,"from":["fighting","firearms"],"label":"Fighting or Firearms"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Fast Talk, Charm, Intimidate, or Persuade)"},{"t":"skill","id":"law"},{"t":"skill","id":"psychology"},{"t":"skill","id":"track"},{"t":"skill","id":"stealth"}]},{"name":"Boxer/Wrestler","era":"","formula":{"edu":2,"add":["STR"],"choose":[]},"credit":[9,60],"credit_note":"","skills":[{"t":"skill","id":"dodge"},{"t":"skill","id":"fighting"},{"t":"skill","id":"intimidate"},{"t":"skill","id":"jump"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Butler/Valet/Maid","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,40],"credit_note":"(dependent on their employer’s status and credit rating)","skills":[{"t":"pick","n":1,"from":["accounting","appraise"],"label":"Accounting or Appraise"},{"t":"skill","id":"art"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"listen"},{"t":"skill","id":"language"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Clergy, Member of the","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,60],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"listen"},{"t":"skill","id":"language"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Computer Programmer/Technician","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,70],"credit_note":"","skills":[{"t":"skill","id":"computer"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"electronics"},{"t":"skill","id":"library"},{"t":"skill","id":"science"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Hacker","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,70],"credit_note":"","skills":[{"t":"skill","id":"computer"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"electronics"},{"t":"skill","id":"library"},{"t":"skill","id":"spot"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Cowboy/girl","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,20],"credit_note":"","skills":[{"t":"skill","id":"dodge"},{"t":"pick","n":1,"from":["fighting","firearms"],"label":"Fighting or Firearms"},{"t":"pick","n":1,"from":["firstaid","naturalworld"],"label":"First Aid or Natural World"},{"t":"skill","id":"jump"},{"t":"skill","id":"ride"},{"t":"skill","id":"survival"},{"t":"skill","id":"throw"},{"t":"skill","id":"track"}]},{"name":"Craftsperson","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[10,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"art"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills as personal specialties"}]},{"name":"Assassin","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[30,60],"credit_note":"","skills":[{"t":"skill","id":"disguise"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"locksmith"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"stealth"},{"t":"skill","id":"psychology"}]},{"name":"Bank Robber","era":"","formula":{"edu":2,"add":[],"choose":["STR","DEX"]},"credit":[5,75],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"intimidate"},{"t":"skill","id":"locksmith"},{"t":"skill","id":"operateheavy"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Bootlegger/Thug","era":"","formula":{"edu":2,"add":["STR"],"choose":[]},"credit":[5,30],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"},{"t":"skill","id":"spot"}]},{"name":"Burglar","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[5,40],"credit_note":"","skills":[{"t":"skill","id":"appraise"},{"t":"skill","id":"climb"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"listen"},{"t":"skill","id":"locksmith"},{"t":"skill","id":"sleight"},{"t":"skill","id":"stealth"},{"t":"skill","id":"spot"}]},{"name":"Conman","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[10,65],"credit_note":"","skills":[{"t":"skill","id":"appraise"},{"t":"skill","id":"art"},{"t":"pick","n":1,"from":["law","language"],"label":"Law or Other Language"},{"t":"skill","id":"listen"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"sleight"}]},{"name":"Gun Moll","era":"classic","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[10,80],"credit_note":"(income is usually dependent on boyfriend’s income)","skills":[{"t":"skill","id":"art"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"pick","n":1,"from":["fighting","firearms"],"label":"Fighting (Brawl) or Firearms (Handgun)"},{"t":"skill","id":"drive"},{"t":"skill","id":"listen"},{"t":"skill","id":"stealth"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Fence","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[20,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"appraise"},{"t":"skill","id":"art"},{"t":"skill","id":"history"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"library"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Forger/Counterfeiter","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,60],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"appraise"},{"t":"skill","id":"art"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"spot"},{"t":"skill","id":"sleight"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Smuggler","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[20,60],"credit_note":"","skills":[{"t":"skill","id":"firearms"},{"t":"skill","id":"listen"},{"t":"skill","id":"navigate"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"pick","n":1,"from":["drive","pilot"],"label":"Drive Auto or Pilot (Aircraft or Boat)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"sleight"},{"t":"skill","id":"spot"}]},{"name":"Street Punk","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[3,10],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"jump"},{"t":"skill","id":"sleight"},{"t":"skill","id":"stealth"},{"t":"skill","id":"throw"}]},{"name":"Cult Leader","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[30,60],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"occult"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills as specialties"}]},{"name":"Deprogrammer","era":"modern","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,50],"credit_note":"","skills":[{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"Two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"drive"},{"t":"pick","n":1,"from":["fighting","firearms"],"label":"Fighting (Brawl) or Firearms"},{"t":"skill","id":"history"},{"t":"skill","id":"occult"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"}]},{"name":"Designer","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,60],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"art"},{"t":"skill","id":"art"},{"t":"pick","n":1,"from":["computer","library"],"label":"Computer Use or Library Use"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill as personal specialty"}]},{"name":"Dilettante","era":"lovecraftian","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[50,99],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"firearms"},{"t":"skill","id":"language"},{"t":"skill","id":"ride"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"any","n":3,"label":"any three other skills"}]},{"name":"Diver","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"diving"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"pilot"},{"t":"skill","id":"science"},{"t":"skill","id":"spot"},{"t":"skill","id":"swim"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Doctor of Medicine","era":"lovecraftian","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,80],"credit_note":"","skills":[{"t":"skill","id":"firstaid"},{"t":"skill","id":"medicine"},{"t":"skill","id":"language"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"any","n":2,"label":"any two other skills as academic or personal specialties"}]},{"name":"Drifter","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX","STR"]},"credit":[0,5],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"jump"},{"t":"skill","id":"listen"},{"t":"skill","id":"navigate"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"oneinterpersonalskill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"stealth"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Chauffeur","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[10,40],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"listen"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"navigate"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Driver","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,20],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"drive"},{"t":"skill","id":"listen"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"navigate"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Taxi Driver","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"drive"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"fasttalk"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"navigate"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Editor","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,30],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"history"},{"t":"skill","id":"ownlang"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Elected Official","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[50,90],"credit_note":"","skills":[{"t":"skill","id":"charm"},{"t":"skill","id":"history"},{"t":"skill","id":"intimidate"},{"t":"skill","id":"fasttalk"},{"t":"skill","id":"listen"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"persuade"},{"t":"skill","id":"psychology"}]},{"name":"Engineer","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,60],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"library"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"science"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Entertainer","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[9,70],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"disguise"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"listen"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Explorer","era":"classic","formula":{"edu":2,"add":[],"choose":["APP","DEX","STR"]},"credit":[55,80],"credit_note":"","skills":[{"t":"pick","n":1,"from":["climb","swim"],"label":"Climb or Swim"},{"t":"skill","id":"firearms"},{"t":"skill","id":"history"},{"t":"skill","id":"jump"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"navigate"},{"t":"skill","id":"language"},{"t":"skill","id":"survival"}]},{"name":"Farmer","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"drive"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"track"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Federal Agent","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,40],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"law"},{"t":"skill","id":"persuade"},{"t":"skill","id":"stealth"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Firefighter","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"dodge"},{"t":"skill","id":"drive"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"jump"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"throw"}]},{"name":"Foreign Correspondent","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,40],"credit_note":"","skills":[{"t":"skill","id":"history"},{"t":"skill","id":"language"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"listen"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Forensic Surgeon","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[40,60],"credit_note":"","skills":[{"t":"skill","id":"language"},{"t":"skill","id":"library"},{"t":"skill","id":"medicine"},{"t":"skill","id":"persuade"},{"t":"skill","id":"science"},{"t":"skill","id":"science"},{"t":"skill","id":"science"},{"t":"skill","id":"spot"}]},{"name":"Gambler","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[8,50],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"art"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"listen"},{"t":"skill","id":"psychology"},{"t":"skill","id":"sleight"},{"t":"skill","id":"spot"}]},{"name":"Gangster Boss","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[60,95],"credit_note":"","skills":[{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"law"},{"t":"skill","id":"listen"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"}]},{"name":"Gangster Underling","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,20],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Gentleman/Lady","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[40,90],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"firearms"},{"t":"skill","id":"history"},{"t":"skill","id":"language"},{"t":"skill","id":"navigate"},{"t":"skill","id":"ride"}]},{"name":"Hobo","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[0,5],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"climb"},{"t":"skill","id":"jump"},{"t":"skill","id":"listen"},{"t":"pick","n":1,"from":["locksmith","sleight"],"label":"Locksmith or Sleight of Hand"},{"t":"skill","id":"navigate"},{"t":"skill","id":"stealth"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Hospital Orderly","era":"","formula":{"edu":2,"add":["STR"],"choose":[]},"credit":[6,15],"credit_note":"","skills":[{"t":"skill","id":"elecrepair"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk,Intimidate,or Persuade)"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"listen"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"}]},{"name":"Investigative Journalist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Reporter","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"history"},{"t":"skill","id":"listen"},{"t":"skill","id":"ownlang"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"},{"t":"skill","id":"spot"}]},{"name":"Judge","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[50,80],"credit_note":"","skills":[{"t":"skill","id":"history"},{"t":"skill","id":"intimidate"},{"t":"skill","id":"law"},{"t":"skill","id":"library"},{"t":"skill","id":"listen"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"persuade"},{"t":"skill","id":"psychology"}]},{"name":"Laboratory Assistant","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,30],"credit_note":"","skills":[{"t":"pick","n":1,"from":["computer","library"],"label":"Computer Use or Library Use"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"language"},{"t":"skill","id":"science"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill as a personal specialty"}]},{"name":"Laborer, Unskilled","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"drive"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"throw"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Lumberjack","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"dodge"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"jump"},{"t":"skill","id":"mechanical"},{"t":"pick","n":1,"from":["naturalworld","science"],"label":"Natural World or Science (Biology or Botany)"},{"t":"skill","id":"throw"}]},{"name":"Miner","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"science"},{"t":"skill","id":"jump"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"stealth"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Lawyer","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,80],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"law"},{"t":"skill","id":"library"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Librarian","era":"lovecraftian","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,35],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"library"},{"t":"skill","id":"language"},{"t":"skill","id":"ownlang"},{"t":"any","n":4,"label":"any four other skills as personal specialties or specialist reading topics"}]},{"name":"Mechanic (and Skilled Trades)","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,40],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"climb"},{"t":"skill","id":"drive"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"operateheavy"},{"t":"any","n":2,"label":"any two other skills as personal"}]},{"name":"Military Officer","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[20,70],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"navigate"},{"t":"skill","id":"firstaid"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skills"}]},{"name":"Missionary","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[0,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"medicine"},{"t":"skill","id":"naturalworld"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Mountain Climber","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[30,60],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"jump"},{"t":"skill","id":"listen"},{"t":"skill","id":"navigate"},{"t":"skill","id":"language"},{"t":"skill","id":"survival"},{"t":"skill","id":"track"}]},{"name":"Museum Curator","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,30],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"appraise"},{"t":"skill","id":"archaeology"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"occult"},{"t":"skill","id":"language"},{"t":"skill","id":"spot"}]},{"name":"Musician","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"listen"},{"t":"skill","id":"psychology"},{"t":"any","n":4,"label":"any four other skills"}]},{"name":"Nurse","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"firstaid"},{"t":"skill","id":"listen"},{"t":"skill","id":"medicine"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"skill","id":"spot"}]},{"name":"Occultist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,65],"credit_note":"","skills":[{"t":"skill","id":"anthropology"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"occult"},{"t":"skill","id":"language"},{"t":"skill","id":"science"},{"t":"any","n":1,"label":"any one* other skill"},{"t":"skill","id":"cthulhu"}]},{"name":"Outdoorsman/woman","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[5,20],"credit_note":"","skills":[{"t":"skill","id":"firearms"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"listen"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"navigate"},{"t":"skill","id":"spot"},{"t":"skill","id":"survival"},{"t":"skill","id":"track"}]},{"name":"Parapsychologist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"anthropology"},{"t":"skill","id":"art"},{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"skill","id":"occult"},{"t":"skill","id":"language"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Pharmacist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[35,75],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"language"},{"t":"skill","id":"library"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"skill","id":"science"}]},{"name":"Photographer","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"skill","id":"stealth"},{"t":"skill","id":"spot"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Photojournalist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"climb"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"language"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Pilot","era":"","formula":{"edu":2,"add":["DEX"],"choose":[]},"credit":[20,70],"credit_note":"","skills":[{"t":"skill","id":"elecrepair"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"navigate"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"pilot"},{"t":"skill","id":"science"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Aviator","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,60],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"listen"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"navigate"},{"t":"skill","id":"pilot"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Police Detective","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[20,50],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"firearms"},{"t":"skill","id":"law"},{"t":"skill","id":"listen"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Uniformed Police Officer","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"firstaid"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"law"},{"t":"skill","id":"psychology"},{"t":"pick","n":1,"from":["drive","ride"],"label":"Spot Hidden and one of the following as a personal specialty: Drive Automobile or Ride"}]},{"name":"Private Investigator","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"disguise"},{"t":"skill","id":"law"},{"t":"skill","id":"library"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Professor","era":"lovecraftian","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,70],"credit_note":"","skills":[{"t":"skill","id":"library"},{"t":"skill","id":"language"},{"t":"skill","id":"ownlang"},{"t":"skill","id":"psychology"},{"t":"any","n":4,"label":"any four other skills as academic"}]},{"name":"Prospector","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[0,10],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"history"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"navigate"},{"t":"skill","id":"science"},{"t":"skill","id":"spot"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Prostitute","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[5,50],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"dodge"},{"t":"skill","id":"psychology"},{"t":"skill","id":"sleight"},{"t":"skill","id":"stealth"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Psychiatrist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[30,80],"credit_note":"","skills":[{"t":"skill","id":"language"},{"t":"skill","id":"listen"},{"t":"skill","id":"medicine"},{"t":"skill","id":"persuade"},{"t":"skill","id":"psychoanalysis"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"}]},{"name":"Psychologist/Psychoanalyst","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[10,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"library"},{"t":"skill","id":"listen"},{"t":"skill","id":"persuade"},{"t":"skill","id":"psychoanalysis"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills as academic"}]},{"name":"Researcher","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"history"},{"t":"skill","id":"library"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk Intimidate, or Persuade)"},{"t":"skill","id":"language"},{"t":"skill","id":"spot"},{"t":"any","n":3,"label":"any three fields of study"}]},{"name":"Sailor, Naval","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"mechanical"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"navigate"},{"t":"skill","id":"pilot"},{"t":"skill","id":"survival"},{"t":"skill","id":"swim"}]},{"name":"Sailor, Commercial","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[20,40],"credit_note":"","skills":[{"t":"skill","id":"firstaid"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"navigate"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"pilot"},{"t":"skill","id":"spot"},{"t":"skill","id":"swim"}]},{"name":"Salesperson","era":"","formula":{"edu":2,"add":["APP"],"choose":[]},"credit":[9,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"drive"},{"t":"skill","id":"listen"},{"t":"skill","id":"psychology"},{"t":"pick","n":1,"from":["stealth","sleight"],"label":"Stealth or Sleight of Hand"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Scientist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,50],"credit_note":"","skills":[{"t":"any","n":3,"label":"Any three science specialisms"},{"t":"pick","n":1,"from":["computer","library"],"label":"Computer Use or Library Use"},{"t":"skill","id":"language"},{"t":"skill","id":"ownlang"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"spot"}]},{"name":"Secretary","era":"","formula":{"edu":2,"add":[],"choose":["DEX","APP"]},"credit":[9,30],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"art"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"ownlang"},{"t":"pick","n":1,"from":["library","computer"],"label":"Library Use or Computer Use"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one other skill"}]},{"name":"Shopkeeper","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[20,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"elecrepair"},{"t":"skill","id":"listen"},{"t":"skill","id":"mechanical"},{"t":"skill","id":"psychology"},{"t":"skill","id":"spot"}]},{"name":"Soldier/Marine","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[9,30],"credit_note":"","skills":[{"t":"pick","n":1,"from":["climb","swim"],"label":"Climb or Swim"},{"t":"skill","id":"dodge"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firearms"},{"t":"skill","id":"stealth"},{"t":"skill","id":"firstaid"},{"t":"pick","n":1,"from":["mechanical","language"],"label":"Mechanical Repair or Other Language"}]},{"name":"Spy","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[20,60],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"firearms"},{"t":"skill","id":"listen"},{"t":"skill","id":"language"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"sleight"},{"t":"skill","id":"stealth"}]},{"name":"Student/Intern","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[5,10],"credit_note":"","skills":[{"t":"pick","n":1,"from":["ownlang","language"],"label":"Language (Own or Other)"},{"t":"skill","id":"library"},{"t":"skill","id":"listen"},{"t":"any","n":3,"label":"three fields of study"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Stuntman","era":"","formula":{"edu":2,"add":[],"choose":["DEX","STR"]},"credit":[10,50],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"skill","id":"dodge"},{"t":"pick","n":1,"from":["elecrepair","mechanical"],"label":"Electrical Repair or Mechanical Repair"},{"t":"skill","id":"fighting"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"jump"},{"t":"skill","id":"swim"},{"t":"skill","id":"diving"},{"t":"skill","id":"drive"},{"t":"skill","id":"pilot"},{"t":"skill","id":"ride"}]},{"name":"Tribe Member","era":"","formula":{"edu":2,"add":["DEX","STR"],"choose":[]},"credit":[0,15],"credit_note":"","skills":[{"t":"skill","id":"climb"},{"t":"pick","n":1,"from":["fighting","throw"],"label":"Fighting or Throw"},{"t":"skill","id":"listen"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"occult"},{"t":"skill","id":"spot"},{"t":"skill","id":"swim"},{"t":"skill","id":"survival"}]},{"name":"Undertaker","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,40],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"drive"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"history"},{"t":"skill","id":"occult"},{"t":"skill","id":"psychology"},{"t":"skill","id":"science"}]},{"name":"Union Activist","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[5,30],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"fighting"},{"t":"skill","id":"law"},{"t":"skill","id":"listen"},{"t":"skill","id":"operateheavy"},{"t":"skill","id":"psychology"}]},{"name":"Waitress/Waiter","era":"","formula":{"edu":2,"add":[],"choose":["APP","DEX"]},"credit":[9,20],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"art"},{"t":"skill","id":"dodge"},{"t":"skill","id":"listen"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":1,"label":"any one skill"}]},{"name":"Clerk/Executive","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,20],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"language"},{"t":"skill","id":"law"},{"t":"pick","n":1,"from":["library","computer"],"label":"Library Use or Computer Use"},{"t":"skill","id":"listen"},{"t":"pick","n":1,"from":["charm","fasttalk","intimidate","persuade"],"label":"one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Middle/Senior Manager","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[20,80],"credit_note":"","skills":[{"t":"skill","id":"accounting"},{"t":"skill","id":"language"},{"t":"skill","id":"law"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade)"},{"t":"skill","id":"psychology"},{"t":"any","n":2,"label":"any two other skills"}]},{"name":"Zealot","era":"","formula":{"edu":2,"add":[],"choose":["APP","POW"]},"credit":[0,30],"credit_note":"","skills":[{"t":"skill","id":"history"},{"t":"pick","n":2,"from":["charm","fasttalk","intimidate","persuade"],"label":"two interpersonal skills (Charm, Fast Talk, Intimidate,or Persuade)"},{"t":"skill","id":"psychology"},{"t":"skill","id":"stealth"},{"t":"any","n":3,"label":"any three other skills"}]},{"name":"Zookeeper","era":"","formula":{"edu":4,"add":[],"choose":[]},"credit":[9,40],"credit_note":"","skills":[{"t":"skill","id":"art"},{"t":"skill","id":"accounting"},{"t":"skill","id":"dodge"},{"t":"skill","id":"firstaid"},{"t":"skill","id":"naturalworld"},{"t":"skill","id":"medicine"},{"t":"skill","id":"science"},{"t":"skill","id":"science"}]}]};
+(function () {
+  "use strict";
+  const D = window.COC_DATA;
+  const STD = D.skills;                       // [{id,label,base}]
+  const OCCS = D.occupations;                 // [{name,era,formula,credit,credit_note,skills}]
+  const EXTRA = [                              // addable specialised skills
+    {id:"animalhandling",label:"Animal Handling",base:5},
+    {id:"lore",label:"Lore",base:1},
+    {id:"readlips",label:"Read Lips",base:1},
+    {id:"fighting_sword",label:"Fighting (Sword)",base:20},
+    {id:"fighting_spear",label:"Fighting (Spear)",base:20},
+    {id:"fighting_axe",label:"Fighting (Axe)",base:15},
+    {id:"fighting_garrote",label:"Fighting (Garrote)",base:15},
+    {id:"fighting_flail",label:"Fighting (Flail)",base:10},
+    {id:"fighting_chainsaw",label:"Fighting (Chainsaw)",base:10},
+    {id:"fighting_whip",label:"Fighting (Whip)",base:5},
+    {id:"firearms_bow",label:"Firearms (Bow)",base:15},
+    {id:"firearms_smg",label:"Firearms (SMG)",base:15},
+    {id:"firearms_flamethrower",label:"Firearms (Flamethrower)",base:10},
+    {id:"firearms_mg",label:"Firearms (Machine Gun)",base:10},
+    {id:"heavyweapons",label:"Heavy Weapons",base:10},
+  ];
+  const CHARS = [
+    ["STR","Strength"],["CON","Constitution"],["SIZ","Size"],["DEX","Dexterity"],
+    ["APP","Appearance"],["INT","Intelligence"],["POW","Power"],["EDU","Education"],
+  ];
+  const STORE_KEY = "coc7e-sheet-v1";
+
+  const el = (id) => document.getElementById(id);
+  const half = (v) => Math.floor(v / 2);
+  const fifth = (v) => Math.floor(v / 5);
+
+  const state = {
+    identity: {},
+    chars: {STR:50, CON:50, SIZ:50, DEX:50, APP:50, INT:50, POW:50, EDU:50},
+    derived: {HP:null, MP:null, SAN:null, LUCK:null},
+    occupation: "Custom",
+    occSkills: {},        // id -> true (marked occupation skill)
+    alloc: {},            // id -> {o, i}
+    extra: [],            // [{id,label,base}]
+    weapons: [{name:"Unarmed", pct:"", dmg:"1D3+DB", brawl:true}],
+    backstory: {},
+  };
+
+  function catalog() {
+    const seen = {};
+    return STD.concat(state.extra).filter((s) => (seen[s.id] ? false : (seen[s.id] = true)));
+  }
+  function baseOf(id) {
+    if (id === "dodge") return half(state.chars.DEX);
+    if (id === "ownlang") return state.chars.EDU;
+    const s = catalog().find((x) => x.id === id);
+    return s ? s.base : 0;
+  }
+  function valueOf(id) {
+    const a = state.alloc[id] || {o: 0, i: 0};
+    return baseOf(id) + (Number(a.o) || 0) + (Number(a.i) || 0);
+  }
+  function buildRow(statSum) {
+    if (statSum <= 64) return {build:-2, db:"-2"};
+    if (statSum <= 84) return {build:-1, db:"-1"};
+    if (statSum <= 124) return {build:0, db:"0"};
+    if (statSum <= 164) return {build:1, db:"+1D4"};
+    if (statSum <= 204) return {build:2, db:"+1D6"};
+    return {build:3, db:"+1D6"};
+  }
+  function movValue() {
+    const c = state.chars;
+    let mov = c.STR < c.SIZ && c.DEX < c.SIZ ? 7 : (c.STR > c.SIZ && c.DEX > c.SIZ ? 9 : 8);
+    const age = Number(state.identity.age || 0);
+    if (age >= 80) mov -= 5; else if (age >= 70) mov -= 4;
+    else if (age >= 60) mov -= 3; else if (age >= 50) mov -= 2;
+    else if (age >= 40) mov -= 1;
+    return Math.max(0, mov);
+  }
+  function occPoints() {
+    const occ = OCCS.find((o) => o.name === state.occupation);
+    const c = state.chars;
+    if (!occ || state.occupation === "Custom") return c.EDU * 4;
+    const f = occ.formula;
+    let total = c.EDU * f.edu;
+    f.add.forEach((s) => (total += c[s] * 2));
+    const chosen = state.occChoose;
+    if (chosen && f.choose.includes(chosen)) total += c[chosen] * 2;
+    return total;
+  }
+
+  // ---------- rendering ----------
+  function renderChars() {
+    const box = el("char-grid");
+    box.innerHTML = "";
+    CHARS.forEach(([k, name]) => {
+      const d = document.createElement("div");
+      d.className = "charbox";
+      d.innerHTML =
+        '<div class="cname">' + name.toUpperCase() +
+        '</div><input type="number" min="1" max="99" data-char="' + k + '" value="' + state.chars[k] + '">' +
+        '<div class="half" data-half="' + k + '">½ ' + half(state.chars[k]) + ' · ⅕ ' + fifth(state.chars[k]) + "</div>";
+      box.appendChild(d);
+    });
+  }
+  function renderDerived() {
+    const c = state.chars;
+    const hpMax = Math.floor((c.CON + c.SIZ) / 10);
+    const mpMax = Math.floor(c.POW / 5);
+    const b = buildRow(c.STR + c.SIZ);
+    const items = [
+      ["HP", "cur", state.derived.HP, "max " + hpMax],
+      ["MP", "cur", state.derived.MP, "max " + mpMax],
+      ["SAN", "cur", state.derived.SAN, "max " + c.POW],
+      ["LUCK", "cur", state.derived.LUCK, "3D6 × 5"],
+      ["MOV", "calc", movValue(), "per age"],
+      ["Build", "calc", b.build, "STR+SIZ"],
+      ["DB", "calc", b.db, "damage bonus"],
+      ["Age", "calc", state.identity.age || "—", "years"],
+    ];
+    const box = el("derived-grid");
+    box.innerHTML = "";
+    items.forEach(([name, kind, val, note]) => {
+      const d = document.createElement("div");
+      d.className = "charbox derived";
+      const input = kind === "cur"
+        ? '<input type="number" data-derived="' + name + '" value="' + (val == null ? "" : val) + '">'
+        : '<input type="text" readonly value="' + val + '">';
+      d.innerHTML = '<div class="cname">' + name + '</div>' + input +
+        '<div class="half">' + note + "</div>";
+      box.appendChild(d);
+    });
+    el("mov-note").textContent =
+      "MOV " + movValue() + " (STR " + c.STR + ", DEX " + c.DEX + ", SIZ " + c.SIZ + ", age " +
+      (state.identity.age || 0) + ") · Build " + b.build + " · DB " + b.db;
+    renderCombat();
+    renderWeapons();
+  }
+
+  function renderCombat() {
+    const c = state.chars;
+    el("cb-dodge").value = valueOf("dodge");
+    el("cb-brawl").value = valueOf("fighting");
+    el("cb-db").value = buildRow(c.STR + c.SIZ).db;
+    el("cb-hp").value = state.derived.HP != null ? state.derived.HP : Math.floor((c.CON + c.SIZ) / 10);
+    el("cb-mp").value = state.derived.MP != null ? state.derived.MP : Math.floor(c.POW / 5);
+    el("cb-san").value = state.derived.SAN != null ? state.derived.SAN : c.POW;
+  }
+
+  function occBy(name) { return OCCS.find((o) => o.name === name); }
+
+  function renderOcc() {
+    document.querySelectorAll("#occ-formula, #occ-cr").forEach((n) => (n.textContent = "—"));
+    const occ = occBy(state.occupation);
+    el("occ-era").textContent = occ && occ.era ? occ.era : "";
+    const chips = el("occ-chips");
+    const chooseBox = el("occ-choose");
+    chips.innerHTML = "";
+    chooseBox.innerHTML = "";
+    el("occ-note").textContent = "";
+    if (!occ || state.occupation === "Custom") {
+      el("occ-formula").textContent = "EDU × 4";
+      el("occ-cr").textContent = "any";
+      el("occ-note").textContent = "Custom occupation: choose any skills you and the Keeper agree on.";
+      return;
+    }
+    const f = occ.formula;
+    const parts = ["EDU × " + f.edu];
+    f.add.forEach((s) => parts.push(s + " × 2"));
+    let formula = parts.join(" + ");
+    if (f.choose.length) formula += " + (" + f.choose.map((s) => s + " × 2").join(" or ") + ")";
+    el("occ-formula").textContent = formula;
+    el("occ-cr").textContent = occ.credit ? occ.credit[0] + "–" + occ.credit[1] + "%" : "—";
+    el("occ-note").textContent = occ.credit_note || "";
+
+    if (f.choose.length) {
+      const wrap = document.createElement("div");
+      wrap.className = "rowflex";
+      wrap.innerHTML = '<label style="white-space:nowrap">Choose:</label>';
+      f.choose.forEach((s) => {
+        const b = document.createElement("button");
+        b.className = "chip" + (state.occChoose === s ? " on" : "");
+        b.textContent = s + " × 2";
+        b.onclick = () => { state.occChoose = state.occChoose === s ? null : s; save(); renderAll(); };
+        wrap.appendChild(b);
+      });
+      chooseBox.appendChild(wrap);
+    }
+    occ.skills.forEach((tok) => {
+      const chip = document.createElement("span");
+      if (tok.t === "skill") {
+        const s = catalog().find((x) => x.id === tok.id);
+        chip.className = "chip" + (state.occSkills[tok.id] ? " on" : "");
+        chip.textContent = s ? s.label : tok.id;
+        chip.title = "Mark as occupation skill";
+        chip.onclick = () => {
+          state.occSkills[tok.id] = !state.occSkills[tok.id];
+          save(); renderSkills(); renderOcc();
+        };
+      } else {
+        chip.className = "chip pick";
+        chip.textContent = tok.label;
+        chip.title = "Player's choice";
+      }
+      chips.appendChild(chip);
+    });
+  }
+
+  function pools() {
+    let o = 0, i = 0;
+    Object.values(state.alloc).forEach((a) => { o += Number(a.o) || 0; i += Number(a.i) || 0; });
+    const occTotal = occPoints();
+    const intTotal = state.chars.INT * 2;
+    el("pool-occ-total").textContent = occTotal;
+    el("pool-int-total").textContent = intTotal;
+    el("pool-occ-spent").textContent = o;
+    el("pool-int-spent").textContent = i;
+    let over = Math.max(0, o - occTotal) + Math.max(0, i - intTotal);
+    el("pool-over").textContent = over;
+    el("pool-over").className = "v " + (over ? "danger" : "");
+  }
+
+  function renderSkills() {
+    const body = el("skill-body");
+    body.innerHTML = "";
+    const occ = occBy(state.occupation);
+    const creditRange = occ && state.occupation !== "Custom" ? occ.credit : null;
+    catalog().forEach((s) => {
+      const a = state.alloc[s.id] || {o:0, i:0};
+      const base = baseOf(s.id);
+      const value = valueOf(s.id);
+      const tr = document.createElement("tr");
+      const isOcc = state.occSkills[s.id];
+      let crFlag = "";
+      if (s.id === "credit" && creditRange) {
+        crFlag = (value < creditRange[0] || value > creditRange[1])
+          ? ' <span class="danger" title="Outside occupation range">◆</span>' : "";
+      }
+      const lockCM = s.id === "cthulhu";
+      tr.innerHTML =
+        '<td class="num">' + (isOcc ? '<span class="tag-occ">OCC</span>' : "") + "</td>" +
+        '<td class="skillname">' + s.label +
+          '<span class="base">base ' + (s.base === null ? "—" : base) + "</span>" + crFlag + "</td>" +
+        '<td class="num val">' + base + "</td>" +
+        '<td class="num"><input type="number" min="0" data-alloc="' + s.id + '" data-kind="o" value="' + (a.o || "") + '" ' + (lockCM ? "disabled" : "") + ' style="width:64px;text-align:center"></td>' +
+        '<td class="num"><input type="number" min="0" data-alloc="' + s.id + '" data-kind="i" value="' + (a.i || "") + '" ' + (lockCM ? "disabled" : "") + ' style="width:64px;text-align:center"></td>' +
+        '<td class="num val" data-value="' + s.id + '">' + value + "</td>" +
+        '<td class="num">' + half(value) + "</td>" +
+        '<td class="num">' + fifth(value) + "</td>" +
+        '<td class="num">' + (s.base === null ? "" : "") + "</td>";
+      body.appendChild(tr);
+    });
+    el("skill-count").textContent = catalog().length + " skills";
+    pools();
+  }
+
+  function renderWeapons() {
+    const body = el("weapon-body");
+    body.innerHTML = "";
+    state.weapons.forEach((w, idx) => {
+      const tr = document.createElement("tr");
+      const pct = w.brawl && !w.pct ? weaponBrawl() : w.pct;
+      let dmg = w.dmg;
+      if (typeof dmg === "string" && dmg.indexOf("+DB") >= 0) {
+        const b = buildRow(state.chars.STR + state.chars.SIZ);
+        dmg = dmg.replace("+DB", b.db === "0" ? "" : " + " + b.db);
+      }
+      tr.innerHTML =
+        '<td><input type="text" data-w="' + idx + '" data-f="name" value="' + esc(w.name) + '"></td>' +
+        '<td class="num"><input type="number" data-w="' + idx + '" data-f="pct" value="' + esc(pct) + '" style="width:64px;text-align:center"></td>' +
+        '<td><input type="text" data-w="' + idx + '" data-f="dmg" value="' + esc(w.dmg) + '" style="width:110px"></td>';
+      body.appendChild(tr);
+    });
+  }
+  function weaponBrawl() {
+    return valueOf("fighting");
+  }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+  }
+
+  function renderIdentity() {
+    Object.keys(state.identity).forEach((k) => {
+      const node = el("f-" + k);
+      if (node) node.value = state.identity[k] || "";
+    });
+    document.querySelectorAll("[data-story]").forEach(() => {});
+    Object.keys(state.backstory).forEach((k) => {
+      const node = el("f-" + k);
+      if (node) node.value = state.backstory[k] || "";
+    });
+  }
+
+  function renderAll() {
+    renderIdentity();
+    renderChars();
+    renderDerived();
+    renderOcc();
+    renderSkills();
+    renderWeapons();
+    pools();
+  }
+
+  // ---------- persistence ----------
+  let saveTimer = null;
+  function save() {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => {
+      try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {}
+    }, 250);
+  }
+  function load() {
+    if (window.COC_INITIAL_STATE) {
+      // A saved self-contained sheet: its embedded state always wins.
+      Object.assign(state, window.COC_INITIAL_STATE);
+      return;
+    }
+    try {
+      const raw = localStorage.getItem(STORE_KEY);
+      if (raw) Object.assign(state, JSON.parse(raw));
+    } catch (e) {}
+  }
+
+  // ---------- events ----------
+  function bind() {
+    document.addEventListener("input", (e) => {
+      const t = e.target;
+      if (t.dataset.char) {
+        state.chars[t.dataset.char] = clampNum(t.value);
+        const c = t.dataset.char;
+        const h = document.querySelector('[data-half="' + c + '"]');
+        if (h) h.textContent = "½ " + half(state.chars[c]) + " · ⅕ " + fifth(state.chars[c]);
+        renderDerived(); renderSkills();
+      } else if (t.dataset.alloc) {
+        const id = t.dataset.alloc, kind = t.dataset.kind;
+        state.alloc[id] = state.alloc[id] || {o:0, i:0};
+        state.alloc[id][kind] = clampNum(t.value);
+        refreshSkill(id);
+      } else if (t.dataset.derived) {
+        state.derived[t.dataset.derived] = clampNum(t.value);
+        renderCombat();
+      } else if (t.dataset.w !== undefined) {
+        const w = state.weapons[Number(t.dataset.w)];
+        w[t.dataset.f] = t.dataset.f === "pct" ? clampNum(t.value) : t.value;
+        if (t.dataset.f === "dmg") renderWeapons();
+      } else if (t.id && t.id.indexOf("f-") === 0) {
+        const key = t.id.slice(2);
+        if (["name","sex","residence","birthplace","player","age"].includes(key)) state.identity[key] = t.value;
+        else state.backstory[key] = t.value;
+        if (key === "age") { renderDerived(); }
+      }
+      save();
+    });
+
+    el("f-occupation").addEventListener("change", (e) => {
+      state.occupation = e.target.value;
+      state.occChoose = null;
+      save(); renderOcc(); renderSkills();
+    });
+    el("btn-add-skill").addEventListener("click", () => {
+      const id = el("add-skill").value;
+      if (!id) return;
+      const s = EXTRA.find((x) => x.id === id);
+      if (s && !state.extra.find((x) => x.id === id)) state.extra.push(s);
+      el("add-skill").value = "";
+      save(); renderSkills();
+    });
+    el("btn-clear-skills").addEventListener("click", () => {
+      state.alloc = {};
+      save(); renderSkills();
+    });
+    el("btn-add-weapon").addEventListener("click", () => {
+      state.weapons.push({name:"", pct:"", dmg:""});
+      save(); renderWeapons();
+    });
+    el("btn-reset").addEventListener("click", () => {
+      if (!confirm("Reset the sheet? This clears all entered data.")) return;
+      localStorage.removeItem(STORE_KEY);
+      location.reload();
+    });
+    el("btn-save-json").addEventListener("click", () => download("investigator.json", JSON.stringify(state, null, 2)));
+    el("btn-load-json").addEventListener("click", () => el("file-json").click());
+    el("file-json").addEventListener("change", (e) => {
+      const f = e.target.files[0];
+      if (!f) return;
+      const r = new FileReader();
+      r.onload = () => { try { Object.assign(state, JSON.parse(r.result)); renderAll(); save(); } catch (err) { alert("Invalid file"); } };
+      r.readAsText(f);
+    });
+    el("btn-save-svg").addEventListener("click", saveSVG);
+    el("btn-save-html").addEventListener("click", saveHTML);
+  }
+
+  function clampNum(v) {
+    const n = Number(v);
+    if (isNaN(n) || n < 0) return 0;
+    return Math.floor(n);
+  }
+  function refreshSkill(id) {
+    const a = state.alloc[id] || {o:0, i:0};
+    const value = valueOf(id);
+    const cell = document.querySelector('[data-value="' + id + '"]');
+    if (!cell) return;
+    const tr = cell.parentElement;
+    const tds = tr.children;
+    tds[5].textContent = value;
+    tds[6].textContent = half(value);
+    tds[7].textContent = fifth(value);
+    pools();
+    renderCombat();
+  }
+
+  // ---------- SVG export ----------
+  function saveSVG() {
+    const svg = buildSVG();
+    const blob = new Blob([svg], {type:"image/svg+xml"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = (state.identity.name ? state.identity.name.replace(/\s+/g, "_") : "investigator") + "_coc7e.svg";
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+  function buildSVG() {
+    const W = 1240, H = 1754, M = 48;
+    let y = 0;
+    const out = [];
+    const push = (s) => out.push(s);
+    const T = (x, yy, s, o) => {
+      o = o || {};
+      const size = o.size || 16, fill = o.fill || "#d7e6db", anchor = o.anchor || "start";
+      const weight = o.weight || "normal", family = o.family || "Georgia, serif", op = o.op || 1, style = o.style || "normal";
+      push('<text x="' + x + '" y="' + yy + '" font-family="' + family + '" font-size="' + size +
+        '" fill="' + fill + '" text-anchor="' + anchor + '" font-weight="' + weight +
+        '" font-style="' + style + '" opacity="' + op + '">' + esc(s) + "</text>");
+    };
+    const R = (x, yy, w, h, o) => {
+      o = o || {};
+      push('<rect x="' + x + '" y="' + yy + '" width="' + w + '" height="' + h +
+        '" rx="' + (o.rx || 8) + '" fill="' + (o.fill || "#131a15") + '" stroke="' + (o.stroke || "#24352b") + '"/>');
+    };
+    push('<svg xmlns="http://www.w3.org/2000/svg" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + " " + H + '">');
+    push('<rect width="' + W + '" height="' + H + '" fill="#0a0f0c"/>');
+    // title
+    T(M, 66, "CALL OF CTHULHU 7e", {size:30, fill:"#6ee7a0", family:"Georgia, serif", weight:"bold"});
+    T(M, 92, "Investigator Sheet", {size:15, fill:"#7f9a89", family:"Georgia, serif", style:"italic"});
+    T(W - M, 66, state.identity.name || "—", {size:22, fill:"#c9a24a", anchor:"end", family:"Georgia, serif"});
+    T(W - M, 92, state.occupation, {size:14, fill:"#7f9a89", anchor:"end"});
+
+    // characteristics
+    y = 120;
+    R(M, y, W - 2 * M, 150);
+    T(M + 14, y + 24, "CHARACTERISTICS", {size:13, fill:"#6ee7a0", weight:"bold", family:"Inter, sans-serif"});
+    const cw = (W - 2 * M - 28) / 8;
+    CHARS.forEach(([k, name], idx) => {
+      const cx = M + 14 + idx * cw;
+      T(cx + cw / 2, y + 56, name.toUpperCase(), {size:10, fill:"#7f9a89", anchor:"middle", family:"Inter, sans-serif"});
+      T(cx + cw / 2, y + 92, String(state.chars[k]), {size:30, fill:"#6ee7a0", anchor:"middle", family:"Georgia, serif", weight:"bold"});
+      T(cx + cw / 2, y + 118, "½ " + half(state.chars[k]) + "  ·  ⅕ " + fifth(state.chars[k]), {size:10, fill:"#7f9a89", anchor:"middle"});
+    });
+
+    // derived
+    y = 288;
+    const b = buildRow(state.chars.STR + state.chars.SIZ);
+    const hpMax = Math.floor((state.chars.CON + state.chars.SIZ) / 10);
+    const mpMax = Math.floor(state.chars.POW / 5);
+    const derived = [
+      ["HP", state.derived.HP != null ? state.derived.HP : hpMax],
+      ["MP", state.derived.MP != null ? state.derived.MP : mpMax],
+      ["SAN", state.derived.SAN != null ? state.derived.SAN : state.chars.POW],
+      ["LUCK", state.derived.LUCK != null ? state.derived.LUCK : ""],
+      ["MOV", movValue()], ["Build", b.build], ["DB", b.db], ["Age", state.identity.age || ""],
+    ];
+    R(M, y, W - 2 * M, 92);
+    derived.forEach(([name, val], idx) => {
+      const dw = (W - 2 * M - 28) / 8;
+      const dx = M + 14 + idx * dw;
+      T(dx + dw / 2, y + 28, name, {size:10, fill:"#7f9a89", anchor:"middle", family:"Inter, sans-serif"});
+      T(dx + dw / 2, y + 66, String(val), {size:24, fill:"#c9a24a", anchor:"middle", family:"Georgia, serif", weight:"bold"});
+    });
+
+    // occupation skills summary + points
+    y = 396;
+    const occ = occBy(state.occupation);
+    R(M, y, (W - 2 * M) * 0.44, 150);
+    const ogx = M + 14;
+    T(ogx, y + 24, "OCCUPATION", {size:13, fill:"#6ee7a0", weight:"bold", family:"Inter, sans-serif"});
+    T(ogx, y + 50, state.occupation, {size:16, fill:"#d7e6db", family:"Georgia, serif"});
+    if (occ && state.occupation !== "Custom") {
+      const f = occ.formula;
+      const parts = ["EDU × " + f.edu];
+      f.add.forEach((s) => parts.push(s + " × 2"));
+      let formula = parts.join(" + ");
+      if (f.choose.length) formula += " + (" + f.choose.map((s) => s + " × 2").join("/") + ")";
+      T(ogx, y + 72, formula, {size:12, fill:"#9fb8a8", family:"Inter, sans-serif"});
+      T(ogx, y + 92, "Credit Rating " + (occ.credit ? occ.credit[0] + "–" + occ.credit[1] + "%" : "—"), {size:12, fill:"#9fb8a8", family:"Inter, sans-serif"});
+    }
+    T(ogx, y + 122, "Occupation pts " + el("pool-occ-spent").textContent + " / " + occPoints() +
+      "   ·   Interest pts " + el("pool-int-spent").textContent + " / " + state.chars.INT * 2,
+      {size:12, fill:"#c9a24a", family:"Inter, sans-serif"});
+
+    // skills in two columns
+    const sx = [M, M + (W - 2 * M) / 2 + 10];
+    const colW = (W - 2 * M) / 2 - 10;
+    y = 566;
+    const skills = catalog();
+    const perCol = Math.ceil(skills.length / 2);
+    skills.forEach((s, idx) => {
+      const col = idx >= perCol ? 1 : 0;
+      const row = idx >= perCol ? idx - perCol : idx;
+      const rx = sx[col];
+      const ry = y + row * 24;
+      const a = state.alloc[s.id] || {o:0, i:0};
+      const value = baseOf(s.id) + (Number(a.o) || 0) + (Number(a.i) || 0);
+      T(rx, ry, s.label, {size:13, fill:"#d7e6db", family:"Inter, sans-serif"});
+      T(rx + colW - 130, ry, String(baseOf(s.id)), {size:11, fill:"#7f9a89", anchor:"end", family:"Inter, sans-serif"});
+      T(rx + colW - 80, ry, (state.occSkills[s.id] ? "O" : ""), {size:11, fill:"#c9a24a", anchor:"end", family:"Inter, sans-serif"});
+      T(rx + colW - 30, ry, String(value), {size:13, fill:"#c9a24a", anchor:"end", family:"Georgia, serif", weight:"bold"});
+      T(rx + colW, ry, "½ " + half(value), {size:11, fill:"#7f9a89", anchor:"end", family:"Inter, sans-serif"});
+    });
+
+    // weapons
+    y = 1220;
+    R(M, y, W - 2 * M, 150);
+    T(M + 14, y + 26, "WEAPONS", {size:13, fill:"#6ee7a0", weight:"bold", family:"Inter, sans-serif"});
+    T(M + 14, y + 50, "Weapon", {size:10, fill:"#7f9a89", family:"Inter, sans-serif"});
+    T(M + 380, y + 50, "%", {size:10, fill:"#7f9a89", anchor:"end", family:"Inter, sans-serif"});
+    T(M + 420, y + 50, "Damage", {size:10, fill:"#7f9a89", family:"Inter, sans-serif"});
+    state.weapons.slice(0, 5).forEach((w, i) => {
+      const wy = y + 76 + i * 22;
+      let pct = w.brawl && !w.pct ? weaponBrawl() : w.pct;
+      let dmg = w.dmg;
+      if (typeof dmg === "string" && dmg.indexOf("+DB") >= 0) {
+        dmg = dmg.replace("+DB", b.db === "0" ? "" : " + " + b.db);
+      }
+      T(M + 14, wy, w.name || "—", {size:13, fill:"#d7e6db", family:"Inter, sans-serif"});
+      T(M + 380, wy, String(pct), {size:13, fill:"#c9a24a", anchor:"end", family:"Georgia, serif"});
+      T(M + 420, wy, String(dmg), {size:13, fill:"#c9a24a", family:"Georgia, serif"});
+    });
+
+    // backstory
+    y = 1390;
+    R(M, y, W - 2 * M, H - y - M - 24);
+    T(M + 14, y + 26, "BACKSTORY & NOTES", {size:13, fill:"#6ee7a0", weight:"bold", family:"Inter, sans-serif"});
+    const story = [
+      ["Description", state.backstory.desc], ["Ideology", state.backstory.ideology],
+      ["People", state.backstory.people], ["Locations", state.backstory.places],
+      ["Possessions", state.backstory.treasure], ["Traits", state.backstory.traits],
+      ["Notes", state.backstory.notes],
+    ].filter((s) => s[1]);
+    let sy = y + 52;
+    if (!story.length) {
+      T(M + 14, sy, "—", {size:12, fill:"#4d6357", family:"Inter, sans-serif"});
+    }
+    story.slice(0, 10).forEach(([label, val]) => {
+      const txt = String(val).replace(/\s+/g, " ").slice(0, 150);
+      T(M + 14, sy, label + ":", {size:12, fill:"#7f9a89", family:"Inter, sans-serif"});
+      T(M + 110, sy, txt, {size:12, fill:"#d7e6db", family:"Inter, sans-serif"});
+      sy += 22;
+    });
+    push("</svg>");
+    return out.join("");
+  }
+
+  function saveHTML() {
+    // Make sure the combat mirrors reflect the latest values, then bake the
+    // current .value into the serialized "value" attribute (outerHTML does not
+    // capture values set via the DOM property).
+    renderCombat();
+    renderWeapons();
+    bakeControlValues();
+    // Drop any bootstrap embedded by a previous save. Do this on the DOM, not by
+    // string regex: the app's own source contains the literal text
+    // "<script>window.COC_INITIAL_STATE=", so a regex would cut off the script.
+    Array.prototype.forEach.call(document.querySelectorAll("script"), function (sc) {
+      const txt = (sc.textContent || "").replace(/^\s+/, "");
+      if (txt.indexOf("window.COC_INITIAL_STATE=") === 0 && sc.parentNode) {
+        sc.parentNode.removeChild(sc);
+      }
+    });
+    let html = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+    const json = JSON.stringify(state).replace(/</g, "\\u003c");
+    const boot = "<script>window.COC_INITIAL_STATE=" + json + ";<\/script>\n";
+    const marker = "<script>\nwindow.COC_DATA";
+    const i = html.indexOf(marker);
+    html = i >= 0 ? html.slice(0, i) + boot + html.slice(i)
+                  : html.replace("</head>", boot + "</head>");
+    const base = state.identity.name ? state.identity.name.replace(/\s+/g, "_") : "investigator";
+    download(base + "_coc7e.html", html, "text/html");
+  }
+
+  function bakeControlValues() {
+    // DOM-set .value is not part of outerHTML; copy it into attributes/text
+    // so the serialized file carries the current values even without JS.
+    const nodes = document.querySelectorAll("input, select, textarea");
+    Array.prototype.forEach.call(nodes, function (n) {
+      const tag = (n.tagName || "").toLowerCase();
+      if (tag === "textarea") {
+        n.textContent = n.value;
+      } else if (tag === "select") {
+        Array.prototype.forEach.call(n.options || [], function (o) {
+          o.selected = o.value === n.value;
+        });
+      } else if (n.setAttribute) {
+        n.setAttribute("value", n.value);
+      }
+    });
+  }
+
+  function download(name, text, type) {
+    const blob = new Blob([text], {type: type || "application/json"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = name; a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  // ---------- init ----------
+  function initSelects() {
+    const os = el("f-occupation");
+    os.innerHTML = "";
+    ["Custom"].concat(OCCS.map((o) => o.name)).forEach((n) => {
+      const opt = document.createElement("option");
+      opt.value = n; opt.textContent = n;
+      os.appendChild(opt);
+    });
+    os.value = state.occupation;
+
+    const as = el("add-skill");
+    as.innerHTML = '<option value="">Add skill…</option>';
+    EXTRA.forEach((s) => {
+      const opt = document.createElement("option");
+      opt.value = s.id; opt.textContent = s.label + " (base " + s.base + ")";
+      as.appendChild(opt);
+    });
+  }
+
+  function populateDefaults() {
+    const c = state.chars;
+    if (state.identity.age == null) state.identity.age = 30;
+    if (state.derived.HP == null) state.derived.HP = Math.floor((c.CON + c.SIZ) / 10);
+    if (state.derived.MP == null) state.derived.MP = Math.floor(c.POW / 5);
+    if (state.derived.SAN == null) state.derived.SAN = c.POW;
+    if (state.derived.LUCK == null) state.derived.LUCK = "";
+  }
+
+  load();
+  populateDefaults();
+  initSelects();
+  bind();
+  renderAll();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+[
+ {
+  "id": "accounting",
+  "label": "Accounting",
+  "base": 5
+ },
+ {
+  "id": "anthropology",
+  "label": "Anthropology",
+  "base": 1
+ },
+ {
+  "id": "appraise",
+  "label": "Appraise",
+  "base": 5
+ },
+ {
+  "id": "archaeology",
+  "label": "Archaeology",
+  "base": 1
+ },
+ {
+  "id": "art",
+  "label": "Art/Craft",
+  "base": 5
+ },
+ {
+  "id": "charm",
+  "label": "Charm",
+  "base": 15
+ },
+ {
+  "id": "climb",
+  "label": "Climb",
+  "base": 20
+ },
+ {
+  "id": "computer",
+  "label": "Computer Use",
+  "base": 5
+ },
+ {
+  "id": "credit",
+  "label": "Credit Rating",
+  "base": 0
+ },
+ {
+  "id": "cthulhu",
+  "label": "Cthulhu Mythos",
+  "base": 0
+ },
+ {
+  "id": "demolitions",
+  "label": "Demolitions",
+  "base": 1
+ },
+ {
+  "id": "disguise",
+  "label": "Disguise",
+  "base": 5
+ },
+ {
+  "id": "diving",
+  "label": "Diving",
+  "base": 1
+ },
+ {
+  "id": "dodge",
+  "label": "Dodge",
+  "base": null
+ },
+ {
+  "id": "drive",
+  "label": "Drive Auto",
+  "base": 20
+ },
+ {
+  "id": "elecrepair",
+  "label": "Electrical Repair",
+  "base": 10
+ },
+ {
+  "id": "fasttalk",
+  "label": "Fast Talk",
+  "base": 5
+ },
+ {
+  "id": "fighting",
+  "label": "Fighting",
+  "base": 25
+ },
+ {
+  "id": "firearms",
+  "label": "Firearms",
+  "base": 20
+ },
+ {
+  "id": "firstaid",
+  "label": "First Aid",
+  "base": 30
+ },
+ {
+  "id": "history",
+  "label": "History",
+  "base": 5
+ },
+ {
+  "id": "intimidate",
+  "label": "Intimidate",
+  "base": 15
+ },
+ {
+  "id": "jump",
+  "label": "Jump",
+  "base": 20
+ },
+ {
+  "id": "language",
+  "label": "Language (Other)",
+  "base": 1
+ },
+ {
+  "id": "ownlang",
+  "label": "Language (Own)",
+  "base": null
+ },
+ {
+  "id": "law",
+  "label": "Law",
+  "base": 5
+ },
+ {
+  "id": "library",
+  "label": "Library Use",
+  "base": 20
+ },
+ {
+  "id": "listen",
+  "label": "Listen",
+  "base": 20
+ },
+ {
+  "id": "locksmith",
+  "label": "Locksmith",
+  "base": 1
+ },
+ {
+  "id": "mechanical",
+  "label": "Mechanical Repair",
+  "base": 10
+ },
+ {
+  "id": "medicine",
+  "label": "Medicine",
+  "base": 1
+ },
+ {
+  "id": "naturalworld",
+  "label": "Natural World",
+  "base": 10
+ },
+ {
+  "id": "navigate",
+  "label": "Navigate",
+  "base": 10
+ },
+ {
+  "id": "occult",
+  "label": "Occult",
+  "base": 5
+ },
+ {
+  "id": "operateheavy",
+  "label": "Operate Heavy Machinery",
+  "base": 1
+ },
+ {
+  "id": "persuade",
+  "label": "Persuade",
+  "base": 10
+ },
+ {
+  "id": "pilot",
+  "label": "Pilot",
+  "base": 1
+ },
+ {
+  "id": "psychoanalysis",
+  "label": "Psychoanalysis",
+  "base": 1
+ },
+ {
+  "id": "psychology",
+  "label": "Psychology",
+  "base": 10
+ },
+ {
+  "id": "ride",
+  "label": "Ride",
+  "base": 5
+ },
+ {
+  "id": "science",
+  "label": "Science",
+  "base": 1
+ },
+ {
+  "id": "sleight",
+  "label": "Sleight of Hand",
+  "base": 10
+ },
+ {
+  "id": "spot",
+  "label": "Spot Hidden",
+  "base": 25
+ },
+ {
+  "id": "stealth",
+  "label": "Stealth",
+  "base": 20
+ },
+ {
+  "id": "survival",
+  "label": "Survival",
+  "base": 10
+ },
+ {
+  "id": "swim",
+  "label": "Swim",
+  "base": 20
+ },
+ {
+  "id": "throw",
+  "label": "Throw",
+  "base": 20
+ },
+ {
+  "id": "track",
+  "label": "Track",
+  "base": 10
+ },
+ {
+  "id": "hypnosis",
+  "label": "Hypnosis",
+  "base": 1
+ },
+ {
+  "id": "artillery",
+  "label": "Artillery",
+  "base": 1
+ },
+ {
+  "id": "electronics",
+  "label": "Electronics",
+  "base": 1
+ }
+]

@@ -1,0 +1,800 @@
+[
+  {
+    "name": "Accountant",
+    "points": "EDU × 4",
+    "cr": "30–70",
+    "contacts": "Business associates, legal professions, financial sector (bankers, other accountants).",
+    "skills": "Accounting, Law, Library Use, Listen, Persuade, Spot Hidden, any two other skills as personal or era specialties (e.g. Computer Use)."
+  },
+  {
+    "name": "Acrobat",
+    "points": "EDU × 2 + DEX × 2",
+    "cr": "9–20",
+    "contacts": "Amateur athletic circles, sports writers, circuses, carnivals.",
+    "skills": "Climb, Dodge, Jump, Throw, Spot Hidden, Swim, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Stage Actor",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "9–40",
+    "contacts": "Theatre industry, newspaper arts critics, actor’s guild or union.",
+    "skills": "Art/Craft (Acting), Disguise, Fighting, History, two interpersonal skills (Charm, Fast Talk, Intimi- date, or Persuade), Psychology, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Film Star",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "20–90",
+    "contacts": "Film industry, media critics, writers.",
+    "skills": "Art/Craft (Acting), Disguise, Drive Auto, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills as personal or era specialties (e.g. Ride or Fighting)."
+  },
+  {
+    "name": "Agency Detective",
+    "points": "EDU × 2 + (STR × 2 or DEX × 2)",
+    "cr": "20–45",
+    "contacts": "Local law enforcement, clients.",
+    "skills": "One interpersonal skill (Charm, Fast Talk, Intim- idate or Persuade), Fighting (Brawl), Firearms, Law, Library Use, Psychology, Stealth, Track. This acrobat can swing on just about anything!"
+  },
+  {
+    "name": "Alienist [Classic]",
+    "points": "EDU × 4",
+    "cr": "10–60",
+    "contacts": "Others in the field of mental illness, medical doctors, and occasionally detectives in law enforcement.",
+    "skills": "Law, Listen, Medicine, Other Language, Psycho- analysis, Psychology, Science (Biology), (Chemistry)."
+  },
+  {
+    "name": "Animal Trainer",
+    "points": "EDU × 2 + (APP × 2 or POW × 2)",
+    "cr": "10–40",
+    "contacts": "Zoos, circus folk, patrons, actors.",
+    "skills": "Jump, Listen, Natural World, Psychology, Science (Zoology), Stealth, Track, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Antiquarian [Lovecraftian]",
+    "points": "EDU × 4",
+    "cr": "30–70",
+    "contacts": "Booksellers, antique collectors, historical societies.",
+    "skills": "Appraise, Art/Craft (any), History, Library Use, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Antique Dealer",
+    "points": "EDU × 4",
+    "cr": "30–50",
+    "contacts": "Local historians, other antique deal- ers, possibly criminal fences.",
+    "skills": "Accounting, Appraise, Drive Auto, two interper- sonal skills (Charm, Fast Talk, Intimidate, or Per- suade), History, Library Use, Navigate."
+  },
+  {
+    "name": "Archaeologist [Lovecraftian]",
+    "points": "EDU × 4",
+    "cr": "10–40",
+    "contacts": "Patrons, museums, universities.",
+    "skills": "Appraise, Archaeology, History, Other Language (any), Library Use, Spot Hidden, Mechanical Re- pair, Navigate or Science (e.g. chemistry, physics, geology, etc.)"
+  },
+  {
+    "name": "Architect",
+    "points": "EDU × 4",
+    "cr": "30–70",
+    "contacts": "Local building and city engineer- ing departments, construction firms.",
+    "skills": "Accounting, Art/Craft (Technical Drawing), Law, Own Language, Computer Use or Library Use, Persuade, Psychology, Science (Mathematics)."
+  },
+  {
+    "name": "Artist",
+    "points": "EDU×2+(DEX×2orPOW×2)",
+    "cr": "9–50",
+    "contacts": "Art galleries, critics, wealthy pa- trons, the advertising industry.",
+    "skills": "Art/Craft (any), History or Natural World, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Other Language, Psychology, Spot Hidden, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Asylum Attendant",
+    "points": "EDU×2+(STR×2orDEX×2)",
+    "cr": "8–20",
+    "contacts": "Medical staff, patients, and relatives of patients. Access to medical records, as well as drugs and other medical supplies.",
+    "skills": "Dodge, Fighting (Brawl), First Aid, two inter- personal skills (Charm, Fast Talk, Intimidate, or Persuade), Listen, Psychology, Stealth."
+  },
+  {
+    "name": "Athlete",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–70",
+    "contacts": "Sports personalities, sports writers, other media stars.",
+    "skills": "Climb, Jump, Fighting (Brawl), Ride, one inter- personal skill (Charm, Fast Talk, Intimidate, or Persuade), Swim, Throw, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Author [Lovecraftian]",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "publishers, critics, historians, etc.",
+    "skills": "Art (Literature), History, Library Use, Natural World or Occult, Other Language, Own Language, Psychology, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Bartender",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "8–25",
+    "contacts": "Regular customers, possibly orga- nized crime.",
+    "skills": "Accounting, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Fighting (Brawl), Listen, Psychology, Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Big Game Hunter",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "20–50",
+    "contacts": "Foreign government officials, game wardens, past (usually wealthy) clients, black-mar- ket gangs and traders, zoo owners.",
+    "skills": "Firearms, Listen or Spot Hidden, Natural World, Navigate, Other Language or Survival (any), Science (Biology or Botany), Stealth, Track."
+  },
+  {
+    "name": "Book Dealer",
+    "points": "EDU × 4",
+    "cr": "20–40.",
+    "contacts": "Bibliographers, book dealers, li- braries and universities, clients.",
+    "skills": "Accounting, Appraise, Drive Auto, History, Library Use, Own Language, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade),"
+  },
+  {
+    "name": "Bounty Hunter",
+    "points": "EDU×2+(DEX× 2or STR×2)",
+    "cr": "9–30",
+    "contacts": "Bail bondsmen, local police, crim- inal informants.",
+    "skills": "Drive Auto, Electronic or Electrical Repair, Fight- ing or Firearms, one interpersonal skill (Fast Talk, Charm, Intimidate, or Persuade), Law, Psychology, Track, Stealth."
+  },
+  {
+    "name": "Boxer/Wrestler",
+    "points": "EDU × 2 + STR × 2",
+    "cr": "9–60",
+    "contacts": "Sports promoters, journalists, or- ganized crime, professional trainers.",
+    "skills": "Dodge, Fighting (Brawl), Intimidate, Jump, Psychology, Spot Hidden, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Butler/Valet/Maid",
+    "points": "EDU × 4",
+    "cr": "9–40 (dependent on their employer’s status and credit rating).",
+    "contacts": "Waiting staff of other households, local businesses and household suppliers.",
+    "skills": "Accounting or Appraise,Art/Craft (any, e.g. Cook, Tailor, Barber), First Aid, Listen, Other Language, Psychology, Spot Hidden, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Clergy, Member of the",
+    "points": "EDU × 4",
+    "cr": "9–60",
+    "contacts": "Church hierarchy, local congrega- tions, community leaders.",
+    "skills": "Accounting, History, Library Use, Listen, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any one other skill."
+  },
+  {
+    "name": "Computer Programmer/Technician",
+    "points": "EDU × 4",
+    "cr": "10–70",
+    "contacts": "Other IT workers, corporate workers and managers, specialized Internet web communities.",
+    "skills": "Computer Use, Electrical Repair, Electronics, Li- brary Use, Science (Mathematics), Spot Hidden, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Hacker",
+    "points": "EDU × 4",
+    "cr": "10–70",
+    "contacts": "IT workers, specialized Internet web communities, political groups, criminal enter- prises.",
+    "skills": "Computer Use, Electrical Repair, Electronics, Library Use, Spot Hidden, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any two other skills."
+  },
+  {
+    "name": "Cowboy/girl",
+    "points": "EDU × 2 + (DEX × 2 or STR × 2) A hacker fights the occult through use of technology",
+    "cr": "9–20",
+    "contacts": "Local businesspeople, state agricul- tural departments, rodeo promoters, and entertainers.",
+    "skills": "Dodge, Fighting or Firearms, First Aid or Natural World, Jump, Ride, Survival (any), Throw, Track."
+  },
+  {
+    "name": "Craftsperson",
+    "points": "EDU × 2 + DEX × 2",
+    "cr": "10–40",
+    "contacts": "Local business people, other crafts- persons and artists.",
+    "skills": "Accounting, Art/Craft (any two), Mechanical Repair, Natural World, Spot Hidden, any two other skills as personal specialties."
+  },
+  {
+    "name": "Assassin",
+    "points": "EDU×2+(DEX×2orSTR ×2)",
+    "cr": "30–60",
+    "contacts": "Few, mostly underworld; people prefer not to know them too well. The best will have earned a formidable reputation on the street.",
+    "skills": "Disguise, Electrical Repair, Fighting, Firearms, Locksmith, Mechanical Repair, Stealth, Psychology."
+  },
+  {
+    "name": "Bank Robber",
+    "points": "EDU×2+(STR×2or DEX×2)",
+    "cr": "5–75",
+    "contacts": "Other gang members (current and retired), criminal freelancers, organized crime.",
+    "skills": "Drive Auto, Electrical or Mechanical Repair, Fighting, Firearms, Intimidate, Locksmith, Operate Heavy Machinery, any one other skill as personal or era specialty."
+  },
+  {
+    "name": "Bootlegger/Thug",
+    "points": "EDU × 2 + STR × 2",
+    "cr": "5–30",
+    "contacts": "Organized crime, street-level law enforcement, local traders.",
+    "skills": "Drive Auto, Fighting, Firearms, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Stealth, Spot Hidden."
+  },
+  {
+    "name": "Burglar",
+    "points": "EDU × 2 + DEX × 2",
+    "cr": "5–40",
+    "contacts": "Fences, other burglars.",
+    "skills": "Appraise, Climb, Electrical or Mechanical Repair, Listen, Locksmith, Sleight of Hand, Stealth, Spot Hidden."
+  },
+  {
+    "name": "Conman",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "10–65",
+    "contacts": "Other confidence artists, freelance criminals.",
+    "skills": "Appraise, Art/Craft (Acting), Law or Other Language, Listen, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Sleight of Hand."
+  },
+  {
+    "name": "Skills: Appraise, Art/Craft (Acting), Law or Other",
+    "points": "EDU×2+(DEX×2orAPP×2)",
+    "cr": "5–65",
+    "contacts": "Other petty criminals, street-level law enforcement.",
+    "skills": "Art/Craft (Acting) or Disguise, Appraise, one in- terpersonal skill (Charm, Fast Talk, or Intimidate), Fighting or Firearms, Locksmith or Mechanical Repair, Stealth, Psychology, Spot Hidden. Gun Moll [Classic] A female professional criminal. While many are fiercely independent, some are at the beck and call of mobster boyfriends—however, in reality this could easily be the other way around, with the moll working her boyfriend for all she can before skedaddling with all the cash and"
+  },
+  {
+    "name": "Gun Moll [Classic]",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "10–80 (income is usually dependent on boyfriend’s income)",
+    "contacts": "Gangsters, law en- forcement, local businesses.",
+    "skills": "Art/Craft (any), two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Fighting (Brawl) or Fire- arms (Handgun), Drive Auto, Listen, Stealth, any one other skill as personal or era specialty."
+  },
+  {
+    "name": "Fence",
+    "points": "EDU × 2 + APP× 2",
+    "cr": "20–40",
+    "contacts": "Organized crime, trade contacts, black market and legitimate buyers.",
+    "skills": "Accounting, Appraise, Art/Craft (Forgery), History, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Library Use, Spot Hidden, any one other skill."
+  },
+  {
+    "name": "Forger/Counterfeiter",
+    "points": "EDU × 4",
+    "cr": "20–60",
+    "contacts": "Organized crime, businesspeople.",
+    "skills": "Accounting, Appraise, Art/Craft (Forgery), His- tory, Library Use, Spot Hidden, Sleight of Hand, any one other skill as personal or era specialty (e.g. Computer Use)."
+  },
+  {
+    "name": "Smuggler",
+    "points": "EDU×2+(APP×2orDEX×2)",
+    "cr": "20–60",
+    "contacts": "Organized crime, Coast Guard, U.S. Customs officials.",
+    "skills": "Firearms, Listen, Navigate, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Drive Auto or Pilot (Aircraft or Boat), Psychology, Sleight of Hand, Spot Hidden."
+  },
+  {
+    "name": "Street Punk",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "3–10",
+    "contacts": "Petty criminals, other punks, the local fence, maybe the local gangster, certainly the local police.",
+    "skills": "Climb, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Fighting, Firearms, Jump, Sleight of Hand, Stealth, Throw."
+  },
+  {
+    "name": "Cult Leader",
+    "points": "EDU x 2 + APP x 2",
+    "cr": "30–60",
+    "contacts": "While the majority of followers will be regular people, the more charismatic the leader, the greater the possibility of celebrity followers, such as movie stars and rich widows.",
+    "skills": "Accounting, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Occult, Psychology, Spot Hidden, any two other skills as specialties."
+  },
+  {
+    "name": "Deprogrammer [Modern]",
+    "points": "EDU × 4",
+    "cr": "20–50",
+    "contacts": "Local and federal law enforcement, criminals, religious community.",
+    "skills": "Two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Drive Auto, Fighting (Brawl) or Firearms, History, Occult, Psychology, Stealth. may be substituted for one of the listed skills."
+  },
+  {
+    "name": "Designer",
+    "points": "EDU × 4",
+    "cr": "20–60",
+    "contacts": "Advertising, media, furnishings, architectural, other.",
+    "skills": "Accounting, Art (Photography), Art/Craft (any), Computer Use or Library Use, Mechanical Repair, Psychology, Spot Hidden, any one other skill as personal specialty."
+  },
+  {
+    "name": "Dilettante [Lovecraftian]",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "50–99",
+    "contacts": "Variable, but usually people of a similar background and tastes, fraternal organiza- tions, bohemian circles, high society at large.",
+    "skills": "Art/Craft (Any), Firearms, Other Language, Ride, one interpersonal skill (Charm, Fast Talk, Intimi- date, or Persuade), any three other skills as personal or era specialties."
+  },
+  {
+    "name": "Diver",
+    "points": "EDU × 2 + DEX × 2",
+    "cr": "9–30",
+    "contacts": "Coast guard, ship captains, mili- tary, law enforcement, smugglers.",
+    "skills": "Diving, First Aid, Mechanical Repair, Pilot (Boat), Science (Biology), Spot Hidden, Swim, any one other skill as personal or era specialty."
+  },
+  {
+    "name": "Doctor of Medicine [Lovecraftian]",
+    "points": "EDU x 4",
+    "cr": "30–80",
+    "contacts": "Other physicians, medical workers, patients and ex-patients.",
+    "skills": "First Aid, Medicine, Other Language (Latin), Psychology, Science (Biology and Pharmacy), any two other skills as academic or personal specialties."
+  },
+  {
+    "name": "Drifter",
+    "points": "EDU × 2 + (APP× 2 or DEX × 2 or STR × 2)",
+    "cr": "0–5",
+    "contacts": "Other hobos, a few Friendly rail- road guards, soft touches in numerous towns.",
+    "skills": "Climb,Jump,Listen,Navigate,oneinterpersonalskill (Charm, Fast Talk, Intimidate, or Persuade), Stealth, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Chauffeur",
+    "points": "EDU × 2 + DEX × 2",
+    "cr": "10–40",
+    "contacts": "Successful business people (crimi- nals included), political representatives.",
+    "skills": "Drive Auto, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Listen, Mechanical Repair, Navigate, Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Driver",
+    "points": "EDU×2+(DEX×2orSTR × 2)",
+    "cr": "9–20",
+    "contacts": "Customers, businesses, law en- forcement and general street level life.",
+    "skills": "Accounting, Drive Auto, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Mechanical Repair, Navigate, Psychology, any one other skill as personal or era specialty."
+  },
+  {
+    "name": "Taxi Driver",
+    "points": "EDU x 2 + DEX x 2",
+    "cr": "9–30",
+    "contacts": "Street scene, possibly a notable customer now and then. The cause of death is...unusual!",
+    "skills": "Accounting, Drive Auto, Electrical Repair, Fast Talk, Mechanical Repair, Navigate, Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Editor",
+    "points": "EDU × 4",
+    "cr": "10–30",
+    "contacts": "News industry, local government, specialists (e.g. fashion designers, sports, business), publishers.",
+    "skills": "Accounting, History, Own Language, two inter- personal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, any one other skill as personal or era specialty."
+  },
+  {
+    "name": "Elected Official",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "50–90",
+    "contacts": "Political operatives, government, news media, business, foreign governments, possi- bly organized crime.",
+    "skills": "Charm, History, Intimidate, Fast Talk, Listen, Own Language, Persuade, Psychology."
+  },
+  {
+    "name": "Engineer",
+    "points": "EDU × 4",
+    "cr": "30–60",
+    "contacts": "Business or military workers, local government, architects.",
+    "skills": "Art/Craft (Technical Drawing), Electrical Repair, Library Use, Mechanical Repair, Operate Heavy Ma- chine, Science (Engineering and Physics), any one other skill as personal or era specialty."
+  },
+  {
+    "name": "Entertainer",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "9–70",
+    "contacts": "Vaudeville, theatre, film industry, entertainment critics, organized crime, and televi- sion (for modern-day).",
+    "skills": "Art/Craft (e.g. Acting, Singer, Comedian, etc.), Disguise, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Listen, Psychology, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Explorer [Classic]",
+    "points": "EDU × 2 + (APP × 2 or DEX × 2 or STR × 2)",
+    "cr": "55–80",
+    "contacts": "Major libraries, universities, mu- seums, wealthy patrons, other explorers, publishers, foreign government officials, local tribes people.",
+    "skills": "Climb or Swim, Firearms, History, Jump, Natural World, Navigate, Other Language, Survival."
+  },
+  {
+    "name": "Farmer",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Local bank, local politicians, state agricultural department.",
+    "skills": "Art/Craft (Farming), Drive Auto (or Wagon), one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Mechanical Repair, Natural World, Op- erate Heavy Machinery, Track, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Federal Agent",
+    "points": "EDU × 4",
+    "cr": "20–40",
+    "contacts": "Federal agencies, law enforcement, organized crime.",
+    "skills": "Drive Auto, Fighting (Brawl), Firearms, Law, Per- suade, Stealth, Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Firefighter",
+    "points": "EDU×2+(DEX×2orSTR ×2)",
+    "cr": "9–30",
+    "contacts": "Civic workers, medical workers, law enforcement.",
+    "skills": "Climb, Dodge, Drive Auto, First Aid, Jump, Me- chanical Repair, Operate Heavy Machinery, Throw."
+  },
+  {
+    "name": "Foreign Correspondent",
+    "points": "EDU × 4",
+    "cr": "10–40",
+    "contacts": "National or worldwide news indus- try, foreign governments, military.",
+    "skills": "History, Other Language, Own Language, Listen, two interpersonal skills (Charm, Fast Talk, Intimi- date, or Persuade), Psychology, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Forensic Surgeon",
+    "points": "EDU × 4",
+    "cr": "40–60.",
+    "contacts": "Laboratories, law enforcement, medical profession.",
+    "skills": "Other Language (Latin), Library Use, Medicine, Persuade, Science (Biology), (Forensics), (Pharmacy), Spot Hidden."
+  },
+  {
+    "name": "Gambler",
+    "points": "EDU×2+(APP×2orDEX×2)",
+    "cr": "8–50",
+    "contacts": "Bookies, organized crime, street scene.",
+    "skills": "Accounting,Art/Craft (Acting), two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Listen, Psychology, Sleight of Hand, Spot Hidden."
+  },
+  {
+    "name": "Gangster Boss",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "60–95",
+    "contacts": "Organized crime,street-level crime, police, city government, politicians, judges, unions, lawyers, businesses, and residents of the same ethnic community.",
+    "skills": "Fighting, Firearms, Law, Listen, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden."
+  },
+  {
+    "name": "Gangster Underling",
+    "points": "EDU×2+(DEX×2or STR×2)",
+    "cr": "9–20",
+    "contacts": "Street-level crime, police, business- es and residents of the same ethnic community.",
+    "skills": "Drive Auto, Fighting, Firearms, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills as personal or era specialties. Also see Criminal: Bootlegger/Thug."
+  },
+  {
+    "name": "Gentleman/Lady",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "40–90",
+    "contacts": "Upper classes and landed gentry, politics, servants and agricultural workers.",
+    "skills": "Art/Craft (any), two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Firearms (Rifle/ Shotgun), History, Other Language (any), Navigate, Ride."
+  },
+  {
+    "name": "Hobo",
+    "points": "EDU × 2 + (APP × 2 or DEX × 2) Hobos are workers who wander.",
+    "cr": "0–5",
+    "contacts": "Other hobos,a few friendly railroad guards, soft touches in numerous towns.",
+    "skills": "Art/Craft (any), Climb, Jump, Listen, Locksmith or Sleight of Hand, Navigate, Stealth, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Hospital Orderly",
+    "points": "EDU × 2 + STR × 2",
+    "cr": "6–15",
+    "contacts": "Hospital and medical workers, patients. Access to drugs, medical records, etc.",
+    "skills": "Electrical Repair, one interpersonal skill (Charm, Fast Talk,Intimidate,or Persuade),Fighting (Brawl), First Aid, Listen, Mechanical Repair, Psychology, Stealth."
+  },
+  {
+    "name": "Investigative Journalist",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "News industry, politicians, street-level crime or law enforcement.",
+    "skills": "Art/Craft (Art or Photography), one interperson- al skill (Charm, Fast Talk, Intimidate, or Persuade), History, Library Use, Own Language, Psychology, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Reporter",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "News and media industries, polit- ical organizations and government, business, law enforcement, street criminals, high society.",
+    "skills": "Art/Craft (Acting), History, Listen, Own Lan- guage, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Stealth, Spot Hidden."
+  },
+  {
+    "name": "Judge",
+    "points": "EDU × 4",
+    "cr": "50–80",
+    "contacts": "Legal connections, possibly organized crime.",
+    "skills": "History, Intimidate, Law, Library Use, Listen, Own Language, Persuade, Psychology."
+  },
+  {
+    "name": "Laboratory Assistant",
+    "points": "EDU × 4",
+    "cr": "10–30",
+    "contacts": "Universities, scientists, librarians.",
+    "skills": "Computer Use or Library Use, Electrical Repair, Other Language, Science (Chemistry and two oth- ers), Spot Hidden, any one other skill as a personal specialty."
+  },
+  {
+    "name": "Laborer, Unskilled",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Other workers and supervisors within their industry.",
+    "skills": "Drive Auto, Electrical Repair, Fighting, First Aid, Mechanical Repair, Operate Heavy Machinery, Throw, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Lumberjack",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Forestry workers, wilderness guides and conservationists.",
+    "skills": "Climb, Dodge, Fighting (Chainsaw), First Aid, Jump, Mechanical Repair, Natural World or Science (Biology or Botany), Throw."
+  },
+  {
+    "name": "Miner",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Union officials, political organiza- tions.",
+    "skills": "Climb, Geology, Jump, Mechanical Repair, Oper- ate Heavy Machinery, Stealth, Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Lawyer",
+    "points": "EDU × 4",
+    "cr": "30–80",
+    "contacts": "Organized crime, financiers, dis- trict attorneys and judges.",
+    "skills": "Accounting, Law, Library use, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills."
+  },
+  {
+    "name": "Librarian [Lovecraftian]",
+    "points": "EDU × 4",
+    "cr": "9–35",
+    "contacts": "Booksellers, community groups, specialist researchers.",
+    "skills": "Accounting, Library use, Other Language, Own Language, any four other skills as personal special- ties or specialist reading topics."
+  },
+  {
+    "name": "Mechanic (and Skilled Trades)",
+    "points": "EDU × 4",
+    "cr": "9–40",
+    "contacts": "Union members, trade-relevant specialists.",
+    "skills": "Art/Craft (Carpentry, Welding, Plumbing, etc.), Climb, Drive Auto, Electrical Repair, Mechanical Repair, Operate Heavy Machinery, any two other skills as personal, era or trade specialties."
+  },
+  {
+    "name": "Military Officer",
+    "points": "EDU × 2 + (DEX × 2 or STR × 2)",
+    "cr": "20–70",
+    "contacts": "Military, federal government.",
+    "skills": "Accounting, Firearms, Navigate, First Aid, two interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any one other skills as personal or era specialties."
+  },
+  {
+    "name": "Missionary",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "0–30",
+    "contacts": "Church hierarchy, foreign officials.",
+    "skills": "Art/Craft (any), First Aid, Mechanical Repair, Medicine, Natural World, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Mountain Climber",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "30–60",
+    "contacts": "Other climbers, environmentalists, patrons, sponsors, local rescue or law enforcement, park rangers, sports clubs.",
+    "skills": "Climb, First Aid, Jump, Listen, Navigate, Other Language, Survival (Alpine or as appropriate), Track."
+  },
+  {
+    "name": "Museum Curator",
+    "points": "EDU × 4",
+    "cr": "10–30",
+    "contacts": "Local universities and scholars, publishers, museum patrons.",
+    "skills": "Accounting, Appraise, Archaeology, History, Library Use, Occult, Other Language, Spot Hidden."
+  },
+  {
+    "name": "Musician",
+    "points": "EDU×2+(APP×2orDEX×2)",
+    "cr": "9–30",
+    "contacts": "Club owners, musicians’ union, organized crime, street-level criminals.",
+    "skills": "Art/Craft (Instrument), one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Listen, Psychology, any four other skills."
+  },
+  {
+    "name": "Nurse",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "Hospital workers, physicians, com- munity workers.",
+    "skills": "First Aid, Listen, Medicine, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Science (Biology) and (Chemistry), Spot Hidden."
+  },
+  {
+    "name": "Occultist",
+    "points": "EDU × 4",
+    "cr": "9–65",
+    "contacts": "Libraries, occult societies or frater- nities, other occultists.",
+    "skills": "Anthropology, History, Library Use, one inter- personal skill (Charm, Fast Talk, Intimidate, or Persuade), Occult, Other Language, Science (As- tronomy), any one* other skill as a personal or era specialty. *With the Keeper’s agreement, may include Cthulhu Mythos (with an advised starting maximum of 10%)."
+  },
+  {
+    "name": "Outdoorsman/woman",
+    "points": "EDU×2+(DEX× 2or STR×2)",
+    "cr": "5–20",
+    "contacts": "Local people and native folk,traders.",
+    "skills": "Firearms, First Aid, Listen, Natural World, Navi- gate, Spot Hidden, Survival (any), Track."
+  },
+  {
+    "name": "Parapsychologist",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "Universities, parapsychological Publications.",
+    "skills": "Anthropology, Art/Craft (Photography), History, Library Use, Occult, Other Language, Psychology, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Pharmacist",
+    "points": "EDU × 4",
+    "cr": "35–75",
+    "contacts": "Local community, local physicians, hospitals and patients. Access to all manner of chemicals and drugs.",
+    "skills": "Accounting, First Aid, Other Language (Latin), Library Use, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Science (Pharmacy), (Chemistry)."
+  },
+  {
+    "name": "Photographer",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "Advertising industry, local clients (including political organizations and newspapers).",
+    "skills": "Art/Craft (Photography), one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psy- chology, Science (Chemistry), Stealth, Spot Hidden, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Photojournalist",
+    "points": "EDU × 4",
+    "cr": "10–30",
+    "contacts": "News industry, film industry (1920s), foreign governments and authorities.",
+    "skills": "Art/Craft (Photography), Climb, one interperson- al skill (Charm, Fast Talk, Intimidate, or Persuade), Other Language, Psychology, Science (Chemistry), any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Pilot",
+    "points": "EDU × 2 + DEX × 2",
+    "cr": "20–70",
+    "contacts": "Old military contacts, cabin crew, mechanics, airfield staff, carnival entertainers.",
+    "skills": "Electrical Repair, Mechanical Repair, Navigate, Op- erate Heavy Machine,Pilot (Aircraft),Science (Astron- omy),any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Aviator",
+    "points": "EDU × 4",
+    "cr": "30–60",
+    "contacts": "Old military contacts, other pilots, airfield mechanics, businessmen.",
+    "skills": "Accounting, Electrical Repair, Listen, Mechanical Repair, Navigate, Pilot (Aircraft), Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Police Detective",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "20–50",
+    "contacts": "Law enforcement, street level crime, coroner’s office, judiciary, organized crime.",
+    "skills": "Art/Craft (Acting) or Disguise, Firearms, Law, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, any one other skill."
+  },
+  {
+    "name": "Uniformed Police Officer",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Law enforcement, local businesses and residents, street level crime, organized crime.",
+    "skills": "Fighting (Brawl), Firearms, First Aid, one in- terpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Law, Psychology, Spot Hidden and one of the following as a personal specialty: Drive Auto- mobile or Ride."
+  },
+  {
+    "name": "Private Investigator",
+    "points": "EDU×2+(DEX× 2or STR×2)",
+    "cr": "9–30",
+    "contacts": "Law enforcement, clients.",
+    "skills": "Art/Craft (photography), Disguise, Law, Library Use, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden and any one other skill as personal or era specialty (e.g. Computer Use, Locksmith, Fighting, Firearms)."
+  },
+  {
+    "name": "Professor [Lovecraftian]",
+    "points": "EDU × 4",
+    "cr": "20–70",
+    "contacts": "Scholars, universities, libraries.",
+    "skills": "Library Use, Other Language, Own Language, Psychology, any four other skills as academic, era, or personal specialties."
+  },
+  {
+    "name": "Prospector",
+    "points": "EDU×2+(DEX×2or STR×2)",
+    "cr": "0–10",
+    "contacts": "Local businesses and residents.",
+    "skills": "Climb, First Aid, History, Mechanical Repair, Navigate, Science (Geology), Spot Hidden, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Prostitute",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "5–50",
+    "contacts": "Street scene, police, possibly orga- nized crime, personal clientele.",
+    "skills": "Art/Craft (any), two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Dodge, Psychol- ogy, Sleight of hand, Stealth, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Psychiatrist",
+    "points": "EDU × 4",
+    "cr": "30–80",
+    "contacts": "Others in the field of mental illness, physicians and possibly legal professions.",
+    "skills": "Other Language, Listen, Medicine, Persuade, Psychoanalysis, Psychology, Sci- ence (Biology) and (Chemistry). See Alienist."
+  },
+  {
+    "name": "Psychologist/Psychoanalyst",
+    "points": "EDU × 4",
+    "cr": "10–40",
+    "contacts": "Psychological community, patients.",
+    "skills": "Accounting, Library Use, Listen, Persuade, Psychoanalysis, Psychology, any two other skills as academic, era or personal specialties."
+  },
+  {
+    "name": "Researcher",
+    "points": "EDU × 4",
+    "cr": "9–30",
+    "contacts": "Scholars and academics, large busi- nesses and corporations, foreign governments and individuals.",
+    "skills": "History, Library Use, one interpersonal skill (Charm, Fast Talk Intimidate, or Persuade), Other Language, Spot Hidden, any three fields of study."
+  },
+  {
+    "name": "Sailor, Naval",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Military, veterans’ associations.",
+    "skills": "Electrical or Mechanical Repair, Fighting, Fire- arms, First Aid, Navigate, Pilot (Boat), Survival (Sea), Swim."
+  },
+  {
+    "name": "Sailor, Commercial",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "20–40",
+    "contacts": "Coast Guard, smugglers, organized crime.",
+    "skills": "First Aid, Mechanical Repair, Natural World, Navigate, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Pilot (Boat), Spot Hidden, Swim."
+  },
+  {
+    "name": "Salesperson",
+    "points": "EDU × 2 + APP × 2",
+    "cr": "9–40",
+    "contacts": "Businesses within the same sector, favored customers.",
+    "skills": "Accounting, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Drive Auto, Listen, Psychology, Stealth or Sleight of Hand, any one other skill."
+  },
+  {
+    "name": "Scientist",
+    "points": "EDU × 4",
+    "cr": "9–50",
+    "contacts": "Other scientists and academics, universities, their employers and former employers.",
+    "skills": "Any three science specialisms, Computer Use or Library Use, Other Language, Own Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Spot Hidden."
+  },
+  {
+    "name": "Secretary",
+    "points": "EDU×2+(DEX×2orAPP×2)",
+    "cr": "9–30",
+    "contacts": "Other office workers, senior execu- tives in client firms.",
+    "skills": "Accounting, Art/Craft (Typing or Short Hand), two interpersonal skills (Charm, Fast Talk, Intimi- date, or Persuade), Own Language, Library Use or Computer Use, Psychology, any one other skill as a personal or era specialty."
+  },
+  {
+    "name": "Shopkeeper",
+    "points": "EDU×2+(APP×2orDEX×2)",
+    "cr": "20–40",
+    "contacts": "Local residents and businesses, local police, local government, customers.",
+    "skills": "Accounting, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Electrical Repair, Lis- ten, Mechanical Repair, Psychology, Spot Hidden."
+  },
+  {
+    "name": "Soldier/Marine",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "9–30",
+    "contacts": "Military, veterans associations.",
+    "skills": "Climb or Swim, Dodge, Fighting, Firearms, Stealth, Survival and two of the following: First Aid, Mechanical Repair or Other Language."
+  },
+  {
+    "name": "Spy",
+    "points": "EDU×2+(APP×2orDEX×2)",
+    "cr": "20–60",
+    "contacts": "Generally only the person the spy reports to, possibly other connections developed while under cover.",
+    "skills": "Art/Craft (Acting) or Disguise, Firearms, Listen, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Sleight of Hand, Stealth."
+  },
+  {
+    "name": "Student/Intern",
+    "points": "EDU × 4",
+    "cr": "5–10",
+    "contacts": "Academics and other students, while interns may also know business people.",
+    "skills": "Language (Own or Other), Library Use, Listen, three fields of study and any two other skills as a personal or era specialties."
+  },
+  {
+    "name": "Stuntman",
+    "points": "EDU×2+(DEX×2orSTR×2)",
+    "cr": "10–50",
+    "contacts": "The film and television industries, various explosive and pyrotechnic firms, actors and directors.",
+    "skills": "Climb, Dodge, Electrical Repair or Mechanical Re- pair, Fighting, First Aid, Jump, Swim, plus one from either Diving, Drive Automobile, Pilot (any), Ride."
+  },
+  {
+    "name": "Tribe Member",
+    "points": "EDU × 2 + (DEX × 2 + STR × 2)",
+    "cr": "0–15",
+    "contacts": "Fellow tribe members.",
+    "skills": "Climb, Fighting or Throw, Listen, Natural World, Occult, Spot Hidden, Swim, Survival (any)."
+  },
+  {
+    "name": "Undertaker",
+    "points": "EDU × 4",
+    "cr": "20–40",
+    "contacts": "Few.",
+    "skills": "Accounting, Drive Auto, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), History, Occult,Psychology,Science (Biology) and (Chemistry)."
+  },
+  {
+    "name": "Union Activist",
+    "points": "EDU × 4",
+    "cr": "5–30",
+    "contacts": "Other labor leaders and activists, po- litical friends, possibly organized crime. In the 1920s, also socialists, communists and subversive anarchists.",
+    "skills": "Accounting, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Fighting (Brawl), Law, Listen, Operate Heavy Machinery, Psychology."
+  },
+  {
+    "name": "Waitress/Waiter",
+    "points": "EDU×2+(APP×2orDEX×2)",
+    "cr": "9–20",
+    "contacts": "Customers, organized crime.",
+    "skills": "Accounting, Art/Craft (any), Dodge, Listen, two interpersonal skills (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any one skill as a personal or era specialty. Students tend to be younger characters"
+  },
+  {
+    "name": "Clerk/Executive",
+    "points": "EDU × 4",
+    "cr": "9–20",
+    "contacts": "Other office workers.",
+    "skills": "Accounting, Language, Law, Library Use or Com- puter Use, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Middle/Senior Manager",
+    "points": "EDU × 4",
+    "cr": "20–80",
+    "contacts": "Old college connections, Masons or other fraternal groups, local and federal govern- ment, media and marketing.",
+    "skills": "Accounting, Other Language, Law, two interper- sonal skills (Charm, Fast Talk, Intimidate, or Per- suade), Psychology, any two other skills as personal or era specialties."
+  },
+  {
+    "name": "Zealot",
+    "points": "EDU×2+(APP×2orPOW×2)",
+    "cr": "0–30",
+    "contacts": "Religious or fraternal groups, news media.",
+    "skills": "History, two interpersonal skills (Charm, Fast Talk, Intimidate,or Persuade),Psychology,Stealth,and any three other skills as personal or era specialties."
+  },
+  {
+    "name": "Zookeeper",
+    "points": "EDU × 4",
+    "cr": "9–40",
+    "contacts": "Scientists, environmentalists.",
+    "skills": "Art/Craft (Animal Handling), Accounting, Dodge, First Aid, Natural World, Medicine, Science (Pharmacy), (Zoology)."
+  }
+]
